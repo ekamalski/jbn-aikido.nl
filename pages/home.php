@@ -7,60 +7,26 @@ Katori Shinto-ryu én voor mensen die daarmee willen kennismaken.
 <br/> 
 Meer <a href="http://aikibudo.nl/PDF/sugino%20feb%202014.pdf">informatie</a>
 
-<h2>Promotie Aikikai voor 11 Nederlandse aikidoka</h2>
-Bij de Japanse nieuwjaarsceremonie op 11 januari (kagami biraki) 
-heeft de Aikikai so honbu in Tokyo 11 Nederlandse aikidoka vereerd 
-met een <a href="http://www.aikikai.or.jp/jpn/info/2014/h26.pdf">bijzondere promotie</a>. 
-De JBN heeft hen voorgedragen vanwege hun grote verdienste voor het aikido.
-<br/><br/>
-<table>
-<tr><td style='vertical-align: top;'> 
-7e dan 	
-<ul>
-<li>Pierre Geraedts 
-<li>Carel Zappeij 
-</ul><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<td style='vertical-align: top;'> 
-6e dan:
-<ul>
-<li>Carool Janssen 
-<li>Chris de Jongh 
-<li>Harry Kat 
-<li>Jan Rusman 
-<li>Ton Zwalve 
-</ul>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<td style='vertical-align: top;'> 
-5e dan:
-<ul>
-<li>Maarten Huiskamp 
-<li>Gijs Schouten 
-<li>Bart Wilffert 
-<li>Lily Zappeij 
-</ul>	
-</table>
-Zij vervullen elk al lange tijd een belangrijke rol bij nationale en 
-districtsstages, danexamens, opleidingen of 
-de bestuurlijke organisatie van aikido in Nederland en Europa. 
-Deze bijzondere promotie is een mooie waardering voor de buitengewone inzet 
-waarmee zij aikido sterker hebben gemaakt.
-
-<h2> Rob Breedveld 6e dan aikibudo </h2>
-Tijdens een bijeenkomst van de internationale federatie voor aikibudo 
-(FIAB) in Parijs ontving Rob Breedveld zijn 6e dan aikibudo namens de 
-FIAB uit handen van maître Alain Floquet.
-
-De JBN heeft hem voorgedragen voor deze bijzondere promotie omdat 
-hij al lange tijd een belangrijke rol vervult voor het aikibudo in Nederland. 
-Rob Breedveld heeft veel gedaan om een sterke band te krijgen met 
-internationale experts als maître Alain Floquet (aikibudo) en 
-Katsuyuki Kondo sensei (Daito-ryu aiki-jujutsu). 
-
-
-<br/><br/><br/> 
 <?php
-//require_once(ABSPATH."/include/textlib.php");
+// require_once(DOCROOT."/pages/dojos.php");
 
-// require_once(ABSPATH."/pages/dojos.php");
+require_once(DOCROOT."/include/textlib.php");
+
+thumb("Claude Pellerin", "8 en 9 februari", "Beek", "claude_t.jpg", 
+"zaterdag 8 februari, 15:00 - 18:00<br/>"
+."zondag 9 februari, 9:00 - 12:00<br/>"
+."Markt 6a, Beek<br/>"
+."Kosten: 20.00 euro"
+);
+
+eenvoudig("Dan examens", "2 maart", "Amersfoort", 
+"Vanaf 9,00<br/>"
+."Furglerplein 3, Amersfoort"
+);
+
+thumb("Fukakusa sensei", "17 en 18 mei", "Gennep", "fukakusa_t.jpg", 
+"Picardie 36, Gennep");
+
 /*
 thumbPdf("Michael Martin", "22, 23 en 24 November", "Gennep/Nijnegen", 
 "2013-11-22_mickael_martin.jpg", "mickael_t.jpg", 

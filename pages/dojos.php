@@ -124,6 +124,12 @@ Aan de lijst wordt nog gewerkt. Je kunt een ontbrekende dojo <a href='?page=dojo
 </tr>
 <tr>
 <td>Noord-Holland</td>
+<td>Hoofddorp</td>
+<td><a href='http://ishokan.org'>ishokan.org</a></td>
+<td>Aikikai</td>
+</tr>
+<tr>
+<td>Noord-Holland</td>
 <td>Zaandam</td>
 <td><a href='http://hikari.nl'>hikari.nl</a></td>
 <td>Aikikai</td>
@@ -182,6 +188,7 @@ Aan de lijst wordt nog gewerkt. Je kunt een ontbrekende dojo <a href='?page=dojo
 <td><a href='http://yotosama.com'>yotosama.com</a></td>
 <td>Aikikai</td>
 </tr>
+
 <tr>
 <td>Zuid-Nederland</td>
 <td>Den-bosch</td>
