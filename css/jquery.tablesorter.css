@@ -1,0 +1,38 @@
+table.tablesorter {
+    border: 1px solid black; border-collapse: collapse;
+	margin:10px 0pt 15px;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    border: 1px solid black; border-collapse: collapse;
+    background-color: #FFF8F0; color: black;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+table.tablesorter tbody td {
+    border: 1px solid black; border-collapse: collapse;
+	padding: 4px;
+	background-color: white;
+	vertical-align: top;
+}
+
+table.tablesorter a {
+text-decoration: none;
+color: red;
+}
+
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+    background-color: #FF8800; color: white;
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+    background-color: #FF8800; color: white;
+}

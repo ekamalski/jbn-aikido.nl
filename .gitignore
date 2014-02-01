@@ -1,0 +1,16 @@
+.settings/
+emk/
+events/
+include/db.php
+include/db_remote.php
+nieuws/
+pdfs/
+
+**/*.csv
+**/*.jar
+**/*.java
+**/*.xls
+
+.buildpath
+.project
+favicon.ico
