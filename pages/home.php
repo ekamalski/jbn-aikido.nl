@@ -1,12 +1,3 @@
-<h2>Katori Shinto-ryu stage van Sugino Yukihiro sensei  </h2>
-Op zondag 2 februari is Sugino Yukihiro sensei op zijn uitnodiging in Nederland. 
-Sugino sensei (zo on van de beroemde Sugino Yoshio sensei) is 9e dan 
-Katori Shinto-ryu en 7e dan Aikikai aikido. 
-Hij verzorgt een stage die bedoeld is voor gevorderde beoefenaars van 
-Katori Shinto-ryu én voor mensen die daarmee willen kennismaken.
-<br/> 
-Meer <a href="http://aikibudo.nl/PDF/sugino%20feb%202014.pdf">informatie</a>
-
 <?php
 // require_once(DOCROOT."/pages/dojos.php");
 
