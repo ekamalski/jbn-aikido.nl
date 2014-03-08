@@ -7,11 +7,14 @@ include/db_remote.php
 nieuws/
 pdfs/
 
+**/*.bak
 **/*.csv
 **/*.jar
 **/*.java
 **/*.xls
 
+*.lnk
 .buildpath
+.gitignore
 .project
 favicon.ico

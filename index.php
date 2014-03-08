@@ -87,15 +87,22 @@ function includeContents() {
         <li><a href="?page=kalender_hulp">hulp voor kalender</a></li>
     </ul>
 </li>
-<li><a href="?page=nieuws">nieuws</a></li>
+<li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        nieuws&nbsp;<b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li><a href="?page=nieuws">nieuws</a></li>
+        <li><a href="?page=nieuwsbrief">nieuwsbrief</a></li>
+    </ul>
+</li>
 <li><a href="?page=opleidingen">opleidingen</a></li>
 <li class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
         stijl&nbsp;<b class="caret"></b></a>
     <ul class="dropdown-menu">
-        <li><a href="?page=aikibudo">aiki budo</a></li>
-        <li><a href="?page=aikikai_aikido">aikikai aikido</a></li>
-        <li><a href="?page=ki_aikido">ki aikido</a></li>
+        <li><a href="?page=aikibudo">aiki-budo</a></li>
+        <li><a href="?page=aikikai_aikido">aikikai</a></li>
+        <li><a href="?page=ki_aikido">ki-aikido</a></li>
     </ul>
 </li>
 </ul><!-- nav -->
@@ -116,7 +123,7 @@ De <a href="?page=kalender">kalender</a> van seizoen 2011-2012 staat op de site 
 <h2> Voor vragen over danexamens Aikido </h2>
 
 Voor vragen over danexamens Aikido kunt u contact opnemen met 
-de afdeling Sportparticipatie (030-7073630, <span id="jbn"> jbn </span>)
+de afdeling Sportparticipatie (030-7073630, <span id="jjbn"> jbn </span>)
 
 <h2> Contact </h2>
 
@@ -125,6 +132,7 @@ de afdeling Sportparticipatie (030-7073630, <span id="jbn"> jbn </span>)
 <dt> Secretaris NCA  </dt><dd id="secretaris"> secretaris </dd>
 <dt> Secretaris NGCA </dt><dd id="secretaris_ngca"> ngca</dd>
 <dt> Opleidingen </dt><dd id="secretaris_ncoa"> ncoa</dd>
+<dt> Aanmelden </dt><dd id="ajbn"> nieuwsbrief </dd>
 <dt> Webmaster </dt><dd id="webmaster"> webm </dd>
 <?php /* Remark: id="jbn" is already used, do not include here. */ ?>
 </dl>
