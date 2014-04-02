@@ -1,5 +1,9 @@
 <?php
-// Ident: 2014-02-05
+// Ident: 2014-04-02
+define("TOT_EN_MET", "-1");
+
+define("IAS",       "IAS");
+define("IAS_T",     "ias_t.jpg");
 
 define("BENNEDETTI",   "Stefan Bennedetti");
 define("BENNEDETTI_T", "bennedetti_t.jpg");
@@ -16,8 +20,14 @@ define("DONOVAN_T",  "donovan_t.jpg");
 define("MICHAEL",    "Michael Martin");
 define("MICHAEL_T",  "mickael_t.jpg");
 
+
+define("ROINEL",       "Alain Roinel");
+
 define("TIKI",       "Malcolm Tiki Shewan");
 define("TIKI_T",     "tiki-shewan_t.jpg");
+
+define("ALLARDSOOG",   "Allardsoog");
+define("ALLARDSOOG_L", "Jarig van de Wielenwei 42, 9343 TC Een-West");
 
 define("AMERSFOORT",   "Amersfoort");
 define("AMERSFOORT_L", "Furglerplein 3, Amersfoort");
@@ -28,8 +38,11 @@ define("GENNEP_L",     "Picardie 36, Gennep");
 define("NIJMEGEN",     "Nijmegen");
 define("NIJMEGEN_L",   "Tapirstraat 2, 6532 AL Nijmegen");
 
-define("OOSRERHOUT",   "Oosterhout");
-define("OOSRERHOUT_L", "Slotjesveld 9, 4902 AA Oosterhout");
+define("OOSTERHOUT",   "Oosterhout");
+define("OOSTERHOUT_L", "Slotjesveld 9, 4902 AA Oosterhout");
+
+define("WIJK_BIJ_DUURSTEDE",   "Wijk bij Duurstede");
+define("WIJK_BIJ_DUURSTEDE_L", "Lekdijk oost 13a, AAWijk bij Duurstede");
 
 function examens($datum, $lokatie, $txt1) {
 	if ($datum != "") {
@@ -64,6 +77,7 @@ function stage($leraren, $datum, $lokatie, $thumb="", $txt1="", $txt2="", $ref="
 }
 
 function jan($year, $day1, $day2=0, $day3=0) {
+
 	$days = getDays($day1, $day2, $day3);
 	return "$days januari";
 }
@@ -84,6 +98,7 @@ function apr($year, $day1, $day2=0, $day3=0) {
 }
 
 function may($year, $day1, $day2=0, $day3=0) {
+
 	$days = getDays($day1, $day2, $day3);
 	return "$days mei";
 }
@@ -128,7 +143,13 @@ function dec($year, $day1, $day2=0, $day3=0) {
 function getDays($day1, $day2, $day3) {
 	$days = $day1;
 	if ($day2 != 0) { $days = "$days, $day2"; }
-	if ($day3 != 0) { $days = "$days, $day3"; }
+	if ($day3 != 0) { 
+        if ($day3 == TOT_EN_MET) { 
+            $days = "$day1 tot en met $day2";
+        } else {
+            $days = "$days, $day3"; 
+        }
+    }
 	return $days;
 }
 function trc($txt){
