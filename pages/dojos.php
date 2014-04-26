@@ -71,12 +71,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 </tr>
 <tr>
 <td>Midden Nederland</td>
-<td>Ede</td>
-<td><a href='http://yoseikan.nl'>yoseikan.nl</a></td>
-<td>Aiki-budo</td>
-</tr>
-<tr>
-<td>Midden Nederland</td>
 <td>Huissen</td>
 <td>Judo Kwai Huissen<br/>Kolk 3<br/>6852 KC&nbsp;Huissen<br/>026-3251892</td>
 <td>&nbsp;</td>
@@ -405,12 +399,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <tr>
 <td>Zuid Nederland</td>
 <td>Breda</td>
-<td>Yoyu centrum voor Aiki-budo/kobudo<br/>Achillestraat 86<br/>4818 BN&nbsp;Breda<br/>076-5207419</td>
-<td>Aiki-budo</td>
-</tr>
-<tr>
-<td>Zuid Nederland</td>
-<td>Breda</td>
 <td>Aikidostichting Breda-Tilburg<br/>Eekhoornstraat 2-d<br/>4817 ES&nbsp;Breda<br/>076-5226788</td>
 <td>&nbsp;</td>
 </tr>
@@ -470,9 +458,15 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 </tr>
 <tr>
 <td>Zuid Nederland</td>
-<td>Mijnsheerenland</td>
-<td>Stichting Dainitji<br/>Frederik van Eedenstraat 3<br/>3271 JB&nbsp;Mijnsheerenland<br/>0186-604531</td>
-<td>&nbsp;</td>
+<td>Numansdorp</td>
+<td><a href='http://dainitji.nl'>dainitji.nl</a></td></td>
+<td>Aiki-budo</td>
+</tr>
+<tr>
+<td>Zuid Nederland</td>
+<td>Oud-Beijerland</td>
+<td><a href='http://dainitji.nl'>dainitji.nl</a></td></td>
+<td>Aiki-budo</td>
 </tr>
 <tr>
 <td>Zuid Nederland</td>
