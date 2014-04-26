@@ -6,7 +6,7 @@ require_once(DOCROOT."/include/rqlib.php");
 require_once(DOCROOT."/include/maildblib.php");
 require_once(DOCROOT."/include/mailformlib.php");
 
-define("TO", 	"aikidou.nl@gmail.com");
+define("TO", 	"webmaster@jbn-aikido.nl");
 define("TABLE", "jnotes");
 
 kalender_event();

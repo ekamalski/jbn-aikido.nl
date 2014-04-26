@@ -41,6 +41,12 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 </tr>
 <tr>
 <td>Limburg</td>
+<td>Maastricht</td>
+<td><a href='http://aikikaz-aikido.nl'>aikikaz-aikido.nl</a></td>
+<td>Aikikai</td>
+</tr>
+<tr>
+<td>Limburg</td>
 <td>Venlo</td>
 <td><a href='http://home.kpn.nl/toriitv'>home.kpn.nl/toriitv</a></td>
 <td>Ki-aikido</td>
@@ -91,6 +97,12 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <td>Midden Nederland</td>
 <td>Utrecht</td>
 <td><a href='http://kiaikidocentrum.nl'>kiaikidocentrum.nl</a></td>
+<td>Ki-aikido</td>
+</tr>
+<tr>
+<td>Midden Nederland</td>
+<td>Utrecht</td>
+<td><a href='http://kiaikidoutrecht.nl'>kiaikidoutrecht.nl</a></td>
 <td>Ki-aikido</td>
 </tr>
 <tr>
@@ -162,7 +174,19 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <tr>
 <td>Noord Holland</td>
 <td>Haarlem</td>
+<td><a href='http://aikidomunenmuso.nl'>aikidomunenmuso.nl</a></td>
+<td>Aikikai</td>
+</tr>
+<tr>
+<td>Noord Holland</td>
+<td>Haarlem</td>
 <td><a href='http://aikido-rusman.nl'>aikido-rusman.nl</a></td>
+<td>Aikikai</td>
+</tr>
+<tr>
+<td>Noord Holland</td>
+<td>Haarlem</td>
+<td><a href='http://munenmuso.nl'>munenmuso.nl</a></td>
 <td>Aikikai</td>
 </tr>
 <tr>

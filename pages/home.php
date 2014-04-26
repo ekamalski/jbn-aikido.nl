@@ -12,8 +12,6 @@ require_once(DOCROOT."/include/textlib.php");
 // .brString(AMERSFOORT_L)
 // );
 
-stage(ROINEL, apr(2014, 5, 6), WIJK_BIJ_DUURSTEDE, "", "", "", "2014-04-05_AIKIBUDO_stage_WIJK_BIJ_DUURSTEDE.pdf");
-
 stage(IAS, may(2014, 1, 4, TOT_EN_MET), ALLARDSOOG, IAS_T, 
 brString("Locatie: ".ALLARDSOOG_L)
 .brString("")
@@ -25,7 +23,7 @@ brString("Locatie: ".ALLARDSOOG_L)
 
 
 
-brString("Prorgamma")
+brString("Programma")
 .brString("Donderdag 1 mei")
 .brString("Vanaf 17.00 uur Aankomst, matten leggen in de dojo")
 .brString("18.30 uur Avondmaal")
