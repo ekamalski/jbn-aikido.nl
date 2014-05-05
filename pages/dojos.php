@@ -198,6 +198,12 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <tr>
 <td>Noord Holland</td>
 <td>Hoorn</td>
+<td><a href="http://aikidoschoolmushotoku.nl">aikidoschoolmushotoku.nl</a></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Noord Holland</td>
+<td>Hoorn</td>
 <td>Sportschool van der Werff<br/>Draafsingel 61<br/>1623 LC&nbsp;Hoorn<br/>0229-217364</td>
 <td>&nbsp;</td>
 </tr>
