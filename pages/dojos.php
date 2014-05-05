@@ -199,7 +199,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <td>Noord Holland</td>
 <td>Hoorn</td>
 <td><a href="http://aikidoschoolmushotoku.nl">aikidoschoolmushotoku.nl</a></td>
-<td>&nbsp;</td>
+<td>Aikikai</td>
 </tr>
 <tr>
 <td>Noord Holland</td>
