@@ -2,6 +2,9 @@
 // Ident: 2014-05-25
 define("TOT_EN_MET", "-1");
 
+define("NO_T", 			"");
+define("DATE_IN_PAST", 	"");
+
 define("BENNEDETTI",    "Stefan Bennedetti");
 define("BENNEDETTI_T",  "bennedetti_t.jpg");
 
@@ -36,6 +39,9 @@ define("GENNEP_L",      "Picardie 36, Gennep");
 
 define("HEERENVEEN",    "Heerenveen");
 define("HEERENVEEN_L",  "Abe Lenstra boulevard 23Q, 8448 JA Heerenveen");
+
+define("NIEUWEGEIN",    "Nieuwegein");
+define("NIEUWEGEIN_L",  "Blokhoeve 5, Nieuwegein");
 
 define("NIJMEGEN",      "Nijmegen");
 define("NIJMEGEN_L",    "Tapirstraat 2, 6532 AL Nijmegen");
@@ -74,9 +80,9 @@ function nieuwsitem($title, $ref) {
 
 
 function stage($leraren, $datum, $lokatie, $thumb="", $txt1="", $txt2="", $ref="") {
-	if ($datum != "") {
+	if ($datum != DATE_IN_PAST) {
 		h2($leraren, $datum, $lokatie);
-		if ($thumb == "") {
+		if ($thumb == NO_T) {
 			stageWithoutThumb($txt1, $ref);
 		} else {
 			stageWithThumb($thumb, $txt1, $txt2, $ref);
