@@ -4,6 +4,7 @@ events/
 fotoalbums/
 include/db.php
 include/db_remote.php
+limburg/
 nieuws/
 pdfs/
 
