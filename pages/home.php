@@ -14,14 +14,7 @@ require_once(DOCROOT."/include/textlib.php");
 // txt2
 // ref
 
-stage(CLAUDE, jun(2014, 14, 15), HEERENVEEN, CLAUDE_T,
-brString("zaterdag, 15:00 - 18:00 uur")
-.brString("zondag, 9.00-12.00 uur ")
-.brString("")
-.brString("20 euro per dag")
-.brString("")
-.brString(HEERENVEEN_L)
-);
+
 
 stage("Stage jeugd-aikidotrainers", jul(2014, 5), NIEUWEGEIN, NO_T, 
 brString("13:00 – 16:00 uur")
@@ -31,6 +24,7 @@ brString("13:00 – 16:00 uur")
 .brString(NIEUWEGEIN_L)
 .brString("")
 .brString("Als je van plan bent om mee te doen stuur dan een mailtje naar <span id='secretaris_ncoa'></span>")
+.brString("of stuur een sms of whatsapp naar 06 422 68 412")
 , 
 "", 
 "2015-07-05_stage_jeugd_aikidotrainers.pdf"
