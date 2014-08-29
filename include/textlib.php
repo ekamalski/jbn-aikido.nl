@@ -1,5 +1,5 @@
 <?php
-// Ident: 2014-05-25
+// Ident: 2014-08-29
 define("TOT_EN_MET", "-1");
 
 define("NO_T", 			"");
@@ -10,6 +10,9 @@ define("BENNEDETTI_T",  "bennedetti_t.jpg");
 
 define("CLAUDE",   	    "Claude Pellerin");
 define("CLAUDE_T",      "claude_t.jpg");
+
+define("CURTIS",   	    "Chris Curtis");
+define("CURTIS_T",      "curtis_t.jpg");
 
 define("DONOVAN",       "Donovan Waite");
 define("DONOVAN_T",     "donovan_t.jpg");
@@ -39,6 +42,9 @@ define("GENNEP_L",      "Picardie 36, Gennep");
 
 define("HEERENVEEN",    "Heerenveen");
 define("HEERENVEEN_L",  "Abe Lenstra boulevard 23Q, 8448 JA Heerenveen");
+
+define("HELMOND",       "Helmond");
+define("HELMOND_L",     "Barrierlaan 41, Helmond");
 
 define("NIEUWEGEIN",    "Nieuwegein");
 define("NIEUWEGEIN_L",  "Blokhoeve 5, Nieuwegein");

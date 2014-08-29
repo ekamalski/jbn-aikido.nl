@@ -118,6 +118,12 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <td>Aikikai</td>
 </tr>
 <tr>
+<td>Midden Nederland</td>
+<td>Zaltbommel</td>
+<td><a href='http://jishindo.nl'>jishindo.nl</a></td>
+<td>Aiki-budo</td>
+</tr>
+<tr>
 <td>Noord Holland</td>
 <td>Alkmaar</td>
 <td><a href='http://sites.google.com/site/musachialkmaar'>sites.google.com/site/musachialkmaar</a></td>
