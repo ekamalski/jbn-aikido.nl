@@ -59,7 +59,18 @@ brString(NIJMEGEN_L)
 "" // Poster
 );
 
-
+stage("Waka sensei", sep(2014, 27, 28), "Zwitserland", "waka_sensei_t.jpg",
+brString("Parkstrasse 2, 9000 St.Gallen, Zwitserland")
+.brString("")
+.brString("Meer informatie is te vinden op")
+.brString("de Zwitserse website")
+.brString("<a target='_blank' href='http://aikikai-jubilee.ch'>aikikai-jubilee.ch </a>")
+.brString("(link opent nieuw venster of tab).")
+, 
+"" // Brede text
+, 
+"2014-09-28_waka_sensei.pdf" // Poster
+);
 examens(oct(2014, 12), AMERSFOORT, 
 brString("Vanaf 9,00")
 .brString(AMERSFOORT_L)

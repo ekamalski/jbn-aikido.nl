@@ -83,6 +83,10 @@ function includeContents() {
         kalender&nbsp;<b class="caret"></b></a>
     <ul class="dropdown-menu">
         <li><a href="?page=kalender">kalender</a></li>
+        <li><a href="https://www.google.com/calendar/embed?title=jbn-aikido.nl kalender&showTitle=0&hl=nl&
+src=aikidou.nl@gmail.com&color=%23BE6D00&
+src=8m1egbul3qn19ji1dimqstaodo@group.calendar.google.com&color=%2342104A&
+ctz=Europe%2FAmsterdam" target="_blank">kalender (full screen)</a></li>
         <li><a href="?page=kalender_event">event aanmelden</a></li>
         <li><a href="?page=kalender_hulp">hulp voor kalender</a></li>
     </ul>
