@@ -52,6 +52,9 @@ define("NIEUWEGEIN_L",  "Blokhoeve 5, Nieuwegein");
 define("NIJMEGEN",      "Nijmegen");
 define("NIJMEGEN_L",    "Tapirstraat 2, 6532 AL Nijmegen");
 
+define("LELYSTAD",      "Lelystad");
+define("LELYSTAD_L",    "Sportcentrum De Koploper, Wadweg 21, 8223 PA Lelystad");
+
 define("OOSTERHOUT",    "Oosterhout");
 define("OOSTERHOUT_L",  "Slotjesveld 9, 4902 AA Oosterhout");
 

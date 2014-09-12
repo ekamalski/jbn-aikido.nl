@@ -84,8 +84,8 @@ function includeContents() {
     <ul class="dropdown-menu">
         <li><a href="?page=kalender">kalender</a></li>
         <li><a href="https://www.google.com/calendar/embed?title=jbn-aikido.nl kalender&showTitle=0&hl=nl&
-src=aikidou.nl@gmail.com&color=%23BE6D00&
-src=8m1egbul3qn19ji1dimqstaodo@group.calendar.google.com&color=%2342104A&
+src=aikidou.nl@gmail.com&color=%232952a3&
+src=8m1egbul3qn19ji1dimqstaodo@group.calendar.google.com&color=%23711616&
 ctz=Europe%2FAmsterdam" target="_blank">kalender (full screen)</a></li>
         <li><a href="?page=kalender_event">event aanmelden</a></li>
         <li><a href="?page=kalender_hulp">hulp voor kalender</a></li>
@@ -114,9 +114,9 @@ ctz=Europe%2FAmsterdam" target="_blank">kalender (full screen)</a></li>
   </div>
 </div> <!-- navbar -->
 
-<div id="contents" style="float: left;">
+<div id="contents"> 
 <?php if (!includeContents()) { ?>
-
+<!-- -->
 <h1> Home </h1>
 
 <h2> Welkom </h2>
@@ -149,15 +149,15 @@ de afdeling Sportparticipatie (030-7073630, <span id="jjbn"> jbn </span>)
 
 <?php
 if (rqGet("page")=="" || rqGet("page")=="home") {?>
-<div style="float: right; text-align: left;">
-<br/><br/>
+<div id="aktiviteiten">
+<h1>&nbsp;<!-- Align with left div --></h1>
 <h2>Aktiviteiten</h2>
 <iframe
 src="https://www.google.com/calendar/embed?hl=nl&amp;
 showTitle=0&amp;
-showNav=0&amp;
-showDate=0&amp;
-showPrint=0&amp;
+showNav=1&amp;
+showDate=1&amp;
+showPrint=1&amp;
 showTabs=0&amp;
 showCalendars=0&amp;
 showTz=0&amp;
@@ -165,19 +165,18 @@ mode=AGENDA&amp;
 height=450&amp;
 wkst=1&amp;
 bgcolor=%23ffffff&amp;
-src=aikidou.nl%40gmail.com&amp;color=%23BE6D00&amp;
-src=8m1egbul3qn19ji1dimqstaodo%40group.calendar.google.com&amp;color=%2342104A&amp;
+src=aikidou.nl%40gmail.com&amp;color=%232952a3&amp;
+src=8m1egbul3qn19ji1dimqstaodo%40group.calendar.google.com&amp;color=%23711616&amp;
 ctz=Europe%2FAmsterdam"
 style=" border-width:0 "
-width="380"
+width="400"
 height="450"
 frameborder="0"
-scrolling="no"></iframe>
-<br/>Legenda:
+scrolling="no"></iframe><br/>Legenda:
+<br/>Blauw gemarkeerde evenementen zijn definitief
+<br/>Rood/bruin gemarkeerde evenementen zijn gepland
 <br/>[N] Aktiviteit georganiseerd door een nationale commisie
 <br/>[D] Aktiviteit georganiseerd door een district commisie
-<br/>Oranje gemarkeerde evenementen zijn definitief
-<br/>Paars gemarkeerde evenementen zijn gepland
 </p>
 </div>
 <?php } ?>
