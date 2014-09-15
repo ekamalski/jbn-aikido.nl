@@ -61,7 +61,7 @@ function includeContents() {
 <li><a href="?page=contact">contact</a></li>
 <li class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-        commisies&nbsp;<b class="caret"></b></a>
+        commissies&nbsp;<b class="caret"></b></a>
     <ul class="dropdown-menu">
         <li><a href="?page=nca">NCA</a></li>
         <li><a href="?page=ncoa">NCOA</a></li>
@@ -175,8 +175,8 @@ frameborder="0"
 scrolling="no"></iframe><br/>Legenda:
 <br/>Blauw gemarkeerde evenementen zijn definitief
 <br/>Rood/bruin gemarkeerde evenementen zijn gepland
-<br/>[N] Aktiviteit georganiseerd door een nationale commisie
-<br/>[D] Aktiviteit georganiseerd door een district commisie
+<br/>[N] Aktiviteit georganiseerd door een nationale commissie
+<br/>[D] Aktiviteit georganiseerd door een district commissie
 </p>
 </div>
 <?php } ?>

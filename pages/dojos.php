@@ -1,5 +1,5 @@
-Voor scholen waarvan het adres van de website niet weten is het contact adres 
-gepubliceerd.
+Voor scholen waarvan het adres van de website onbekend is, 
+wordt het contact adres gepubliceerd. 
 Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmelden'>aanmelden</a>.
 <table class='tablesorter'>
 <thead>
