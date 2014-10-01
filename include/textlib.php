@@ -17,7 +17,7 @@ define("CURTIS_T",      "curtis_t.jpg");
 define("DONOVAN",       "Donovan Waite");
 define("DONOVAN_T",     "donovan_t.jpg");
 
-define("FUKAKUSA",      "Fukakusa sensei");
+define("FUKAKUSA",      "Fukakusa 8ste dan shihan");
 define("FUKAKUSA_T",    "fukakusa_t.jpg");
 
 define("IAS",           "IAS");
@@ -25,6 +25,9 @@ define("IAS_T",         "ias_t.jpg");
 
 define("MICHAEL",       "Michael Martin");
 define("MICHAEL_T",     "mickael_t.jpg");
+
+define("MIMURO",        "Mimuro 7de dan shihan");
+define("MIMURO_T",      "mimuro_t.jpg");
 
 define("ROINEL",        "Alain Roinel");
 
@@ -53,10 +56,13 @@ define("NIJMEGEN",      "Nijmegen");
 define("NIJMEGEN_L",    "Tapirstraat 2, 6532 AL Nijmegen");
 
 define("LELYSTAD",      "Lelystad");
-define("LELYSTAD_L",    "Sportcentrum De Koploper, Wadweg 21, 8223 PA Lelystad");
+define("LELYSTAD_L",    "Sportcentrum De Koploper, Badweg 21, 8223 PA Lelystad");
 
 define("OOSTERHOUT",    "Oosterhout");
 define("OOSTERHOUT_L",  "Slotjesveld 9, 4902 AA Oosterhout");
+
+define("ROERMOND",      "Roermond");
+define("ROERMOND_L",    "Prins Bernardstraat 1, Roermond");
 
 define("STROE",         "Stroe");
 define("STROE_L",       "Tolnegenweg 53, 3776 PV Stroe");
