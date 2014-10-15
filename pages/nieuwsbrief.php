@@ -1,8 +1,8 @@
 <h2>Aanmelden/uitschrijven</h2>
 Ben je ge&iuml;nteresseerd in de aikido nieuwsbrief meld je dan aan door een mail 
-te sturen met subject <span id="ajbna">aanmelden</span>.
+te sturen met onderwerp <span id="ajbna">aanmelden</span>.
 <br/>
-Wil je je uitschrijven stuur dan een mail met subject <span id="ajbnu">uitschrijven</span>.
+Wil je je uitschrijven stuur dan een mail met onderwerp <span id="ajbnu">uitschrijven</span>.
 <br/><br/>
 
 <?php 

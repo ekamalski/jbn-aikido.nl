@@ -4,9 +4,8 @@
 require_once(DOCROOT."/include/textlib.php");
 
 function hr() {
-	print("<hr/>\n");
+	print("<hr style='color: #FF8800; background-color: #FF8800; height: 3px;'/>\n");
 }
-
 
 nieuwsitemPdfLink("2014-06-15_Evaluatie_seminar_Jeugdaikido_JBN 2014.pdf", "Evaluatie seminar Jeugdaikido 2014");
 hr();
@@ -15,7 +14,7 @@ hr();
 // txt1
 // txt2
 // ref
-stage(MIMURO, nov(2014, 9), ROERMOND, MIMURO_T,
+stage("District stage Limburg<br/>".MIMURO, nov(2014, 9), ROERMOND, MIMURO_T,
 brString("Van 10.00 tot 13.00")
 .brString(ROERMOND_L)
 .brString("")
@@ -28,7 +27,7 @@ null,
 
 hr();
 
-stage(TIKI, nov(2014, 28, TOT_EN_MET, 30), OOSTERHOUT, TIKI_T,
+stage("District stage Zuid Nederland<br/>".TIKI, nov(2014, 28, TOT_EN_MET, 30), OOSTERHOUT, TIKI_T,
 brString("Vrijdag: 19.00 tot 20.30")
 .brString("Iaido")
 .brString("Kosten: 10.00 euro")
@@ -43,7 +42,7 @@ brString("Vrijdag: 19.00 tot 20.30")
 ,
 brString("Kosten gehele weekend: 40.00 euro")
 .brString("")
-.brString(OOSTERHOUT_L)
+.OOSTERHOUT_L
 ,
 "2014-2015_district_zuid_nederland.pdf");
 
