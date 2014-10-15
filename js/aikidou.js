@@ -93,8 +93,8 @@ function sncg(t) { return _mxxnl (t, new Array(100, 119, 108, 111, 107), new Arr
 function snco(t) { return _mjanl (t, new Array(111, 112, 108, 101, 105, 100, 105, 110, 103, 101, 110) ); }
 function svdt(t) { return _mxxnl (t, new Array(115, 46, 118, 97, 110, 100, 101, 114, 116, 111, 111, 114, 110), new Array(106, 98, 110)); }
 function ajbn(t) { return _mjbnl (t, new Array(97, 105, 107, 105, 100, 111)); }
-function ajbna(t){ return _mjbnls(t, new Array(97, 105, 107, 105, 100, 111, 97)); }
-function ajbnu(t){ return _mjbnls(t, new Array(97, 105, 107, 105, 100, 111, 98)); }
+function ajbna(t){ return _mjbnls(t, new Array(97, 105, 107, 105, 100, 111)); }
+function ajbnu(t){ return _mjbnls(t, new Array(97, 105, 107, 105, 100, 111)); }
 function jjbn(t) { return _mjbnl (t, new Array(106, 117, 100, 111,  98, 111, 110, 100)); }
 
 function ff() {
