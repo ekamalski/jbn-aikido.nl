@@ -13,7 +13,8 @@ function showNewsList() {
     $serverNamePort=$_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"];
     
     chdir(ABSPATH."/nieuws");
-    $files = glob("*.html");
+    $files = glob("*.pdf");
+    $files += glob("*.html");
     if (is_array($files) && sizeof($files) >= 1) {
         print("<h2>Nieuws items</h2>\n");
         print("<ul style='list-style: none; padding-left: 0px;'>\n");
@@ -21,10 +22,16 @@ function showNewsList() {
         rsort($files);
         $mostRecent = true;
         foreach ($files as $newsFile) {
-            $url  = "http://$serverNamePort/?page=nieuws&amp;nieuwsItem=$newsFile";
-            $text = formatNewsItemText($newsFile);
             print("<li>");
-            print("<a href=\"$url\">$text</a>");
+        	if (stristr($newsFile, ".pdf")) {
+        		$url  = "http://$serverNamePort/nieuws/$newsFile";
+        		$text = formatNewsItemText($newsFile);
+        		print("<a href=\"$url\">$text (PDF)</a>");
+        	} else {
+                $url  = "http://$serverNamePort/?page=nieuws&amp;nieuwsItem=$newsFile";
+                $text = formatNewsItemText($newsFile);
+                print("<a href=\"$url\">$text</a>");
+        	}
             print("</li>\n");
         }
         print("</ul>\n");
@@ -65,6 +72,7 @@ function formatNewsItemText($newsFile) {
     $date = preg_replace("/(^\d\d\d\d-\d\d-\d\d)(_)(.*)/", "$1",  $newsFile);
     $text = preg_replace("/(^\d\d\d\d-\d\d-\d\d)(_)(.*)/", "$3",  $newsFile);
     $text = preg_replace("/\.html$/", "",  $text);
+    $text = preg_replace("/\.pdf$/", "",  $text);
     $text = preg_replace("/_/",       " ", $text);
     return "$date - ".ucfirst($text);
 }

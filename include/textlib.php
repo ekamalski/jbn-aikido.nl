@@ -83,14 +83,19 @@ function examens($datum, $lokatie, $txt1) {
 	}
 }
 
+function nieuwsitem($title, $ref) {
+	print("<h2 style='clear: both;'>Nieuws item: $title</h2>\n");
+	require_once(ABSPATH."/nieuws/$ref");
+}
+
 function nieuwsitemLink($ref,$item) {
 	print("<h2 style='clear: both;'>Nieuws item: $item</h2>\n");
 	print("Klik op de link <a href='?page=nieuws&nieuwsItem=$ref'>\n$item</a> om het hele nieuws item te lezen\n");
 }
 
-function nieuwsitem($title, $ref) {
-	print("<h2 style='clear: both;'>Nieuws item: $title</h2>\n");
-	require_once(ABSPATH."/nieuws/$ref");
+function nieuwsitemPdfLink($ref,$item) {
+	print("<h2 style='clear: both;'>Nieuws item: $item</h2>\n");
+	print("Klik op de link <a href='nieuws/$ref'>\n$item</a> om het hele nieuws item te lezen\n");
 }
 
 

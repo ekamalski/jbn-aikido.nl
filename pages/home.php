@@ -3,10 +3,13 @@
 
 require_once(DOCROOT."/include/textlib.php");
 
-examens(oct(2014, 12), LELYSTAD, 
-brString("Vanaf 9,00")
-.brString(LELYSTAD_L)
-);
+function hr() {
+	print("<hr/>\n");
+}
+
+
+nieuwsitemPdfLink("2014-06-15_Evaluatie_seminar_Jeugdaikido_JBN 2014.pdf", "Evaluatie seminar Jeugdaikido 2014");
+hr();
 
 // leraren, mon(yyyy, d1 [, TOT_EN_MET [, d3] ), lokatie, thumb (xxx_t.jpg includes events/xxx_t.jpg), 
 // txt1
@@ -23,6 +26,26 @@ brString("Van 10.00 tot 13.00")
 null,
 "2014-11-09_Mimuro_Roermond.jpg");
 
+hr();
+
+stage(TIKI, nov(2014, 28, TOT_EN_MET, 30), OOSTERHOUT, TIKI_T,
+brString("Vrijdag: 19.00 tot 20.30")
+.brString("Iaido")
+.brString("Kosten: 10.00 euro")
+.brString("")
+.brString("Zaterdag: 15.00 tot 18.00")
+.brString("Aikido")
+.brString("Kosten: 17.50")
+.brString("")
+.brString("Zondag: 10.00 tot 13.00")
+.brString("Aikido")
+.brString("Kosten: 17.50")
+,
+brString("Kosten gehele weekend: 40.00 euro")
+.brString("")
+.brString(OOSTERHOUT_L)
+,
+"2014-2015_district_zuid_nederland.pdf");
 
 
 ?>
