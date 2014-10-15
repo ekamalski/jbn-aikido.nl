@@ -54,6 +54,18 @@ function _mjbnl(t, ary) {
     return('<a href="'+_mto()+str2+'">'+(t==""? str2: t)+'&nbsp;<i class="icon-envelope"></i><\/a>');
 }
 
+function _mjbnls(t, ary) {
+    var str2 
+        = _matos(ary)
+        + _mat()
+        + _mjb()
+        + _mnl()
+        +"?subject="
+        +t;
+        
+    return('<a href="'+_mto()+str2+'">'+(t==""? str2: t)+'&nbsp;<i class="icon-envelope"></i><\/a>');
+}
+
 function _mxxnl(t, n, d) {
     var str2 
         = _matos(n) 
@@ -80,8 +92,10 @@ function snca(t) { return _mjanl (t, new Array(115, 101,  99, 114, 101, 116,  97
 function sncg(t) { return _mxxnl (t, new Array(100, 119, 108, 111, 107), new Array(100, 100, 115)); }
 function snco(t) { return _mjanl (t, new Array(111, 112, 108, 101, 105, 100, 105, 110, 103, 101, 110) ); }
 function svdt(t) { return _mxxnl (t, new Array(115, 46, 118, 97, 110, 100, 101, 114, 116, 111, 111, 114, 110), new Array(106, 98, 110)); }
-function ajbn(t)  { return _mjbnl (t, new Array(97, 105, 107, 105, 100, 111)); }
-function jjbn(t)  { return _mjbnl (t, new Array(106, 117, 100, 111,  98, 111, 110, 100)); }
+function ajbn(t) { return _mjbnl (t, new Array(97, 105, 107, 105, 100, 111)); }
+function ajbna(t){ return _mjbnls(t, new Array(97, 105, 107, 105, 100, 111, 97)); }
+function ajbnu(t){ return _mjbnls(t, new Array(97, 105, 107, 105, 100, 111, 98)); }
+function jjbn(t) { return _mjbnl (t, new Array(106, 117, 100, 111,  98, 111, 110, 100)); }
 
 function ff() {
     alert("ff: "+gg());
@@ -93,11 +107,13 @@ function gg() {
 }
 
 (function() {
-    $('#voorzitter').html(      vnca( $('#voorzitter').text()     ));
-    $('#secretaris').html(      snca( $('#secretaris').text()     ));
-    $('#webmaster').html(       webm( $('#webmaster').text()      ));
-    $('#secretaris_ngca').html( sncg( $('#secretaris_ngca').text()));
-    $('#secretaris_ncoa').html( snco( $('#secretaris_ncoa').text()));
-    $('#ajbn').html(            ajbn(  $('#ajbn').text()            ));
-    $('#jjbn').html(            jjbn(  $('#jjbn').text()            ));
+    $('#voorzitter').html(      vnca(   $('#voorzitter').text()     ));
+    $('#secretaris').html(      snca(   $('#secretaris').text()     ));
+    $('#webmaster').html(       webm(   $('#webmaster').text()      ));
+    $('#secretaris_ngca').html( sncg(   $('#secretaris_ngca').text()));
+    $('#secretaris_ncoa').html( snco(   $('#secretaris_ncoa').text()));
+    $('#ajbn').html(            ajbn(   $('#ajbn').text()            ));
+    $('#ajbna').html(           ajbna(  $('#ajbna').text()            ));
+    $('#ajbnu').html(           ajbnu(  $('#ajbnu').text()            ));
+    $('#jjbn').html(            jjbn(   $('#jjbn').text()            ));
 })();
