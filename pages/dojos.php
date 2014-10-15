@@ -471,13 +471,13 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <tr>
 <td>Zuid Nederland</td>
 <td>Numansdorp</td>
-<td><a href='http://dainitji.nl'>dainitji.nl</a></td></td>
+<td><a href='http://dainitji.nl'>dainitji.nl</a></td>
 <td>Aiki-budo</td>
 </tr>
 <tr>
 <td>Zuid Nederland</td>
 <td>Oud-Beijerland</td>
-<td><a href='http://dainitji.nl'>dainitji.nl</a></td></td>
+<td><a href='http://dainitji.nl'>dainitji.nl</a></td>
 <td>Aiki-budo</td>
 </tr>
 <tr>
@@ -502,7 +502,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <tr>
 <td>Zuid Nederland</td>
 <td>Spijkenisse</td>
-<td>Sportsch. Richard de Bijl & C Gross<br/>Karperveen 205<br/>3205 HB&nbsp;Spijkenisse<br/>0181-614436</td>
+<td>Sportsch. Richard de Bijl &amp; C Gross<br/>Karperveen 205<br/>3205 HB&nbsp;Spijkenisse<br/>0181-614436</td>
 <td>&nbsp;</td>
 </tr>
 <tr>
