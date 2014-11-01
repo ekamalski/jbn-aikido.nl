@@ -1,24 +1,12 @@
-Opleiding aikidoleraar niveau 3 2015-2016
-<br/><br/> 
-De opleiding AL3 staat in de steigers en start begin september 2015 
-<br/><br/> 
-De aanmeldingen voor de opleiding AL3 lopen binnen en het is een duidelijke zaak 
-dat we kunnen starten in 2015. Op dit moment wordt er nog gewerkt aan een 
-herstructurering van de opleiding. De inhoud van de opleiding wordt vernieuwd 
-waar nodig om aan onze kwaliteitseisen te kunnen voldoen. De structuur, de 
-inhoudelijke planning en het aantal lesdagen worden onder de loep genomen en 
-de cursusprijs wordt daaraan aangepast. Zo zullen we op 17 januari 2015 een 
-startdag al3 houden en krijgt de opleiding een “voortraject” vanaf januari tot 
-aan begin september waarna de lesdagen volgen. Als je van plan bent om mee te 
-doen of als je je reeds hebt aangemeld zet deze datum dan vast in je agenda.
-Voor jou als beginnend aikidoleraar is het van belang dat je een brede 
-oriëntatie krijgt op de achtergronden van aikido, de beknopte geschiedenis van
-aikido, de sportieve kant van aikido en de didactiek en methodiek van het 
-lesgeven in aikido. Uitgangspunt hierbij is dat je als leraar gericht bent 
-op de mentale, fysieke en sociale ontwikkeling van je leerlingen. Vaardigheden 
-als instructie geven, beoordelen en evalueren, begeleiden en coachen, 
-organiseren van activiteiten, stimuleren en motiveren van je leerlingen zijn je 
-gereedschappen hierbij.  
-<br/><br/> 
-De opleiding wordt georganiseerd door de 
-<span id="secretaris_ncoa">Nationale Commissie Opleidingen Aikido</span> van JBN.
+<h2>Masterclass Jeugdaikidoleraar (JAL)</h2>
+<p><strong>In januari 2015 start een masterclass Jeugdaikidoleraar van 4 cursusdagen en een toetsingsdag.</strong></p>
+<p>De opleiding JAL is een aanvulling op de opleiding Aikidoleraar niveau 3 (AL3). Je leert lessen aan jeugd op kyugraadniveau te verzorgen en te evalueren. De opleiding geeft géén extra bevoegdheden. Wél extra kennis en vaardigheden op het gebied van: didactiek, pedagogiek, begeleiding van jeugdgroepen, ontwikkelingspsychologie (inclusief stoornissen), contacten met ouders, werk- en spelvormen en fysiologie.</p>
+<p><a href="?page=jeugdaikidoleraar">Toelatingseisen en inhoud opleiding Jeugdaikidoleraar</a></p>
+
+<h2>Aikidoleraar niveau 3 (AL3)</h2>
+<p><strong>De opleiding AL3 staat in de steigers en start begin september 2015.</strong></p>
+<p>De aanmeldingen voor de opleiding AL3 lopen binnen en het is een duidelijke zaak dat we kunnen starten in 2015. Op dit moment wordt er nog gewerkt aan een herstructurering van de opleiding. De inhoud van de opleiding wordt vernieuwd waar nodig om aan onze kwaliteitseisen te kunnen voldoen. De structuur, de inhoudelijke planning en het aantal lesdagen worden onder de loep genomen en de cursusprijs wordt daaraan aangepast.</p>
+<p>Zo zullen we op <strong>17 januari 2015 een Startdag AL3</strong> houden en krijgt de opleiding een ‘voortraject’ vanaf januari tot aan begin september waarna de lesdagen volgen. Als je van plan bent om mee te doen of als je je reeds hebt aangemeld, zet deze datum dan vast in je agenda.</p>
+<p>Voor jou als beginnend aikidoleraar is het van belang dat je een brede oriëntatie krijgt op de achtergronden van aikido, de beknopte geschiedenis van aikido, de sportieve kant van aikido en de didactiek en methodiek van het lesgeven in aikido. Uitgangspunt hierbij is dat je als leraar gericht bent op de mentale, fysieke en sociale ontwikkeling van je leerlingen. Vaardigheden als instructie geven, beoordelen en evalueren, begeleiden en coachen, organiseren van activiteiten, stimuleren en motiveren van je leerlingen zijn je gereedschappen hierbij.</p>
+<p>De opleiding wordt georganiseerd door de Nationale Commissie Opleidingen Aikido van JBN.</p>
+<p>Binnenkort vind je hier meer informatie over de inhoud van het voortraject januari-september 2015, het aantal lesdagen en de data, de cursusprijs en de toelatingsvoorwaarden. Iedereen die zich al heeft aangemeld, ontvangt deze informatie persoonlijk per e-mail.</p>
