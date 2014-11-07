@@ -1,5 +1,5 @@
 <?php
-// Ident: 2014-08-29
+// Ident: 2014-11-07
 define("TOT_EN_MET", "-1");
 
 define("NO_T", 			"");
@@ -73,6 +73,11 @@ define("VEGHEL_L",      "Prins Willem Alexander Sportpark 8, 5461 XL Veghel");
 define("WIJK_BIJ_DUURSTEDE",   "Wijk bij Duurstede");
 define("WIJK_BIJ_DUURSTEDE_L", "Lekdijk oost 13a, AAWijk bij Duurstede");
 
+/**
+ * @param string $datum   mon(yyyy, dd)
+ * @param string $lokatie LOKATIE
+ * @param string $txt1
+ */
 function examens($datum, $lokatie, $txt1) {
 	if ($datum != "") {
 		h2("Danexamens", $datum, $lokatie);
@@ -83,23 +88,48 @@ function examens($datum, $lokatie, $txt1) {
 	}
 }
 
+/**
+ * Include /nieuws/${REF}
+ */
 function nieuwsitem($title, $ref) {
 	print("<h2 style='clear: both;'>Nieuws item: $title</h2>\n");
 	require_once(ABSPATH."/nieuws/$ref");
 }
 
+/**
+ * Link to: ?page=${REF}
+ */
+function nieuwspageLink($ref,$item) {
+	print("<h2 style='clear: both;'>Nieuws: $item</h2>\n");
+	print("Klik op de <a href='?page=$ref'>link</a> om het hele item te lezen\n");
+}
+
+/**
+ * Link to: ?page=nieuws&nieuwsitem=${REF}
+ */
 function nieuwsitemLink($ref,$item) {
 	print("<h2 style='clear: both;'>Nieuws item: $item</h2>\n");
 	print("Klik op de link <a href='?page=nieuws&nieuwsItem=$ref'>\n$item</a> om het hele nieuws item te lezen\n");
 }
 
+/**
+ * Link to: nieuws/${REF}
+ */
 function nieuwsitemPdfLink($ref,$item) {
 	print("<h2 style='clear: both;'>Nieuws item: $item</h2>\n");
 	print("Klik op de link <a href='nieuws/$ref'>\n$item</a> om het hele nieuws item te lezen\n");
 }
 
-
-function stage($leraren, $datum, $lokatie, $thumb="", $txt1="", $txt2="", $ref="") {
+/** 
+ * @param string $leraren LERAAR
+ * @param string $datum   mon(yyyy, dd [, dd |, TOT_EN_MET, dd])
+ * @param string $lokatie LOCATIE -- LOCATIE_L = street, city
+ * @param string $thumb LERAAR_T (img to: events/${LERAAR_T}.jpg),  default: NO_T (no thumb)
+ * @param string $txt1 left from thumb, max:11 lines, default: empty
+ * @param string $txt2 below thumb, default: empty 
+ * @param string $ref  link to events/${REF}, default: no link 
+ */
+function stage($leraren, $datum, $lokatie, $thumb=NO_T, $txt1="", $txt2="", $ref="") {
 	if ($datum != DATE_IN_PAST) {
 		h2($leraren, $datum, $lokatie);
 		if ($thumb == NO_T) {
@@ -222,6 +252,13 @@ function imgTextThumb($thumb, $txt1="", $ref="") {
 	print("<p style='clear: both;'>\n");
 }
 
+/**
+ * private function
+ * +--
+ * | txt1
+ * | ref
+ * +--
+ */
 function stageWithoutThumb($txt1="", $ref="") {
 	if ($txt1 != "" ) {
 		print("$txt1</br>\n");
@@ -234,6 +271,15 @@ function stageWithoutThumb($txt1="", $ref="") {
 	dekalender();
 }
 
+/**
+ * private function
+ * +--
+ * | thumb txt1 (max: 11 lines)
+ * | txt2
+ * | ref
+ * +--
+
+ */
 function stageWithThumb($thumb, $txt1="", $txt2="", $ref="") {
 	imgTextThumb($thumb, $txt1, $ref);
 		

@@ -4,18 +4,15 @@
 require_once(DOCROOT."/include/textlib.php");
 
 function hr() {
-	print("<hr style='color: #FF8800; background-color: #FF8800; height: 3px;'/>\n");
+	print("<hr/>\n");
 }
 
-?>
-<h2 style='clear: both;'>Nieuws: 2015 - start opleiding aikido leraar A</h2>
-Klik op de <a href='?page=opleidingen'>link</a> om het hele item te lezen
-<?php
+nieuwspageLink("opleidingen", "2015 - start opleiding aikido leraar A");
 hr();
-// leraren, mon(yyyy, d1 [, TOT_EN_MET [, d3] ), lokatie, thumb (xxx_t.jpg includes events/xxx_t.jpg), 
-// txt1
-// txt2
-// ref
+
+nieuwspageLink("jeugdaikidoleraar", "2015 - start opleiding jeugd aikido leraar");
+hr();
+
 stage("District stage Limburg<br/>".MIMURO, nov(2014, 9), ROERMOND, MIMURO_T,
 brString("Van 10.00 tot 13.00")
 .brString(ROERMOND_L)

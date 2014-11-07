@@ -99,7 +99,14 @@ ctz=Europe%2FAmsterdam" target="_blank">kalender (full screen)</a></li>
         <li><a href="?page=nieuwsbrief">nieuwsbrief</a></li>
     </ul>
 </li>
-<li><a href="?page=opleidingen">opleidingen</a></li>
+<li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        opleidingen&nbsp;<b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li><a href="?page=opleidingen">aikido leraar</a></li>
+        <li><a href="?page=jeugdaikidoleraar">jeugd aikido leraar</a></li>
+    </ul>
+</li>
 <li class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
         stijl&nbsp;<b class="caret"></b></a>

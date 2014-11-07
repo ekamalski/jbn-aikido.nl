@@ -1,8 +1,3 @@
-<h2>Masterclass Jeugdaikidoleraar (JAL)</h2>
-<p><strong>In januari 2015 start een masterclass Jeugdaikidoleraar van 4 cursusdagen en een toetsingsdag.</strong></p>
-<p>De opleiding JAL is een aanvulling op de opleiding Aikidoleraar niveau 3 (AL3). Je leert lessen aan jeugd op kyugraadniveau te verzorgen en te evalueren. De opleiding geeft géén extra bevoegdheden. Wél extra kennis en vaardigheden op het gebied van: didactiek, pedagogiek, begeleiding van jeugdgroepen, ontwikkelingspsychologie (inclusief stoornissen), contacten met ouders, werk- en spelvormen en fysiologie.</p>
-<p><a href="?page=jeugdaikidoleraar">Toelatingseisen en inhoud opleiding Jeugdaikidoleraar</a></p>
-
 <h2>Aikidoleraar niveau 3 (AL3)</h2>
 <p><strong>De opleiding AL3 staat in de steigers en start begin september 2015.</strong></p>
 <p>De aanmeldingen voor de opleiding AL3 lopen binnen en het is een duidelijke zaak dat we kunnen starten in 2015. Op dit moment wordt er nog gewerkt aan een herstructurering van de opleiding. De inhoud van de opleiding wordt vernieuwd waar nodig om aan onze kwaliteitseisen te kunnen voldoen. De structuur, de inhoudelijke planning en het aantal lesdagen worden onder de loep genomen en de cursusprijs wordt daaraan aangepast.</p>
