@@ -13,19 +13,6 @@ hr();
 nieuwspageLink("jeugdaikidoleraar", "2015 - start opleiding jeugd aikido leraar");
 hr();
 
-stage("District stage Limburg<br/>".MIMURO, nov(2014, 9), ROERMOND, MIMURO_T,
-brString("Van 10.00 tot 13.00")
-.brString(ROERMOND_L)
-.brString("")
-.brString("Kosten:")
-.brString("10.00 euro voor JBN leden")
-.brString("12.50 euro voor niet JBN leden")
-,
-null,
-"2014-11-09_Mimuro_Roermond.jpg");
-
-hr();
-
 stage("District stage Zuid Nederland<br/>".TIKI, nov(2014, 28, TOT_EN_MET, 30), OOSTERHOUT, TIKI_T,
 brString("Vrijdag: 19.00 tot 20.30")
 .brString("Iaido")
