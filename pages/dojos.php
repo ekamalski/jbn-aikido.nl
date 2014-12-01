@@ -332,7 +332,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <td><a href='http://sponaar.nl'>sponaar.nl</a></td>
 <td>Aikikai</td>
 </tr>
-
 <tr>
 <td>Zuid Holland</td>
 <td>Den Haag</td>
@@ -345,12 +344,32 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <td><a href='http://ishokan.org'>ishokan.org</a></td>
 <td>Aikikai</td>
 </tr>
+
+<tr>
+<td>Zuid Holland</td>
+<td>Hillegom</td>
+<td><a href='http://musubi.nl'>musubi.nl</a></td>
+<td>Aikikai</td>
+</tr>
+<tr>
+<td>Zuid Holland</td>
+<td>Nieuw-Vennep</td>
+<td><a href='http://musubi.nl'>musubi.nl</a></td>
+<td>Aikikai</td>
+</tr>
+<tr>
+<td>Zuid Holland</td>
+<td>Noordwijkerhout</td>
+<td><a href='http://musubi.nl'>musubi.nl</a></td>
+<td>Aikikai</td>
+</tr>
 <tr>
 <td>Zuid Holland</td>
 <td>Lisse</td>
 <td><a href='http://musubi.nl'>musubi.nl</a></td>
 <td>Aikikai</td>
 </tr>
+
 <tr>
 <td>Zuid Holland</td>
 <td>Papendrecht</td>

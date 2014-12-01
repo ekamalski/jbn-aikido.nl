@@ -84,8 +84,8 @@ function includeContents() {
     <ul class="dropdown-menu">
         <li><a href="?page=kalender">kalender</a></li>
         <li><a href="https://www.google.com/calendar/embed?title=jbn-aikido.nl kalender&showTitle=0&hl=nl&
-src=aikidou.nl@gmail.com&color=%232952a3&
-src=8m1egbul3qn19ji1dimqstaodo@group.calendar.google.com&color=%23711616&
+src=aikidou.nl@gmail.com&color=%23125A12&
+src=8m1egbul3qn19ji1dimqstaodo@group.calendar.google.com&color=%23BE6D00&
 ctz=Europe%2FAmsterdam" target="_blank">kalender (full screen)</a></li>
         <li><a href="?page=kalender_event">event aanmelden</a></li>
         <li><a href="?page=kalender_hulp">hulp voor kalender</a></li>
@@ -172,16 +172,16 @@ mode=AGENDA&amp;
 height=450&amp;
 wkst=1&amp;
 bgcolor=%23ffffff&amp;
-src=aikidou.nl%40gmail.com&amp;color=%232952a3&amp;
-src=8m1egbul3qn19ji1dimqstaodo%40group.calendar.google.com&amp;color=%23711616&amp;
+src=aikidou.nl%40gmail.com&amp;color=%23125A12&amp;
+src=8m1egbul3qn19ji1dimqstaodo%40group.calendar.google.com&amp;color=%23BE6D00&amp;
 ctz=Europe%2FAmsterdam"
 style=" border-width:0 "
 width="400"
 height="450"
 frameborder="0"
 scrolling="no"></iframe><br/>Legenda:
-<br/>Blauw gemarkeerde evenementen zijn definitief
-<br/>Rood/bruin gemarkeerde evenementen zijn gepland
+<br/>Groen gemarkeerde evenementen zijn definitief
+<br/>Oranje gemarkeerde evenementen zijn gepland
 <br/>[N] Aktiviteit georganiseerd door een nationale commissie
 <br/>[D] Aktiviteit georganiseerd door een district commissie
 </p>
