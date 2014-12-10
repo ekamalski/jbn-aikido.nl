@@ -52,6 +52,3 @@ De locatie wordt nog bekend gemaakt.
 De data van de Proeven van Bekwaamheid zijn gepland op: 4 en 11 juni 2016
 
 
-In het voorjaar 2015 start er ook een Masterclass Jeugdaikido.  
-En sinds kort is er ook een mogelijkheid om een opleiding voor DOJO-assistent te doen.
-
