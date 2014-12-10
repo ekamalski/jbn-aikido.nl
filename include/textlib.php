@@ -1,5 +1,5 @@
 <?php
-// Ident: 2014-11-07
+// Ident: 2014-12-10
 define("TOT_EN_MET", "-1");
 
 define("NO_T", 			"");
@@ -99,8 +99,11 @@ function nieuwsitem($title, $ref) {
 /**
  * Link to: ?page=${REF}
  */
-function nieuwspageLink($ref,$item) {
+function nieuwspageLink($ref, $item, $more="") {
 	print("<h2 style='clear: both;'>Nieuws: $item</h2>\n");
+	if ($more != "") {
+		print("$more<br/>\n");
+	}
 	print("Klik op de <a href='?page=$ref'>link</a> om het hele item te lezen\n");
 }
 
