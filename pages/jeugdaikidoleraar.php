@@ -1,4 +1,4 @@
-<p><strong>In januari 2015 start een masterclass Jeugdaikidoleraar van 4 cursusdagen en een toetsingsdag.</strong></p>
+<p><strong>In januari 2015 start een masterclass Jeugdaikido van 4 cursusdagen en een toetsingsdag.</strong></p>
 <p>De opleiding Jeugdaikidoleraar (JAL) is een aanvulling op de opleiding Aikidoleraar niveau 3 (AL3). Je leert lessen aan jeugd op kyugraadniveau te verzorgen en te evalueren. De opleiding geeft géén extra bevoegdheden. Wél extra kennis en vaardigheden op het gebied van: didactiek, pedagogiek, begeleiding van jeugdgroepen, ontwikkelingspsychologie (inclusief stoornissen), contacten met ouders, werk- en spelvormen en fysiologie.</p>
 
 <h2>Toelatingseisen</h2>

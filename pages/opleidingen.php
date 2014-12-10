@@ -1,7 +1,57 @@
 <h2>Aikidoleraar niveau 3 (AL3)</h2>
-<p><strong>De opleiding AL3 staat in de steigers en start begin september 2015.</strong></p>
-<p>De aanmeldingen voor de opleiding AL3 lopen binnen en het is een duidelijke zaak dat we kunnen starten in 2015. Op dit moment wordt er nog gewerkt aan een herstructurering van de opleiding. De inhoud van de opleiding wordt vernieuwd waar nodig om aan onze kwaliteitseisen te kunnen voldoen. De structuur, de inhoudelijke planning en het aantal lesdagen worden onder de loep genomen en de cursusprijs wordt daaraan aangepast.</p>
-<p>Zo zullen we op <strong>17 januari 2015 een Startdag AL3</strong> houden en krijgt de opleiding een ‘voortraject’ vanaf januari tot aan begin september waarna de lesdagen volgen. Als je van plan bent om mee te doen of als je je reeds hebt aangemeld, zet deze datum dan vast in je agenda.</p>
-<p>Voor jou als beginnend aikidoleraar is het van belang dat je een brede oriëntatie krijgt op de achtergronden van aikido, de beknopte geschiedenis van aikido, de sportieve kant van aikido en de didactiek en methodiek van het lesgeven in aikido. Uitgangspunt hierbij is dat je als leraar gericht bent op de mentale, fysieke en sociale ontwikkeling van je leerlingen. Vaardigheden als instructie geven, beoordelen en evalueren, begeleiden en coachen, organiseren van activiteiten, stimuleren en motiveren van je leerlingen zijn je gereedschappen hierbij.</p>
-<p>De opleiding wordt georganiseerd door de Nationale Commissie Opleidingen Aikido van JBN.</p>
-<p>Binnenkort vind je hier meer informatie over de inhoud van het voortraject januari-september 2015, het aantal lesdagen en de data, de cursusprijs en de toelatingsvoorwaarden. Iedereen die zich al heeft aangemeld, ontvangt deze informatie persoonlijk per e-mail.</p>
+
+De opleiding AL3 gaat definitief van start op 17 september 2015.
+
+<h3> Goed nieuws </h3> 
+De opleiding wordt verkort naar 12 lesdagen en de cursusprijs is &euro; 835,00 
+inclusief de kosten voor de Proeven van Bekwaamheid (PVB).
+<p>
+De opleiding voor aikidoleraar niveau 3 is uitdrukkelijk bedoeld voor aikidoka 
+van onze drie disciplines: Aikibudo, Ki-Aikido en Aikikai en 
+richt zich op het afstemmen van het eigen sporttechnisch beleid op dat van de 
+vereniging/sportschool, het zelfstandig maken van een jaarplan en lesplannen, 
+het verzorgen en evalueren van lessen en trainingen aan jeugd en volwassenen 
+op kyugraadniveau en het afnemen van kyugraadexamens.
+
+<h3> Aanmelden </h3>
+Je meldt je aan door het 
+<a target="_blank" href="https://survey.enalyzer.com/?pid=hmg7suha">online formulier</a>
+in te vullen (de link opent een nieuw venster/tab).
+
+<h3>Toelatingseisen</h3>
+<ul> 
+<li>Leeftijd minimaal 18 jaar. 
+<li>Minimaal 1e dan, voor het doen van de PVB lesgeven is 2e dan vereist.
+</ul>
+Indien nodig kan een voorlopige lesbevoegdheid aangevraagd worden op het niveau 
+van aikidoleider die geldig is tot de cursus van start gaat. Zodra de cursus is 
+begonnen hebben alle deelnemers aan de opleiding automatisch een voorlopige 
+lesbevoegdheid. 
+
+<h3> Opzet en inhoud </h3>
+De opzet en inhoud van de opleiding is ook bijgesteld:
+<ul>
+<li>op 17 januari 2015 houden we een startdag AL3.  Daarvoor worden aspirant cursisten en hun praktijkbegeleiders uitgenodigd 
+<li>tijdens de startdag wordt door de cursist samen met de praktijkbegeleider een jaarplanning gemaakt voor de reguliere aikidolessen, de kyu-examens, de stagelessen, de verplichte lesopdrachten, de opleidingsdagen en Proeven Van Bekwaamheid     
+<li>de opleiding krijgt een "voortraject" vanaf januari tot aan begin september. In deze periode kan de cursist allerlei voorwerk doen zoals stagelessen geven een portfolio aanleggen e.d.
+<li>de inhoud van de opleiding is gericht op de beginnend aikidoleraar waarbij de praktijkbegeleider fungeert als coach
+<li>je  gaat aan de slag met de didactiek en methodiek van het lesgeven in aikido waarbij het uitgangspunt is dat je als leraar gericht bent op de mentale, fysieke en sociale ontwikkeling van je leerlingen. Vaardigheden als instructie geven, beoordelen en evalueren, begeleiden en coachen, organiseren van activiteiten, stimuleren en motiveren van je leerlingen zijn je gereedschappen hierbij.
+</ul>
+
+<h3> Opleidings dagen </h3>
+Startdag opleiding AL3: 17 januari 2015
+<br/>
+De 12 lesdagen zijn gepland op: 
+<br/>
+(2015) 12/9, 26/9, 10/10, 31/10, 14/11, 5/12, 19/12 en (2016) 9/1, 23/1, 13/2, 5/3, 2/4 
+
+<h3> Locatie </h3>
+De locatie wordt nog bekend gemaakt.
+
+<h3> Proeven van bekwaanheid </h3>
+De data van de Proeven van Bekwaamheid zijn gepland op: 4 en 11 juni 2016
+
+
+In het voorjaar 2015 start er ook een Masterclass Jeugdaikido.  
+En sinds kort is er ook een mogelijkheid om een opleiding voor DOJO-assistent te doen.
+
