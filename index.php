@@ -104,7 +104,7 @@ ctz=Europe%2FAmsterdam" target="_blank">kalender (full screen)</a></li>
         opleidingen&nbsp;<b class="caret"></b></a>
     <ul class="dropdown-menu">
         <li><a href="?page=opleidingen">aikido leraar</a></li>
-        <li><a href="?page=jeugdaikidoleraar">jeugd aikido leraar</a></li>
+        <li><a href="?page=jeugdaikido">jeugd aikido</a></li>
     </ul>
 </li>
 <li class="dropdown">
@@ -184,7 +184,6 @@ scrolling="no"></iframe><br/>Legenda:
 <br/>Oranje gemarkeerde evenementen zijn gepland
 <br/>[N] Aktiviteit georganiseerd door een nationale commissie
 <br/>[D] Aktiviteit georganiseerd door een district commissie
-</p>
 </div>
 <?php } ?>
 

@@ -23,8 +23,8 @@ define("FUKAKUSA_T",    "fukakusa_t.jpg");
 define("IAS",           "IAS");
 define("IAS_T",         "ias_t.jpg");
 
-define("MICHAEL",       "Michael Martin");
-define("MICHAEL_T",     "mickael_t.jpg");
+define("MICKAEL",       "Mickael Martin");
+define("MICKAEL_T",     "mickael_t.jpg");
 
 define("MIMURO",        "Mimuro 7de dan shihan");
 define("MIMURO_T",      "mimuro_t.jpg");
@@ -73,6 +73,9 @@ define("VEGHEL_L",      "Prins Willem Alexander Sportpark 8, 5461 XL Veghel");
 define("WIJK_BIJ_DUURSTEDE",   "Wijk bij Duurstede");
 define("WIJK_BIJ_DUURSTEDE_L", "Lekdijk oost 13a, AAWijk bij Duurstede");
 
+function dojos() {
+	include(DOCROOT."/pages/dojos.php");
+}
 /**
  * @param string $datum   mon(yyyy, dd)
  * @param string $lokatie LOKATIE
