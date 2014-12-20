@@ -60,4 +60,7 @@ in de theorie én de praktijk:
 </ul>
 
 <h2>Aanmelden</h2>
-<p>Ben je geïnteresseerd in de masterclass Jeugdaikidoleraar? Binnenkort kun jij je via deze website voor de opleiding aanmelden.</p>
+Vul het <a href="https://survey.enalyzer.com/?pid=cuc2dbp5">online formulier</a> 
+in om je aan te melden voor de jeugdaikido masterclass.
+
+<br/><br/> 

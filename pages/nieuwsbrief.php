@@ -13,6 +13,7 @@ function showNieuwbriefArchive() {
  	print("<h2>Nieuwsbrief archief</h2>\n");
     print("<ul style='list-style: none; padding-left: 0px;'>\n");	
     
+    linkNieuwbrief("2014/december");
     linkNieuwbrief("2014/oktober");
     linkNieuwbrief("2014/februari");
     linkNieuwbrief("2014/januari");

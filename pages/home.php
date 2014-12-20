@@ -16,11 +16,15 @@ brString("De opleiding jeugdaikido is een aanvulling op de opleiding aikidoleraa
 tagSlash("hr");
 
 stage(MICKAEL, jan(2015, 16, TOT_EN_MET, 18), GENNEP." en ".NIJMEGEN, MICKAEL_T,
-brString("Vrijdag:")
+brString("Vrijdag 20.00 - 21.30")
 .brString(GENNEP_L)
+.brString("Niet club-leden 8.50 euro")
 .brString("")
-.brString("Zaterdag en zondag")
+.brString("Zaterdag 15.00 - 18 en zondag 9.00 - 12.00")
 .brString(NIJMEGEN_L)
+.brString("15.00 euro per dag, weekend 27.50 euro")
+,""
+,"2015-01-18_mickael.jpg"
 );
 
 ?>
