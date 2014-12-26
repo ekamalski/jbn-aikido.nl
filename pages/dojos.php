@@ -309,17 +309,12 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <td>Judo Club Veenwouden<br/>Zwaluwstraat 22<br/>9269 NP&nbsp;Veenwouden<br/>0511-476275</td>
 <td>&nbsp;</td>
 </tr>
-
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-
 <tr>
 <td>Zuid Holland</td>
 <td>Alblasserdam</td>
 <td><a href='http://sportschooltromp.nl'>sportschooltromp.nl</a></td>
 <td>Aiki-budo</td>
 </tr>
-
-
 <tr>
 <td>Zuid Holland</td>
 <td>Den-haag</td>
@@ -344,7 +339,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <td><a href='http://ishokan.org'>ishokan.org</a></td>
 <td>Aikikai</td>
 </tr>
-
 <tr>
 <td>Zuid Holland</td>
 <td>Hillegom</td>
@@ -369,7 +363,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <td><a href='http://musubi.nl'>musubi.nl</a></td>
 <td>Aikikai</td>
 </tr>
-
 <tr>
 <td>Zuid Holland</td>
 <td>Papendrecht</td>
@@ -406,15 +399,18 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <td><a href='http://sportschooltromp.nl'>sportschooltromp.nl</a></td>
 <td>Aiki-budo</td>
 </tr>
-
+<tr>
+<td>Zuid Holland</td>
+<td>Spijkenisse</td>
+<td><a href='http://www.aaddehoog.nl'>aaddehoog.nl</a></td>
+<td>Aikikai</td>
+</tr>
 <tr>
 <td>Zuid Holland</td>
 <td>Zoetermeer</td>
 <td><a href='http://yotosama.com'>yotosama.com</a></td>
 <td>Aikikai</td>
 </tr>
-
-
 <tr>
 <td>Zuid Nederland</td>
 <td>Bavel</td>
