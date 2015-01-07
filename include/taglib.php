@@ -9,6 +9,13 @@ define("BTN_LARGE",  "100px");
 define("TXT_SIZE",  "100");
 
 /**
+ * &lt;hr/&gt;
+ */
+function hr() {
+	tagSlash("hr");
+}
+
+/**
  * &lt;tag/&gt;
  */
 function tagSlash($tag) {

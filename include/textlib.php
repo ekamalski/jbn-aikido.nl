@@ -1,5 +1,6 @@
 <?php
-// Ident: 2014-12-10
+// Last update: 2015-01-07
+
 define("TOT_EN_MET", "-1");
 
 define("NO_T", 			"");
@@ -76,6 +77,7 @@ define("WIJK_BIJ_DUURSTEDE_L", "Lekdijk oost 13a, AAWijk bij Duurstede");
 function dojos() {
 	include(DOCROOT."/pages/dojos.php");
 }
+
 /**
  * @param string $datum   mon(yyyy, dd)
  * @param string $lokatie LOKATIE
@@ -121,9 +123,16 @@ function nieuwsitemLink($ref,$item) {
 /**
  * Link to: nieuws/${REF}
  */
-function nieuwsitemPdfLink($ref,$item) {
+function nieuwsitemPdfLink($ref,$item,$thumb="") {
 	print("<h2 style='clear: both;'>Nieuws item: $item</h2>\n");
-	print("Klik op de link <a href='nieuws/$ref'>\n$item</a> om het hele nieuws item te lezen\n");
+	
+	if ($thumb == "") {
+		$text = "Klik op de link <a href='nieuws/$ref'>\n$item</a> om het hele nieuws item te lezen\n";
+		print($text);
+	} else {
+		$text = "Klik op de link<br/><a href='nieuws/$ref'>\n$item</a><br/>om het hele nieuws item te lezen\n";
+		imgTextThumb($thumb, $text, $ref);
+	}
 }
 
 /** 
