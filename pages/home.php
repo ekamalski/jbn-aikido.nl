@@ -4,22 +4,26 @@ require_once(DOCROOT."/include/taglib.php");
 require_once(DOCROOT."/include/textlib.php");
 
 
-stage(MICKAEL, jan(2015, 16, TOT_EN_MET, 18), GENNEP." en ".NIJMEGEN, MICKAEL_T,
-brString("Vrijdag 20.00 - 21.30")
-.brString(GENNEP_L)
-.brString("Niet club-leden 8.50 euro")
+
+stage("Sugino Yukihiro sensei", feb(2015, 1), WIJK_BIJ_DUURSTEDE, "yukihiro_t.jpg",
+brString(WIJK_BIJ_DUURSTEDE_L)
 .brString("")
-.brString("Zaterdag 15.00 - 18 en zondag 9.00 - 12.00")
-.brString(NIJMEGEN_L)
-.brString("15.00 euro per dag, weekend 27.50 euro")
+.brString("Programma:")
+.brString("10.00-11.00 uur basis")
+.brString("11.00-13.00 uur splitsing")
+.brString("")
+.brString("kosten 27.50 euro")
 ,""
-,"2015-01-18_mickael.jpg"
+,"2015-02-05_Stage_Sugino.pdf"
 );
 hr();
 
-nieuwspageLink("opleidingen", "2015 - start opleiding aikido leraar niveau 3",
-brString("Op 17 januari 2015 is er een startdag aikido leraar niveau 3 voor aspirant cursisten en hun praktijkbegeleiders.")
-.brString("De opleiding van 12 lesdagen gaat van start op 17 september 2015.")
+
+stage("Sugino Yukihiro sensei", feb(2015, 3, 5), "", NO_T,
+brString("20.00-22.00 uur")
+.brString("Neem hiervoor contact op met Rob Breedveld")
+,""
+,"2015-02_05_Stage_Sugino.jpg"
 );
 hr();
 
@@ -35,6 +39,9 @@ brString("De opleiding jeugdaikido is een aanvulling op de opleiding aikidoleraa
 );
 hr();
 
+nieuwspageLink("opleidingen", "2015 - start opleiding aikido leraar niveau 3",
+brString("De opleiding van 12 lesdagen gaat van start op 17 september 2015.")
+);
 
 ?>
 

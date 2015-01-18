@@ -13,8 +13,9 @@ function showNewsList() {
     $serverNamePort=$_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"];
     
     chdir(ABSPATH."/nieuws");
-    $files = glob("*.pdf");
-    $files += glob("*.html");
+    $pdfFiles  = glob("*.pdf");
+    $htmlFiles = glob("*.html");
+    $files = array_merge($pdfFiles, $htmlFiles);
     if (is_array($files) && sizeof($files) >= 1) {
         print("<h2>Nieuws items</h2>\n");
         print("<ul style='list-style: none; padding-left: 0px;'>\n");
