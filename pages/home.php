@@ -27,6 +27,36 @@ brString("20.00-22.00 uur")
 );
 hr();
 
+stage(CLAUDE, feb(2015, 21, 22), HEERENVEEN, CLAUDE_T,
+brString(HEERENVEEN_L)
+.brString("")
+.brString("Zaterdag 15.00 - 18.00")
+.brString("Zondag 9.00 - 12.00")
+.brString("11.00-13.00 uur splitsing")
+.brString("")
+.brString("Stijl: Aikikai")
+.brString("Kosten: 20 euro per dag")
+);
+hr();
+
+
+stage(FLOQUET, feb(2015, 28).", ".mar(2015, 1), WIJK_BIJ_DUURSTEDE, FLOQUET_T,
+brString(WIJK_BIJ_DUURSTEDE_L)
+.brString("")
+.brString("Zaterdag 14.00 - 14.00")
+.brString("Programma speciaal voor kyu graden,")
+.brString("maar yudansha zijn ook welkom")
+.brString("Zondag 10.00 - 13.00")
+.brString("Programma speciaal voor yudansha,")
+.brString("maar kyu graden zijn ook welkom")
+.brString("Stijl: Aikibudo")
+.brString("Kosten: 20 euro per dag, 30 euro hele weekend")
+,""
+,"2015-03-01_Stage_Floquet.jpg"
+);
+
+hr();
+
 nieuwsitemPdfLink("2015-01-07_English_Questions_Curtis_sensei.pdf", "Interview met Curtis sensei", "curtis_t.jpg");
 hr();
 

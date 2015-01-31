@@ -1,5 +1,5 @@
 <?php
-// Last update: 2015-01-07
+// Last update: 2015-01-31
 
 define("TOT_EN_MET", "-1");
 
@@ -18,6 +18,9 @@ define("CURTIS_T",      "curtis_t.jpg");
 define("DONOVAN",       "Donovan Waite");
 define("DONOVAN_T",     "donovan_t.jpg");
 
+define("FLOQUET",       "Alain Floquet sensei 9e dan");
+define("FLOQUET_T",     "floquet_t.jpg");
+
 define("FUKAKUSA",      "Fukakusa 8ste dan shihan");
 define("FUKAKUSA_T",    "fukakusa_t.jpg");
 
@@ -31,9 +34,13 @@ define("MIMURO",        "Mimuro 7de dan shihan");
 define("MIMURO_T",      "mimuro_t.jpg");
 
 define("ROINEL",        "Alain Roinel");
+define("ROINEL_T",      "roinel_t.jpg");
 
 define("TIKI",          "Malcolm Tiki Shewan");
 define("TIKI_T",        "tiki-shewan_t.jpg");
+
+define("YUKIHIRO",      "Sugino Yukihiro sensei");
+define("YUKIHIRO_T",    "yukihiro_t.jpg");
 
 define("ALLARDSOOG",    "Allardsoog");
 define("ALLARDSOOG_L",  "Jarig van de Wielenwei 42, 9343 TC Een-West");
@@ -72,7 +79,7 @@ define("VEGHEL",        "Veghel");
 define("VEGHEL_L",      "Prins Willem Alexander Sportpark 8, 5461 XL Veghel");
 
 define("WIJK_BIJ_DUURSTEDE",   "Wijk bij Duurstede");
-define("WIJK_BIJ_DUURSTEDE_L", "Lekdijk oost 13a, AAWijk bij Duurstede");
+define("WIJK_BIJ_DUURSTEDE_L", "Lekdijk oost 13a, Wijk bij Duurstede");
 
 function dojos() {
 	include(DOCROOT."/pages/dojos.php");
@@ -281,7 +288,7 @@ function stageWithoutThumb($txt1="", $ref="") {
 	
 	detailsTeVinden();	
 	if ($ref != "") {		
-		txtRef($ref, "PDF-flyer");
+		txtRef($ref, "Flyer");
 	}
 	dekalender();
 }
@@ -305,7 +312,7 @@ function stageWithThumb($thumb, $txt1="", $txt2="", $ref="") {
 	
 	detailsTeVinden();	
 	if ($ref != "") {		
-		txtRef($ref, "PDF-flyer");
+		txtRef($ref, "Flyer");
 	}
 	dekalender();
 }

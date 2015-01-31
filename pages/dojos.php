@@ -77,6 +77,12 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 </tr>
 <tr>
 <td>Midden Nederland</td>
+<td>Leusden</td>
+<td><a href='http://theomeijersport.nl'>theomeijersport.nl</a></td>
+<td>Aikibudo</td>
+</tr>
+<tr>
+<td>Midden Nederland</td>
 <td>Nijmegen</td>
 <td><a href='http://aikidonijmegen.nl'>aikidonijmegen.nl</a></td>
 <td>Aikikai</td>
@@ -141,12 +147,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <td>Judo School Arashi<br/>Surinamestraat 2A<br/>2405 EL&nbsp;Alphen aan de Rijn<br/>0172-490396</td>
 <td>&nbsp;</td>
 </tr>
-<tr>
-<td>Noord Holland</td>
-<td>Amersfoort</td>
-<td>Theo Meijer Sport<br/>Dorresteijnsesteeg 3<br/>3817 GC&nbsp;Amersfoort<br/>033-4946409</td>
-<td>&nbsp;</td>
-</tr>
+
 <tr>
 <td>Noord Holland</td>
 <td>Amstelveen</td>
