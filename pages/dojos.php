@@ -80,7 +80,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <td>Leusden</td>
 <td><a href='http://theomeijersport.nl'>theomeijersport.nl</a></td>
 <td>Aikibudo</td>
-</tr>
+</tr>16 02
 <tr>
 <td>Midden Nederland</td>
 <td>Nijmegen</td>
