@@ -4,22 +4,7 @@ require_once(DOCROOT."/include/taglib.php");
 require_once(DOCROOT."/include/textlib.php");
 
 
-
-stage("Sugino Yukihiro sensei", feb(2015, 1), WIJK_BIJ_DUURSTEDE, "yukihiro_t.jpg",
-brString(WIJK_BIJ_DUURSTEDE_L)
-.brString("")
-.brString("Programma:")
-.brString("10.00-11.00 uur basis")
-.brString("11.00-13.00 uur splitsing")
-.brString("")
-.brString("kosten 27.50 euro")
-,""
-,"2015-02-05_Stage_Sugino.pdf"
-);
-hr();
-
-
-stage("Sugino Yukihiro sensei", feb(2015, 3, 5), "", NO_T,
+stage("Sugino Yukihiro sensei", feb(2015, 5), "", NO_T,
 brString("20.00-22.00 uur")
 .brString("Neem hiervoor contact op met Rob Breedveld")
 ,""
