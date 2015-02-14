@@ -19,7 +19,7 @@ hr();
 stage(FLOQUET, feb(2015, 28).", ".mar(2015, 1), WIJK_BIJ_DUURSTEDE, FLOQUET_T,
 brString(WIJK_BIJ_DUURSTEDE_L)
 .brString("")
-.brString("Zaterdag 14.00 - 14.00")
+.brString("Zaterdag 14.00 - 17.00")
 .brString("Programma speciaal voor kyu graden,")
 .brString("maar yudansha zijn ook welkom")
 .brString("Zondag 10.00 - 13.00")
@@ -30,7 +30,20 @@ brString(WIJK_BIJ_DUURSTEDE_L)
 ,""
 ,"2015-03-01_Stage_Floquet.jpg"
 );
+hr();
 
+duoStage(PIERRE." en ".CAREL, mar(2015, 7), WIJK_BIJ_DUURSTEDE, PIERRE_T,
+brString(WIJK_BIJ_DUURSTEDE_L)
+.brString("")
+.brString("Zaterdag 14.00 - 17.00")
+.brString("Stijl: Aikikai")
+.brString("Kosten:")
+.brString("20 euro voor JBN leden")
+.brString("25 euro voor niet JBN leden")
+, CAREL_T
+,""
+,"2015-03-07_flyer_nl_7e_dan_stage.pdf"
+);
 hr();
 
 nieuwsitemPdfLink("2015-01-07_English_Questions_Curtis_sensei.pdf", "Interview met Curtis sensei", "curtis_t.jpg");

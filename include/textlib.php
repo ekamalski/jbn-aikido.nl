@@ -1,5 +1,5 @@
 <?php
-// Last update: 2015-01-31
+// Last update: 2015-02-14
 
 define("TOT_EN_MET", "-1");
 
@@ -8,6 +8,9 @@ define("DATE_IN_PAST", 	"");
 
 define("BENNEDETTI",    "Stefan Bennedetti");
 define("BENNEDETTI_T",  "bennedetti_t.jpg");
+
+define("CAREL",   	    "Carel Zappeij");
+define("CAREL_T",       "carel_t.jpg");
 
 define("CLAUDE",   	    "Claude Pellerin");
 define("CLAUDE_T",      "claude_t.jpg");
@@ -32,6 +35,9 @@ define("MICKAEL_T",     "mickael_t.jpg");
 
 define("MIMURO",        "Mimuro 7de dan shihan");
 define("MIMURO_T",      "mimuro_t.jpg");
+
+define("PIERRE",        "Pierre Geraedts");
+define("PIERRE_T",      "pierre_t.jpg");
 
 define("ROINEL",        "Alain Roinel");
 define("ROINEL_T",      "roinel_t.jpg");
@@ -158,6 +164,46 @@ function stage($leraren, $datum, $lokatie, $thumb=NO_T, $txt1="", $txt2="", $ref
 			stageWithoutThumb($txt1, $ref);
 		} else {
 			stageWithThumb($thumb, $txt1, $txt2, $ref);
+		}
+	}
+}
+
+/**
+ * @param string $leraren LERAAR
+ * @param string $datum   mon(yyyy, dd [, dd |, TOT_EN_MET, dd])
+ * @param string $lokatie LOCATIE -- LOCATIE_L = street, city
+ * @param string $thumb LERAAR_T (img to: events/${LERAAR_T}.jpg),  default: NO_T (no thumb)
+ * @param string $txt1 left from thumb, max:11 lines, default: empty
+ * @param string $txt2 below thumb, default: empty
+ * @param string $ref  link to events/${REF}, default: no link
+ */
+function duoStage($leraren, $datum, $lokatie, $thumb1=NO_T, $txt1="", $thumb2=NO_T, $txt2="", $ref="") {
+	if ($datum != DATE_IN_PAST) {
+		h2($leraren, $datum, $lokatie);
+		if ($thumb1 == NO_T) {
+			stageWithoutThumb($txt1, $ref);
+		} else {
+			if ($ref == "" ) {
+				print("<img style='float: left;'  src='events/$thumb1'>");
+				print("<img style='float: right;' src='events/$thumb2'>");
+			} else {
+				print("<a style='float: left;'  href='events/$ref'>\n<img src='events/$thumb1'></a>\n");
+				print("<a style='float: right;' href='events/$ref'>\n<img src='events/$thumb2'></a>\n");
+			}
+			print("<div style='float: left; padding-left: 10px;'>\n$txt1");
+			print("</div>\n");
+			print("<p style='clear: both;'>\n");
+			
+			if ($txt2 != null || "$txt2" != "") {
+				print("<br/>$txt2<br/>");
+			}
+			print("<br/>");
+			
+			detailsTeVinden();
+			if ($ref != "") {
+				txtRef($ref, "Flyer");
+			}
+			dekalender();
 		}
 	}
 }
