@@ -4,11 +4,12 @@ events/
 fotoalbums/
 include/db.php
 include/db_remote.php
-limburg/
 nieuws/
+nieuwsbrief/
 pdfs/
 
 **/*.bak
+**/*.cmd
 **/*.csv
 **/*.jar
 **/*.java
@@ -19,4 +20,4 @@ pdfs/
 .gitignore
 .project
 favicon.ico
-/nieuwsbrief/
+

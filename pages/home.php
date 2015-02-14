@@ -3,15 +3,6 @@
 require_once(DOCROOT."/include/taglib.php");
 require_once(DOCROOT."/include/textlib.php");
 
-
-stage("Sugino Yukihiro sensei", feb(2015, 5), "", NO_T,
-brString("20.00-22.00 uur")
-.brString("Neem hiervoor contact op met Rob Breedveld")
-,""
-,"2015-02_05_Stage_Sugino.jpg"
-);
-hr();
-
 stage(CLAUDE, feb(2015, 21, 22), HEERENVEEN, CLAUDE_T,
 brString(HEERENVEEN_L)
 .brString("")
