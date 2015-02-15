@@ -52,12 +52,6 @@ hr();
 nieuwsitemPdfLink("2015-01-07_English_Questions_Shaner_sensei.pdf", "Interview met Shaner sensei", "shaner_t.jpg");
 hr();
 
-nieuwspageLink("jeugdaikido", "2015 - start masterclass jeugdaikido",
-brString("De opleiding jeugdaikido is een aanvulling op de opleiding aikidoleraar niveau 3")
-.brString("De opleiding van 4 lesdagen start op 21 maart 2015")
-);
-hr();
-
 nieuwspageLink("opleidingen", "2015 - start opleiding aikido leraar niveau 3",
 brString("De opleiding van 12 lesdagen gaat van start op 17 september 2015.")
 );

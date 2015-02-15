@@ -1,6 +1,5 @@
 <h2> Masterclass Jeugdaikido</h2>
 <p> 
-In 2015 start de JBN een Masterclass Jeugdaikido van 4 cursusdagen.
 De Masterclass Aikido is een aanvulling op de opleiding Aikidoleraar niveau 3 (AL3). 
 Je leert lessen aan jeugd op kyuniveau te verzorgen en te evalueren. 
 De opleiding geeft géén extra bevoegdheden, wél extra kennis en vaardigheden op 
@@ -15,16 +14,6 @@ werk- en spelvormen.
 <li> Minimaal 2e dan aikido (aikikai, ki-aikido, aikibudo)
 <li> In bezit van het JBN diploma Aikidoleraar niveau 3 of vergelijkbare licentie 
 voor het geven aikidoles op niveau 3
-</ul>
-
-<h2>Duur  en data lesdagen</h2>
-De opleiding omvat 4 opleidingsdagen (van 10.00 uur tot 16.00 uur) 
-<br/>De opleidingsdagen zijn: 
-<ul>
-	<li>21 maart 2015</li>
-	<li>11 april 2015</li>
-	<li>16 mei 2015</li>
-	<li>30 mei 2015</li>
 </ul>
 
 <h2>Kosten</h2>
