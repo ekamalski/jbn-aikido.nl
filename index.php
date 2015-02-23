@@ -107,6 +107,7 @@ ctz=Europe%2FAmsterdam" target="_blank">kalender (full screen)</a></li>
         <li><a href="?page=jeugdaikido">jeugd aikido</a></li>
     </ul>
 </li>
+<li><a href="?page=organisaties">organisaties</a></li>
 <li class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
         stijl&nbsp;<b class="caret"></b></a>
