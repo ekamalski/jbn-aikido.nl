@@ -110,11 +110,11 @@ function duoStage($leraren, $datum, $lokatie, $thumb1=NO_T, $txt1="", $thumb2=NO
 			
 		} else {
 			if ($ref == "" ) {
-				print("<img style='float: left;'  src='events/$thumb1'>");
-				print("<img style='float: right;' src='events/$thumb2'>");
+				print("<img style='float: left;'  src='events/140x200_t/$thumb1'>");
+				print("<img style='float: right;' src='events/140x200_t/$thumb2'>");
 			} else {
-				print("<a style='float: left;'  href='events/$ref'>\n<img src='events/$thumb1'></a>\n");
-				print("<a style='float: right;' href='events/$ref'>\n<img src='events/$thumb2'></a>\n");
+				print("<a style='float: left;'  href='events/$ref'>\n<img src='events/140x200_t/$thumb1'></a>\n");
+				print("<a style='float: right;' href='events/$ref'>\n<img src='events/140x200_t/$thumb2'></a>\n");
 			}
 			print("<div style='float: left; padding-left: 10px;'>\n$txt1");
 			print("</div>\n");
@@ -190,9 +190,9 @@ function h2($leraren, $datum, $lokatie) {
 
 function imgTextThumb($thumb, $txt1="", $ref="") {
 	if ($ref == "" ) {
-		print("<img style='float: left;' src='events/$thumb'>");
+		print("<img style='float: left;' src='events/140x200_t/$thumb'>");
 	} else {
-		print("<a style='float: left;' href='events/$ref'>\n<img src='events/$thumb'></a>\n");
+		print("<a style='float: left;' href='events/$ref'>\n<img src='events/140x200_t/$thumb'></a>\n");
 	}
 	print("<div style='float: left; padding-left: 10px;'>\n$txt1");
 	print("</div>\n");
