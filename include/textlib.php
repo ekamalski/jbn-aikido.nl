@@ -1,91 +1,10 @@
 <?php
-// Last update: 2015-02-14
+// Last update: 2015-02-23
+
+require_once(DOCROOT."/include/datelib.php");
+require_once(DOCROOT."/include/defslib.php");
 
 define("TOT_EN_MET", "-1");
-
-define("NO_T", 			"");
-define("DATE_IN_PAST", 	"");
-
-define("BENNEDETTI",    "Stefan Bennedetti");
-define("BENNEDETTI_T",  "bennedetti_t.jpg");
-
-define("CAREL",   	    "Carel Zappeij");
-define("CAREL_T",       "carel_t.jpg");
-
-define("CLAUDE",   	    "Claude Pellerin");
-define("CLAUDE_T",      "claude_t.jpg");
-
-define("CURTIS",   	    "Chris Curtis");
-define("CURTIS_T",      "curtis_t.jpg");
-
-define("DONOVAN",       "Donovan Waite");
-define("DONOVAN_T",     "donovan_t.jpg");
-
-define("FLOQUET",       "Alain Floquet sensei 9e dan");
-define("FLOQUET_T",     "floquet_t.jpg");
-
-define("FUKAKUSA",      "Fukakusa 8ste dan shihan");
-define("FUKAKUSA_T",    "fukakusa_t.jpg");
-
-define("IAS",           "IAS");
-define("IAS_T",         "ias_t.jpg");
-
-define("MICKAEL",       "Mickael Martin");
-define("MICKAEL_T",     "mickael_t.jpg");
-
-define("MIMURO",        "Mimuro 7de dan shihan");
-define("MIMURO_T",      "mimuro_t.jpg");
-
-define("PIERRE",        "Pierre Geraedts");
-define("PIERRE_T",      "pierre_t.jpg");
-
-define("ROINEL",        "Alain Roinel");
-define("ROINEL_T",      "roinel_t.jpg");
-
-define("TIKI",          "Malcolm Tiki Shewan");
-define("TIKI_T",        "tiki-shewan_t.jpg");
-
-define("YUKIHIRO",      "Sugino Yukihiro sensei");
-define("YUKIHIRO_T",    "yukihiro_t.jpg");
-
-define("ALLARDSOOG",    "Allardsoog");
-define("ALLARDSOOG_L",  "Jarig van de Wielenwei 42, 9343 TC Een-West");
-
-define("AMERSFOORT",    "Amersfoort");
-define("AMERSFOORT_L",  "Furglerplein 3, Amersfoort");
-
-define("GENNEP",        "Gennep");
-define("GENNEP_L",      "Picardie 36, Gennep");
-
-define("HEERENVEEN",    "Heerenveen");
-define("HEERENVEEN_L",  "Abe Lenstra boulevard 23Q, 8448 JA Heerenveen");
-
-define("HELMOND",       "Helmond");
-define("HELMOND_L",     "Barrierlaan 41, Helmond");
-
-define("NIEUWEGEIN",    "Nieuwegein");
-define("NIEUWEGEIN_L",  "Blokhoeve 5, Nieuwegein");
-
-define("NIJMEGEN",      "Nijmegen");
-define("NIJMEGEN_L",    "Tapirstraat 2, 6532 AL Nijmegen");
-
-define("LELYSTAD",      "Lelystad");
-define("LELYSTAD_L",    "Sportcentrum De Koploper, Badweg 21, 8223 PA Lelystad");
-
-define("OOSTERHOUT",    "Oosterhout");
-define("OOSTERHOUT_L",  "Slotjesveld 9, 4902 AA Oosterhout");
-
-define("ROERMOND",      "Roermond");
-define("ROERMOND_L",    "Prins Bernardstraat 1, Roermond");
-
-define("STROE",         "Stroe");
-define("STROE_L",       "Tolnegenweg 53, 3776 PV Stroe");
-
-define("VEGHEL",        "Veghel");
-define("VEGHEL_L",      "Prins Willem Alexander Sportpark 8, 5461 XL Veghel");
-
-define("WIJK_BIJ_DUURSTEDE",   "Wijk bij Duurstede");
-define("WIJK_BIJ_DUURSTEDE_L", "Lekdijk oost 13a, Wijk bij Duurstede");
 
 function dojos() {
 	include(DOCROOT."/pages/dojos.php");
@@ -97,12 +16,13 @@ function dojos() {
  * @param string $txt1
  */
 function examens($datum, $lokatie, $txt1) {
-	if ($datum != "") {
+	if (!isDatumPast($datum)) {
 		h2("Danexamens", $datum, $lokatie);
 		if ($txt1 != "" ) {
 			print("$txt1</br>\n");
 		}
 		examensDetails();
+		hr();
 	}
 }
 
@@ -112,6 +32,7 @@ function examens($datum, $lokatie, $txt1) {
 function nieuwsitem($title, $ref) {
 	print("<h2 style='clear: both;'>Nieuws item: $title</h2>\n");
 	require_once(ABSPATH."/nieuws/$ref");
+	hr();
 }
 
 /**
@@ -123,6 +44,7 @@ function nieuwspageLink($ref, $item, $more="") {
 		print("$more<br/>\n");
 	}
 	print("Klik op de <a href='?page=$ref'>link</a> om het hele item te lezen\n");
+	hr();
 }
 
 /**
@@ -131,6 +53,7 @@ function nieuwspageLink($ref, $item, $more="") {
 function nieuwsitemLink($ref,$item) {
 	print("<h2 style='clear: both;'>Nieuws item: $item</h2>\n");
 	print("Klik op de link <a href='?page=nieuws&nieuwsItem=$ref'>\n$item</a> om het hele nieuws item te lezen\n");
+	hr();
 }
 
 /**
@@ -146,6 +69,7 @@ function nieuwsitemPdfLink($ref,$item,$thumb="") {
 		$text = "Klik op de link<br/><a href='nieuws/$ref'>\n$item</a><br/>om het hele nieuws item te lezen\n";
 		imgTextThumb($thumb, $text, $ref);
 	}
+	hr();
 }
 
 /** 
@@ -158,13 +82,14 @@ function nieuwsitemPdfLink($ref,$item,$thumb="") {
  * @param string $ref  link to events/${REF}, default: no link 
  */
 function stage($leraren, $datum, $lokatie, $thumb=NO_T, $txt1="", $txt2="", $ref="") {
-	if ($datum != DATE_IN_PAST) {
+	if (!isDatumPast($datum)) {
 		h2($leraren, $datum, $lokatie);
 		if ($thumb == NO_T) {
 			stageWithoutThumb($txt1, $ref);
 		} else {
 			stageWithThumb($thumb, $txt1, $txt2, $ref);
 		}
+		hr();
 	}
 }
 
@@ -178,10 +103,11 @@ function stage($leraren, $datum, $lokatie, $thumb=NO_T, $txt1="", $txt2="", $ref
  * @param string $ref  link to events/${REF}, default: no link
  */
 function duoStage($leraren, $datum, $lokatie, $thumb1=NO_T, $txt1="", $thumb2=NO_T, $txt2="", $ref="") {
-	if ($datum != DATE_IN_PAST) {
+	if (!isDatumPast($datum)) {
 		h2($leraren, $datum, $lokatie);
 		if ($thumb1 == NO_T) {
 			stageWithoutThumb($txt1, $ref);
+			
 		} else {
 			if ($ref == "" ) {
 				print("<img style='float: left;'  src='events/$thumb1'>");
@@ -205,72 +131,24 @@ function duoStage($leraren, $datum, $lokatie, $thumb1=NO_T, $txt1="", $thumb2=NO
 			}
 			dekalender();
 		}
+		hr();
 	}
 }
 
-function jan($year, $day1, $day2=0, $day3=0) {
 
-	$days = getDays($day1, $day2, $day3);
-	return "$days januari";
+
+
+/* Private
+ */
+
+/**
+ * Handle monthName1(yyyy, dd).", ".monthName2(yyy, dd)
+ */
+function isDatumPast($datum) {
+	if ($datum == DATE_IN_PAST) { return true; }
+	else if ($datum == DATE_IN_PAST.", ".DATE_IN_PAST) { return true; }
+	return false;
 }
-
-function feb($year, $day1, $day2=0, $day3=0) {
-	$days = getDays($day1, $day2, $day3);
-	return "$days februari";
-}
-
-function mar($year, $day1, $day2=0, $day3=0) {
-	$days = getDays($day1, $day2, $day3);
-	return "$days maart";
-}
-
-function apr($year, $day1, $day2=0, $day3=0) {
-	$days = getDays($day1, $day2, $day3);
-	return "$days april";
-}
-
-function may($year, $day1, $day2=0, $day3=0) {
-
-	$days = getDays($day1, $day2, $day3);
-	return "$days mei";
-}
-
-function jun($year, $day1, $day2=0, $day3=0) {
-	$days = getDays($day1, $day2, $day3);
-	return "$days juni";
-}
-
-function jul($year, $day1, $day2=0, $day3=0) {
-	$days = getDays($day1, $day2, $day3);
-	return "$days juli";
-}
-
-function aug($year, $day1, $day2=0, $day3=0) {
-	$days = getDays($day1, $day2, $day3);
-	return "$days augustus";
-}
-
-function sep($year, $day1, $day2=0, $day3=0) {
-	$days = getDays($day1, $day2, $day3);
-	return "$days september";
-}
-
-function oct($year, $day1, $day2=0, $day3=0) {
-	$days = getDays($day1, $day2, $day3);
-	return "$days oktober";
-}
-
-function nov($year, $day1, $day2=0, $day3=0) {
-	$days = getDays($day1, $day2, $day3);
-	return "$days november";
-}
-
-function dec($year, $day1, $day2=0, $day3=0) {
-	$days = getDays($day1, $day2, $day3);
-	return "$days december";
-}
-
-// Private
 
 function getDays($day1, $day2, $day3) {
 	$days = $day1;
@@ -279,6 +157,7 @@ function getDays($day1, $day2, $day3) {
     else if ($day3 != 0)     { $days = "$days, $day2 en $day3"; }
 	return $days;
 }
+
 function trc($txt){
 	print("TRC, $txt");
 }
@@ -346,7 +225,6 @@ function stageWithoutThumb($txt1="", $ref="") {
  * | txt2
  * | ref
  * +--
-
  */
 function stageWithThumb($thumb, $txt1="", $txt2="", $ref="") {
 	imgTextThumb($thumb, $txt1, $ref);
