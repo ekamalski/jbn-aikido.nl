@@ -13,12 +13,15 @@ function showNieuwbriefArchive() {
  	print("<h2>Nieuwsbrief archief</h2>\n");
     print("<ul style='list-style: none; padding-left: 0px;'>\n");	
     
+    linkNieuwbrief("2015/03", "2015/maart");
+    divider();
+    
     linkNieuwbrief("2014/december");
     linkNieuwbrief("2014/oktober");
     linkNieuwbrief("2014/februari");
     linkNieuwbrief("2014/januari");
-    
     divider();
+    
     linkNieuwbrief("2013/november");	
     linkNieuwbrief("2013/juni");	
     linkNieuwbrief("2013/mei");	
@@ -32,8 +35,9 @@ function divider() {
 	print("<li>&nbsp;");
 }
 
-function linkNieuwbrief($text) {
-	$ref="/nieuwsbrief/$text/index.html";
+function linkNieuwbrief($link, $text="") {
+    $text = ($text == "") ? $link : $text;
+	$ref="/nieuwsbrief/$link/index.html";
 	print("<li><a target='_blank' href='$ref' title='Opent nieuw tab ofwindow'>$text</a>");
 }
 ?>
