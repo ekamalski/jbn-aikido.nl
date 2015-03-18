@@ -80,6 +80,10 @@ define("STROE_L",       "Tolnegenweg 53, 3776 PV Stroe");
 define("VEGHEL",        "Veghel");
 define("VEGHEL_L",      "Prins Willem Alexander Sportpark 8, 5461 XL Veghel");
 
+define("TETERINGEN",    "Teteringen (Breda)");
+define("TETERINGEN_L",  "Kriekenstraat 43, Teteringen (Breda)");
+
+
 define("WIJK_BIJ_DUURSTEDE",   "Wijk bij Duurstede");
 define("WIJK_BIJ_DUURSTEDE_L", "Lekdijk oost 13a, Wijk bij Duurstede");
 
