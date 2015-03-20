@@ -44,6 +44,17 @@ brString(WIJK_BIJ_DUURSTEDE_L)
 ,NO_TXT2
 ,"2015-05-16_Mimuro.pdf"
 );
+
+stage(FUKAKUSA, may(2015, 30, 31), GENNEP, FUKAKUSA_T,
+brString(GENNEP_L)
+.brString("")
+.brString("Zaterdag: 14.00 - 17.00 ")
+.brString("Zondag: 10.00 - 13.00")
+.brString("")
+.brString("Stijl: Aikikai")
+,NO_TXT2
+);
+
 nieuwsitemPdfLink("2015-01-07_English_Questions_Curtis_sensei.pdf", "Interview met Curtis sensei", "curtis_t.jpg");
 
 nieuwsitemPdfLink("2015-01-07_English_Questions_Shaner_sensei.pdf", "Interview met Shaner sensei", "shaner_t.jpg");
