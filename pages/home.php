@@ -8,7 +8,9 @@ brString(TETERINGEN_L)
 .brString("")
 .brString("Zaterdag 15.00 - 18.00")
 .brString("Zondag 9.00 - 12.00")
+.brString("")
 .brString("Stijl: Aikikai")
+.brString("")
 .brString("Kosten: 20 euro per dag, 35 euro hele weekend")
 ,"Route beschrijving is te vinden op: <a target='_blank' href='http://www.aikido-nantokanaru.nl/index.php?option=com_content&view=article&id=9&Itemid=12'>aikido-nantokanaru.nl</a>"	
 ,"2015-04-19_Stage_Claude.pdf"
@@ -20,6 +22,28 @@ brString(ALLARDSOOG_L)
 .brString("Meer informatie volgt")
 );
 
+stage(CURTIS, may(2015, 9, 10), HELMOND, CURTIS_T,
+brString(HELMOND_L)
+.brString("")
+.brString("Zaterdag: 10.00 - 17.00 ")
+.brString("Zondag: 9.00 - 16.00")
+.brString("")
+.brString("Stijl: Ki aikido")
+);
+
+stage(MIMURO, may(2015, 16), WIJK_BIJ_DUURSTEDE, MIMURO_T,
+brString(WIJK_BIJ_DUURSTEDE_L)
+.brString("")
+.brString("14.00 - 17.00")
+.brString("")
+.brString("Stijl: Aikikai")
+.brString("")
+.brString("Kosten:")
+.brString("20 euro voor JBN leden,")
+.brString("25 euro voor niet JBN leden")
+,NO_TXT2
+,"2015-05-16_Mimuro.pdf"
+);
 nieuwsitemPdfLink("2015-01-07_English_Questions_Curtis_sensei.pdf", "Interview met Curtis sensei", "curtis_t.jpg");
 
 nieuwsitemPdfLink("2015-01-07_English_Questions_Shaner_sensei.pdf", "Interview met Shaner sensei", "shaner_t.jpg");

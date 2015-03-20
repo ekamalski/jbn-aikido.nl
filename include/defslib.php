@@ -1,6 +1,7 @@
 <?php
 
 define("NO_T", 			""); // no thumb.
+define("NO_TXT2", 		""); 
 
 define("BENNEDETTI",    "Stefan Bennedetti");
 define("BENNEDETTI_T",  "bennedetti_t.jpg");
