@@ -3,24 +3,6 @@
 require_once(DOCROOT."/include/taglib.php");
 require_once(DOCROOT."/include/textlib.php");
 
-stage(IAS, apr(2015, 30)." tot en met ".may(2015, 3), ALLARDSOOG, IAS_T,
-brString(ALLARDSOOG_L)
-.brString("")
-.brString("Donderdag aankomst vanaf 17.00")
-.brString("")
-.brString("Vrijdag, zaterdag en zondag")
-.brString("7.00 - 8.00 medidatie")
-.brString("aansluited ontbijt")
-.brString("9.30 - 12.30 training")
-.brString("13.00 lunch")
-,
-brString("Vrijdag en zaterdag")
-.brString("15.00 - 17.00 Training")
-.brString("18.30 avondmaal")
-."20.00 avondprogramma"
-,"2015-03-05_IAS_Allardsoog.pdf"
-);
-
 stage(CURTIS, may(2015, 9, 10), HELMOND, CURTIS_T,
 brString(HELMOND_L)
 .brString("")
