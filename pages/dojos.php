@@ -108,8 +108,8 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a href='?page=dojo_aanmeld
 <tr>
 <td>Midden Nederland</td>
 <td>Utrecht</td>
-<td>Budo Academie Shudo Kan<br/>Oudegracht 387<br/>3511 PG&nbsp;Utrecht<br/>030-2316896</td>
-<td>&nbsp;</td>
+<td><a href='http://shudokan.nl'>shudokan.nl</a></td>
+<td>Aikikai</td>
 </tr>
 <tr>
 <td>Midden Nederland</td>

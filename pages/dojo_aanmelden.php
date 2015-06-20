@@ -6,8 +6,7 @@ require_once(DOCROOT."/include/rqlib.php");
 require_once(DOCROOT."/include/maildblib.php");
 require_once(DOCROOT."/include/mailformlib.php");
 
-define("TO", 	"webmaster@jbn-aikido.nl");
-define("TABLE", "jnotes");
+define("SUBJECT", "Aanmelding dojo");
 
 kalender_event();
 
@@ -19,7 +18,7 @@ function kalender_event() {
             $msg   = "";
             $msg  .= getMailMsg();
             
-            sendMessage($email, TO, $msg);
+            sendMessageMetBevestiging($email, TO_WEBM, FROM_WEBM, SUBJECT, $msg);
             $status  = "Dojo aanmelding van $email verzonden.";
             $status .= " Als u geen mail-bevestiging ontvangt, dan hebben wij uw even verzoek niet ontvangen.";
             $status .= " Probeer het opnieuw.";
@@ -99,16 +98,5 @@ function getMailMsg() {
     
     return $ret;
 }
-
-
-
-
-function sendMessage($from, $to, $msg) {  
-	$subject =  "Aanmelding dojo van $from";
-	insertIntoDb(HOST, USER, PASSWD, DATABASE, TABLE, $from, $to, $subject, $msg);
-    mailSnd($to,   $subject,                            $msg, $from, MAIL_SND_TRACE_FMT_LONG);
-    mailSnd($from, "Mailbevestiging van jbn-aikido.nl", $msg, $to,    MAIL_SND_TRACE_FMT_SHORT);
-}
-   
 ?>
 
