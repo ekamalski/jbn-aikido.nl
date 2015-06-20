@@ -9,7 +9,6 @@ nieuwsbrief/
 pdfs/
 
 **/*.bak
-**/*.cmd
 **/*.csv
 **/*.jar
 **/*.java
@@ -20,5 +19,4 @@ pdfs/
 .gitignore
 .project
 favicon.ico
-gitcommit.cmd
 
