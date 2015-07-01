@@ -146,12 +146,12 @@ de afdeling Sportparticipatie (030-7073630, <span id="jjbn"> jbn </span>)
 <dt> Opleidingen </dt><dd id="secretaris_ncoa"> ncoa</dd>
 <dt> Aanmelden </dt><dd id="ajbn"> nieuwsbrief </dd>
 <dt> Webmaster </dt><dd id="webmaster"> webm </dd>
-<?php /* Remark: id="jbn" is already used, do not include here. */ ?>
 </dl>
+<?php /* Remark: id="jbn" is already used, do not include here. */ ?>
+
 
 
 <?php } ?>
-
 
 </div><!-- contents -->
 
@@ -159,6 +159,11 @@ de afdeling Sportparticipatie (030-7073630, <span id="jjbn"> jbn </span>)
 if (rqGet("page")=="" || rqGet("page")=="home") {?>
 <div id="aktiviteiten">
 <h1>&nbsp;<!-- Align with left div --></h1>
+<h2>Affiliated organisations</h2>
+<a target="_blank" title="aikikai.or.jp" href="http://www.aikikai.or.jp"><img src="img/aikikai_or_jp.jpg" alt="aikikai.or.jp" border="0"></a>
+<a target="_blank" title="aikido-europe.com" href="http://www.aikido-europe.com"><img width=54 height=54  src="img/aikido_europe_com.png" alt="aikido-europe.com" border="0"></a>
+<br/><br/>
+
 <h2>Aktiviteiten</h2>
 <iframe
 src="https://www.google.com/calendar/embed?hl=nl&amp;
@@ -185,11 +190,17 @@ scrolling="no"></iframe><br/>Legenda:
 <br/>Oranje gemarkeerde evenementen zijn gepland
 <br/>[N] Aktiviteit georganiseerd door een nationale commissie
 <br/>[D] Aktiviteit georganiseerd door een district commissie
-</div>
+</div><!-- aktiviteiten -->
 <?php } ?>
 
+<!-- >div id='trailer' style="">
+<a target="_blank" title="Opent nieuw tab of window" href="http://www.aikikai.or.jp"><img src="img/aikikai_or_jp.jpg" alt="aikikai.or.jp" border="0"></a>
+<a target="_blank" title="Opent nieuw tab of window" href="http://www.aikikai.or.jp"><img src="img/aikikai_or_jp.jpg" alt="aikikai.or.jp" border="0"></a>
+<a target="_blank" title="Opent nieuw tab of window" href="http://www.aikikai.or.jp"><img src="img/aikikai_or_jp.jpg" alt="aikikai.or.jp" border="0"></a>
+</div -->
+
 </center>
-</div>
+</div><!-- wrapper -->
 <script src="js/jquery-1.7.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/aikidou.js"></script>

@@ -6,7 +6,9 @@
     @echo INFO, %~nx0, Version: %VERSION%, Remote: %REMOTE%
     @echo.
     @call :setdt 
+    @call :git_pull
     @call :git_loop
+    @call :git_push
     @goto :eof
 
 :SET_REMOTE    
@@ -15,7 +17,7 @@
     @goto :eof
     
 :GIT_LOOP    
-    @call :git_pull
+    @REM call :git_pull
     @call :git_status
     @set /p ANS="ASK, Git command? (add/commit/status/quit) [%ANS%]: "
     @if not "%ANS%" == "q" (

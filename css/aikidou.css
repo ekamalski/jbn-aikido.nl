@@ -13,6 +13,7 @@ h3 { font-size: 100%; margin-top: 0px; margin-bottom: 0px; color: #FF8800; }
 div#wrapper  { margin: 0 auto; width: 1000px; } 
 div#contents {     width: 590px;  clear: both;    float:  left; text-align: left; }
 div#aktiviteiten { width: 400px;  margin: 0 auto; float: right; text-align: left; }
+div#trailer { clear: both; }
 
 hr { color: #FF8800; background-color: #FF8800; height: 3px; }
 

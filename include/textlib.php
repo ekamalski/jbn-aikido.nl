@@ -1,5 +1,5 @@
 <?php
-// Last update: 2015-02-23
+// Last update: 2015-06-26
 
 require_once(DOCROOT."/include/datelib.php");
 require_once(DOCROOT."/include/defslib.php");
@@ -135,7 +135,19 @@ function duoStage($leraren, $datum, $lokatie, $thumb1=NO_T, $txt1="", $thumb2=NO
 	}
 }
 
-
+/**
+ * Format
+ * - max: 11 strings that will be placed beside the thumb.
+ * or
+ * - strings that will be placed under the thumb.
+ */
+function formatText() {
+	$text = "";
+	 foreach (func_get_args() as $arg) {
+		$text .= brString($arg);
+	}
+	return $text;
+}
 
 
 /* Private

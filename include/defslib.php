@@ -1,7 +1,9 @@
 <?php
+// Last update: 2015-06-26
 
 define("NO_T", 			""); // no thumb.
-define("NO_TXT2", 		""); 
+define("NO_TEXT2", 		""); 
+define("EMPTY_LINE", 	"");
 
 define("BENNEDETTI",    "Stefan Bennedetti");
 define("BENNEDETTI_T",  "bennedetti_t.jpg");
@@ -44,6 +46,7 @@ define("TIKI_T",        "tiki-shewan_t.jpg");
 
 define("YUKIHIRO",      "Sugino Yukihiro sensei");
 define("YUKIHIRO_T",    "yukihiro_t.jpg");
+
 
 define("ALLARDSOOG",    "Allardsoog");
 define("ALLARDSOOG_L",  "Jarig van de Wielenwei 42, 9343 TC Een-West");
@@ -88,5 +91,9 @@ define("TETERINGEN_L",  "Kriekenstraat 43, Teteringen (Breda)");
 define("WIJK_BIJ_DUURSTEDE",   "Wijk bij Duurstede");
 define("WIJK_BIJ_DUURSTEDE_L", "Lekdijk oost 13a, Wijk bij Duurstede");
 
+define("STIJL_AIKIBUDO", 	"Stijl: aiki-budo");
+define("STIJL_AIKIKAI", 	"Stijl: aikikai");
+define("STIJL_KI_AIKIDO", 	"Stijl: ki-aikido");
 
+define("NCA_GEORGANISEERD",	"Georganiseerd door de NCA");
 ?>
