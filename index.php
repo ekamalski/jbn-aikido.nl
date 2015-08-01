@@ -156,7 +156,7 @@ de afdeling Sportparticipatie (030-7073630, <span id="jjbn"> jbn </span>)
 </div><!-- contents -->
 
 <?php
-if (rqGet("page")=="" || rqGet("page")=="home") {?>
+if (rqGet("page")!="fotos" && rqGet("page")!="kalender" && rqGet("page")!="dojos" && rqGet("page")!="organisaties") {?>
 <div id="aktiviteiten">
 <h1>&nbsp;<!-- Align with left div --></h1>
 <h2>Affiliated organisations</h2>

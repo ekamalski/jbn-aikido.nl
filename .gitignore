@@ -2,6 +2,7 @@
 emk/
 events/
 fotoalbums/
+fotos/
 include/db.php
 include/db_remote.php
 nieuws/
@@ -15,8 +16,9 @@ pdfs/
 **/*.txt
 **/*.xls
 
+
 .buildpath
 .gitignore
 .project
 favicon.ico
-
+generate_album.cmd
