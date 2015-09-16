@@ -17,6 +17,12 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 </tr>
 <tr>
 <td>Limburg</td>
+<td>Geleen</td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.budocluboudgeleen.nl/'>budocluboudgeleen.nl/</a></td>
+<td>Aikikai</td>
+</tr>
+<tr>
+<td>Limburg</td>
 <td>Gennep</td>
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidogennep.nl'>aikidogennep.nl</a></td>
 <td>Aikikai</td>
@@ -43,6 +49,13 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td>Limburg</td>
 <td>Maastricht</td>
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://aikikaz-aikido.nl'>aikikaz-aikido.nl</a></td>
+<td>Aikikai</td>
+</tr>
+<tr>
+<tr>
+<td>Limburg</td>
+<td>Sittardt</td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='http://budoryusports.nl'>budoryusports.nl</a></td>
 <td>Aikikai</td>
 </tr>
 <tr>
