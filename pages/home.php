@@ -21,8 +21,43 @@ formatText(
 	"B-1070 BRUXELLES"
 ),
 NO_TEXT2,
-"2015-09-27_Fukakusa_Brussel.pdf"
-);
+"2015-09-27_Fukakusa_Brussel.pdf");
+
+stage(CLAUDE, oct(2015, 10, 11), SITTARD, CLAUDE_T,
+formatText(
+"Stage o.l.v.",
+CLAUDE,
+EMPTY_LINE,		
+"Zaterdag: 15.00 - 18.00",
+"Zondag: 9.00 - 12.00",
+EMPTY_LINE,
+"Kosten:",
+"20 euro per dag",
+"35 euro voor de hele weekend"		
+),
+formatText(
+"Lokatie:",
+"Dojo budo ryu Zittard",
+SITTARD_L
+),
+"2015-10-11_claude.jpg");
+
+stage(AD_VOOGELS, nov(2015, 7, 8), HELMOND, NO_T,
+formatText(
+		"Zaterdag:",
+		"10.00-12.00 Ki-Class",
+		"14.00-16.00 Ki-Aikido",
+		"16.00-17.00 Examen training",
+		"Zondag:",
+		"10.00-12.00 Misogi/Ki-Aikido",
+		"14.00-15.00 Ki-Aikido",
+		"15.00-16.00 Examens",
+		EMPTY_LINE,
+		"Lokatie:",
+		HELMOND_L
+		),
+NO_TEXT2,
+"2015-11-08_ki_stage.pdf");
 
 nieuwsitemPdfLink("2015-01-07_English_Questions_Curtis_sensei.pdf", "Interview met Curtis sensei", "curtis_t.jpg");
 

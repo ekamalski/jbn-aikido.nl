@@ -5,6 +5,9 @@ define("NO_T", 			""); // no thumb.
 define("NO_TEXT2", 		""); 
 define("EMPTY_LINE", 	"");
 
+define("AD_VOOGELS",   	"Ad Voogels");
+define("AD_VOOGELS_T",   NO_T);
+
 define("BENNEDETTI",    "Stefan Bennedetti");
 define("BENNEDETTI_T",  "bennedetti_t.jpg");
 
@@ -77,6 +80,9 @@ define("OOSTERHOUT_L",  "Slotjesveld 9, 4902 AA Oosterhout");
 
 define("ROERMOND",      "Roermond");
 define("ROERMOND_L",    "Prins Bernardstraat 1, Roermond");
+
+define("SITTARD",       "Sittard");
+define("SITTARD_L",     "Valkstraat 2, 6135 GC Sittard");
 
 define("STROE",         "Stroe");
 define("STROE_L",       "Tolnegenweg 53, 3776 PV Stroe");

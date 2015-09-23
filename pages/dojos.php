@@ -54,7 +54,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <tr>
 <td>Limburg</td>
-<td>Sittardt</td>
+<td>Sittard</td>
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://budoryusports.nl'>budoryusports.nl</a></td>
 <td>Aikikai</td>
 </tr>
