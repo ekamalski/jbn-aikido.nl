@@ -1,3 +1,5 @@
+_div#wrapper     { border: 1px solid red; }
+_div.navbar     { border: 1px solid navy; }
 _div#contents     { border: 1px solid red; }
 _div#aktiviteiten { border: 1px solid red; }
 _h1 { border: 1px solid green; } 
@@ -39,8 +41,15 @@ div#contents span a  { color: black; text-decoration: none; }
     padding-left: 20px;
     padding-right: 20px;
 }
+.navbar .nav > li > img {
+    visibility: visible;
+    display: inline;
+    __visibility: hidden;
+}
+
 .navbar .nav > li > a {
 	padding: 10px 10px;
+    text-shadow: 0px 0px #FFE;
 }
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
@@ -68,4 +77,18 @@ div#contents span a  { color: black; text-decoration: none; }
   background-image: none;
   background-repeat: no-repeat;
   filter: none; 
+}
+
+#sticky {
+    __padding: 0.5ex;
+    width: 1000px;
+    __background-color: #333;
+    __color: #fff;
+    __font-size: 2em;
+}
+
+#sticky.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
 }

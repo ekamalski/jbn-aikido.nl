@@ -50,13 +50,18 @@ function includeContents() {
 <div id="wrapper">
 <center>
 
-<img src="img/banner1000.jpg" alt="banner">
-<div class="navbar">
-  <div class="navbar-inner">
+<img id="banner" src="img/banner1000.jpg" alt="banner">
+<div id="sticky-anchor"></div>        
+<div id="sticky" class="navbar">
+   
+  <div class="navbar-inner" style='align: left;'>
+       
     <div class="container">
 
 <!-- Begin -->
+        
 <ul class="nav">
+<li><img src="favicon.ico" alt="favicon"></li>
 <li><a href="?">home</a></li>
 <li><a href="?page=contact">contact</a></li>
 <li class="dropdown">
@@ -164,7 +169,7 @@ if (rqGet("page")!="fotos" && rqGet("page")!="kalender" && rqGet("page")!="dojos
 <a target="_blank" title="aikido-europe.com" href="http://www.aikido-europe.com"><img width=54 height=54  src="img/aikido_europe_com.png" alt="aikido-europe.com" border="0"></a>
 <br/><br/>
 
-<h2>Aktiviteiten</h2>
+<h2 id="trace">Aktiviteiten</h2>
 <iframe
 src="https://www.google.com/calendar/embed?hl=nl&amp;
 showTitle=0&amp;
