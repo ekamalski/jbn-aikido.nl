@@ -167,9 +167,11 @@ if (rqGet("page")!="fotos" && rqGet("page")!="kalender" && rqGet("page")!="dojos
 <h2>Affiliated organisations</h2>
 <a target="_blank" title="aikikai.or.jp" href="http://www.aikikai.or.jp"><img src="img/aikikai_or_jp.jpg" alt="aikikai.or.jp" border="0"></a>
 <a target="_blank" title="aikido-europe.com" href="http://www.aikido-europe.com"><img width=54 height=54  src="img/aikido_europe_com.png" alt="aikido-europe.com" border="0"></a>
+<a target="_blank" title="aikido-europe.com" href="http://www.nocnsf.nl"><img width=54 height=54  src="img/nocnsf.png" alt="nocnsf.nl" border="0"></a>
+
 <br/><br/>
 
-<h2 id="trace">Aktiviteiten</h2>
+<h2>Aktiviteiten</h2>
 <iframe
 src="https://www.google.com/calendar/embed?hl=nl&amp;
 showTitle=0&amp;
@@ -195,6 +197,10 @@ scrolling="no"></iframe><br/>Legenda:
 <br/>Oranje gemarkeerde evenementen zijn gepland
 <br/>[N] Aktiviteit georganiseerd door een nationale commissie
 <br/>[D] Aktiviteit georganiseerd door een district commissie
+<h2 id="trace">&nbsp;</h2>
+<h2>&nbsp;</h2><br/><br/>
+<h2>&nbsp;</h2><br/><br/>
+<h2>&nbsp;</h2><br/><br/>
 </div><!-- aktiviteiten -->
 <?php } ?>
 

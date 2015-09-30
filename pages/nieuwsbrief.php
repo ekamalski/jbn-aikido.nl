@@ -12,7 +12,25 @@ showNieuwbriefArchive();
 function showNieuwbriefArchive() {
  	print("<h2>Nieuwsbrief archief</h2>\n");
     print("<ul style='list-style: none; padding-left: 0px;'>\n");	
+
+    linkNieuwbrief("2016/12", "2016/december");
+    linkNieuwbrief("2016/11", "2016/november");
+    linkNieuwbrief("2016/10", "2016/oktober");
+    linkNieuwbrief("2016/09", "2016/september");
+    linkNieuwbrief("2016/08", "2016/augustus");
+    linkNieuwbrief("2016/07", "2016/juli");
+    linkNieuwbrief("2016/06", "2016/juni");
+    linkNieuwbrief("2016/05", "2016/mei");	
+    linkNieuwbrief("2016/04", "2016/april");
+    linkNieuwbrief("2016/03", "2016/maart");
+    linkNieuwbrief("2016/02", "2016/februari");
+    linkNieuwbrief("2016/01", "2016/januari");
+    //    divider();
     
+    linkNieuwbrief("2015/12", "2015/december");
+    linkNieuwbrief("2015/11", "2015/november");
+    linkNieuwbrief("2015/10", "2015/oktober");
+    linkNieuwbrief("2015/09", "2015/september");
     linkNieuwbrief("2015/07", "2015/juli");
     linkNieuwbrief("2015/03", "2015/maart");
     divider();
@@ -37,8 +55,10 @@ function divider() {
 }
 
 function linkNieuwbrief($link, $text="") {
-    $text = ($text == "") ? $link : $text;
 	$ref="/nieuwsbrief/$link/index.html";
-	print("<li><a target='_blank' href='$ref' title='Opent nieuw tab ofwindow'>$text</a>");
+	if (file_exists(DOCROOT.$ref)) {
+    	$text = ($text == "") ? $link : $text;
+		print("<li><a target='_blank' href='$ref' title='Opent nieuw tab ofwindow'>$text</a>");
+	}
 }
 ?>

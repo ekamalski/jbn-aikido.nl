@@ -151,7 +151,6 @@ function sticky_relocate() {
         && window_top > div_top
 //        && getScrollY() >= 1
         ) {
-        trace("trace ");
         $('#sticky').addClass('stick');
 //        $('#banner').hide();
         $('.navbar-inner').css('background-color', '#FF8500');
