@@ -145,7 +145,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td>Noord Holland</td>
 <td>Alkmaar</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://sites.google.com/site/musachialkmaar'>sites.google.com/site/musachialkmaar</a></td>
+<td><a target='_blank' title='opent nieuw tab of venster' href=' http://musachi.nl'>musachi.nl</a></td>
 <td>Aikikai</td>
 </tr>
 <tr>
