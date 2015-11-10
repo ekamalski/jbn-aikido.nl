@@ -167,7 +167,7 @@ if (rqGet("page")!="fotos" && rqGet("page")!="kalender" && rqGet("page")!="dojos
 <h2>Affiliated organisations</h2>
 <a target="_blank" title="aikikai.or.jp" href="http://www.aikikai.or.jp"><img src="img/aikikai_or_jp.jpg" alt="aikikai.or.jp" border="0"></a>
 <a target="_blank" title="aikido-europe.com" href="http://www.aikido-europe.com"><img width=54 height=54  src="img/aikido_europe_com.png" alt="aikido-europe.com" border="0"></a>
-<a target="_blank" title="aikido-europe.com" href="http://www.nocnsf.nl"><img width=54 height=54  src="img/nocnsf.png" alt="nocnsf.nl" border="0"></a>
+<a target="_blank" title="NOC*NCF" href="http://www.nocnsf.nl"><img width=54 height=54  src="img/nocnsf.png" alt="nocnsf.nl" border="0"></a>
 
 <br/><br/>
 

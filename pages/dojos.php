@@ -36,7 +36,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td>Limburg</td>
 <td>Kerkrade</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://de-opaal.nl'>de-opaal.nl</a></td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.aikidoschoolhanssonnemans.nl'>aikidoschoolhanssonnemans.nl</a></td>
 <td>Aikikai</td>
 </tr>
 <tr>

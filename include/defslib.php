@@ -1,5 +1,5 @@
 <?php
-// Last update: 2015-06-26
+// Last update: 2015-11-10
 
 define("NO_T", 			""); // no thumb.
 define("NO_TEXT2", 		""); 
@@ -78,6 +78,9 @@ define("LELYSTAD_L",    "Sportcentrum De Koploper, Badweg 21, 8223 PA Lelystad")
 define("OOSTERHOUT",    "Oosterhout");
 define("OOSTERHOUT_L",  "Slotjesveld 9, 4902 AA Oosterhout");
 
+define("PAPENDAL",      "Arnhem");
+define("PAPENDAL_L",    "Papendallaan, 6816 Arnhem");
+
 define("ROERMOND",      "Roermond");
 define("ROERMOND_L",    "Prins Bernardstraat 1, Roermond");
 
@@ -102,4 +105,5 @@ define("STIJL_AIKIKAI", 	"Stijl: aikikai");
 define("STIJL_KI_AIKIDO", 	"Stijl: ki-aikido");
 
 define("NCA_GEORGANISEERD",	"Georganiseerd door de NCA");
+define("STAGE_OLV",         "Stage o.l.v.")
 ?>
