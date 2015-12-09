@@ -35,6 +35,9 @@ define("IAS_T",         "ias_t.jpg");
 define("MICKAEL",       "Mickael Martin");
 define("MICKAEL_T",     "mickael_t.jpg");
 
+define("LOUIS",       	"Louis van Thieghem");
+define("LOUIS_T",     	"");
+
 define("MIMURO",        "Mimuro 7de dan shihan");
 define("MIMURO_T",      "mimuro_t.jpg");
 
@@ -50,15 +53,20 @@ define("TIKI_T",        "tiki-shewan_t.jpg");
 define("YUKIHIRO",      "Sugino Yukihiro sensei");
 define("YUKIHIRO_T",    "yukihiro_t.jpg");
 
-
 define("ALLARDSOOG",    "Allardsoog");
 define("ALLARDSOOG_L",  "Jarig van de Wielenwei 42, 9343 TC Een-West");
 
 define("AMERSFOORT",    "Amersfoort");
 define("AMERSFOORT_L",  "Furglerplein 3, Amersfoort");
 
+define("AMSTELVEEN",     "Amstelveen");
+define("AMSTELVEEN_L",   "Doctor Schaepmanlaan 2, Amstelveen");
+
 define("GENNEP",        "Gennep");
 define("GENNEP_L",      "Picardie 36, Gennep");
+
+define("HAARLEM",       "Haarlem");
+define("HAARLEM_L",     "IJsbaanlaan 4A, Haarlem");
 
 define("HEERENVEEN",    "Heerenveen");
 define("HEERENVEEN_L",  "Abe Lenstra boulevard 23Q, 8448 JA Heerenveen");

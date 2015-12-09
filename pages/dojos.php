@@ -18,7 +18,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td>Limburg</td>
 <td>Geleen</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.budocluboudgeleen.nl/'>budocluboudgeleen.nl/</a></td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.budocluboudgeleen.nl'>budocluboudgeleen.nl</a></td>
 <td>Aikikai</td>
 </tr>
 <tr>
@@ -61,7 +61,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td>Limburg</td>
 <td>Venlo</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://home.kpn.nl/toriitv'>home.kpn.nl/toriitv</a></td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.ki-aikidoschool-torii.nl'>ki-aikidoschool-torii.nl</a></td>
 <td>Ki-aikido</td>
 </tr>
 <tr>
@@ -427,6 +427,12 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 </tr>
 <tr>
 <td>Zuid Holland</td>
+<td>Vlaardingen</td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.aikidodojovlaardingen.nl'>aikidodojovlaardingen.nl</a></td>
+<td>Aiki-budo</td>
+</tr>
+<tr>
+<td>Zuid Holland</td>
 <td>Zoetermeer</td>
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://yotosama.com'>yotosama.com</a></td>
 <td>Aikikai</td>
@@ -482,7 +488,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td>Zuid Nederland</td>
 <td>Helmond</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://home.kpn.nl/toriitv'>home.kpn.nl/toriitv</a></td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.ki-aikidoschool-torii.nl'>ki-aikidoschool-torii.nl</a></td>
 <td>Ki-aikido</td>
 </tr>
 <tr>
