@@ -26,6 +26,7 @@ div#contents a:hover { background-color: #FF8800; color: white;}
 div#contents dd a,
 div#contents span a  { color: black; text-decoration: none; }
 
+td { padding: 2px 10px; background-color: #FFF8F0;} 
 
 /* Override */
 .navbar-inner {

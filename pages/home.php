@@ -11,16 +11,34 @@ stage("Groot aikidofestijn", jan(2016, 31), PAPENDAL, "festijn_t.jpg",
 				EMPTY_LINE,
 				"2 demonstraties",
 				"3 stijlen",
-				"15 leraren",
-				"16 lessen",
+				"15 <a href='events/2016-01-31_aikidofestijn_leraren.pdf'>leraren</a>",
+				"16 <a href='events/2016-01-31_aikidofestijn_programma.pdf'>lessen</a> ",
 				EMPTY_LINE,
 				"Lokatie:",
 				PAPENDAL_L
 		),
 		formatText(
 				"Prijs:",
-				"30 euro jbn leden",
-				"35 euro niet jbn leden"
+				"30 euro jbn leden bij <a target='_blank' title='Voorinschrijving is mogelijk tot vrijdag 29 januari 14.00 uur' href='https://survey.enalyzer.com/?pid=b7kecapa'>voorinschrijving </a>",
+				"35 euro jbn leden",
+				"40 euro niet jbn leden",
+                EMPTY_LINE,
+               
+                "<a target='_blank' href='https://survey.enalyzer.com/?pid=b7kecapa'>Voorinschrijving </a> is mogelijk tot vrijdag 29 januari 14.00 uur.",
+                EMPTY_LINE,
+                "<a href='events/2016-01-31_aikidofestijn_programma.pdf'>Programma</a><table border><tr><td> &nbsp; <td> mat 1<br>ki-aikido <td> mat 2<br>aikikai-aikido <td> mat 3<br>aiki-budo <td> mat 4<br>aikikai-aikido",
+                "<tr><td> 10.00 <td colspan='4'> welkom en mededelingen",
+                "<tr><td> 10.10 <td> Eugène du Long <td> Gijs Schouten <td> Dave Daalmans <td> Carool Janssen",
+                "<tr><td> 11.10 <td colspan='4'> demonstratie Hyoho Niten Ichi-ryu / korte pauze",
+                "<tr><td> 11.25 <td> Eugène du Long <td> Ad van Dongen <td> Teun Tromp <td> Ton Zwalve",
+                "<tr><td> 12.25 <td colspan='4'> grote pauze / lunch",
+                "<tr><td> 14.00 <td> Toby Voogels <td> Jan Brand <td> Marco van Katwijk <td> Jan Rusman",
+                "<tr><td> 15.00 <td colspan='4'> demonstratie Daito ryu / korte pauze",
+                "<tr><td> 15.15 <td> Koos de Graaf <td> Chris de Jongh <td> Rob Breedveld <td> Harry Kat",
+                "<tr><td> 16.15 <td colspan='4'> afsluiting / opruimen van de matten",
+                "</table>",
+                 "<a href='events/2016-01-31_aikidofestijn_leraren.pdf'>Cv's</a> van de leraren"
+                
 		),
 		"2016-01-31_aikidofestijn.pdf"
 );
