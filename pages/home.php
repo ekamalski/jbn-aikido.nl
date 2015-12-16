@@ -26,7 +26,7 @@ stage("Groot aikidofestijn", jan(2016, 31), PAPENDAL, "festijn_t.jpg",
                
                 "<a target='_blank' href='https://survey.enalyzer.com/?pid=b7kecapa'>Voorinschrijving </a> is mogelijk tot vrijdag 29 januari 14.00 uur.",
                 EMPTY_LINE,
-                "<a href='events/2016-01-31_aikidofestijn_programma.pdf'>Programma</a><table border><tr><td> &nbsp; <td> mat 1<br>ki-aikido <td> mat 2<br>aikikai-aikido <td> mat 3<br>aiki-budo <td> mat 4<br>aikikai-aikido",
+                "Programma <a href='events/2016-01-31_aikidofestijn_programma.pdf'>(PDF download)</a><table border><tr><td> &nbsp; <td> mat 1<br>ki-aikido <td> mat 2<br>aikikai-aikido <td> mat 3<br>aiki-budo <td> mat 4<br>aikikai-aikido",
                 "<tr><td> 10.00 <td colspan='4'> welkom en mededelingen",
                 "<tr><td> 10.10 <td> Eugène du Long <td> Gijs Schouten <td> Dave Daalmans <td> Carool Janssen",
                 "<tr><td> 11.10 <td colspan='4'> demonstratie Hyoho Niten Ichi-ryu / korte pauze",
