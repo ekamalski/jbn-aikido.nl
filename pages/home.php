@@ -4,6 +4,7 @@ require_once(DOCROOT."/include/taglib.php");
 require_once(DOCROOT."/include/textlib.php");
 
 
+nieuwsitem("Nieuwe aikikai aikido dan-graad examen eisen", "2016-04-24_Nieuwe_aikikai_aikido_dan-graad_examen_eisen.html");
 
 stage("Groot aikidofestijn", jan(2016, 31), PAPENDAL, "festijn_t.jpg",
 		formatText(

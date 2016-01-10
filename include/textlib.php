@@ -50,7 +50,7 @@ function nieuwspageLink($ref, $item, $more="") {
 /**
  * Link to: ?page=nieuws&nieuwsitem=${REF}
  */
-function nieuwsitemLink($ref,$item) {
+function nieuwsitemLink($ref, $item) {
 	print("<h2 style='clear: both;'>Nieuws item: $item</h2>\n");
 	print("Klik op de link <a href='?page=nieuws&nieuwsItem=$ref'>\n$item</a> om het hele nieuws item te lezen\n");
 	hr();
@@ -59,7 +59,7 @@ function nieuwsitemLink($ref,$item) {
 /**
  * Link to: nieuws/${REF}
  */
-function nieuwsitemPdfLink($ref,$item,$thumb="") {
+function nieuwsitemPdfLink($ref, $item, $thumb="") {
 	print("<h2 style='clear: both;'>Nieuws item: $item</h2>\n");
 	
 	if ($thumb == "") {
