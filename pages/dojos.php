@@ -508,6 +508,12 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td>Goirle</td>
 <td>Sportcentrum Jan De Rooy<br/>Tijvoortsebaan 3-C<br/>5051 HJ&nbsp;Goirle<br/>013-5342560</td>
 <td>&nbsp;</td>
+</tr> 
+<tr>
+<td>Zuid Nederland</td>
+<td>Made</td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='http://judoclubmade.nl'>judoclubmade.nl</a></td>
+<td>Aikikai</td>
 </tr>
 <tr>
 <td>Zuid Nederland</td>
