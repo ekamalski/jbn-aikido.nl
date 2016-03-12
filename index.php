@@ -46,6 +46,7 @@ function includeContents() {
 }
 ?>
 </head>
+
 <body>
 <div id="wrapper">
 <center>
