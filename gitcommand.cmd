@@ -5,6 +5,9 @@
     @echo.
     @echo INFO, %~nx0, Version: %VERSION%, Remote: %REMOTE%
     @echo.
+    @echo INFO, Cyan  : Changes pushed to remote
+    @echo INFO, Green : Local changes commited
+    @echo.
     @call :setdt 
     @call :git_pull
     @call :git_loop
