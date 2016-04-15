@@ -4,47 +4,10 @@ require_once(DOCROOT."/include/taglib.php");
 require_once(DOCROOT."/include/textlib.php");
 
 
-nieuwsitem("Nieuwe aikikai aikido dan-graad examen eisen", "2016-04-24_Nieuwe_aikikai_aikido_dan-graad_examen_eisen.html");
+// nieuwsitem("Nieuwe aikikai aikido dan-graad examen eisen", "2016-04-24_Nieuwe_aikikai_aikido_dan-graad_examen_eisen.html");
 
-stage("Groot aikidofestijn", jan(2016, 31), PAPENDAL, "festijn_t.jpg",
-		formatText(
-				"10.00 - 16.00",
-				EMPTY_LINE,
-				"2 demonstraties",
-				"3 stijlen",
-				"15 <a href='events/2016-01-31_aikidofestijn_leraren.pdf'>leraren</a>",
-				"16 <a href='events/2016-01-31_aikidofestijn_programma.pdf'>lessen</a> ",
-				EMPTY_LINE,
-				"Lokatie:",
-				PAPENDAL_L
-		),
-		formatText(
-				"Prijs:",
-				"30 euro jbn leden bij <a target='_blank' title='Voorinschrijving is mogelijk tot vrijdag 29 januari 14.00 uur' href='https://survey.enalyzer.com/?pid=b7kecapa'>voorinschrijving </a>",
-				"35 euro jbn leden",
-				"40 euro niet jbn leden",
-                EMPTY_LINE,
-               
-                "<a target='_blank' href='https://survey.enalyzer.com/?pid=b7kecapa'>Voorinschrijving </a> is mogelijk tot vrijdag 29 januari 14.00 uur.",
-                EMPTY_LINE,
-                "Programma <a href='events/2016-01-31_aikidofestijn_programma.pdf'>(PDF download)</a><table border><tr><td> &nbsp; <td> mat 1<br>ki-aikido <td> mat 2<br>aikikai-aikido <td> mat 3<br>aiki-budo <td> mat 4<br>aikikai-aikido",
-                "<tr><td> 10.00 <td colspan='4'> welkom en mededelingen",
-                "<tr><td> 10.10 <td> Eugène du Long <td> Gijs Schouten <td> Dave Daalmans <td> Carool Janssen",
-                "<tr><td> 11.10 <td colspan='4'> demonstratie Hyoho Niten Ichi-ryu / korte pauze",
-                "<tr><td> 11.25 <td> Eugène du Long <td> Ad van Dongen <td> Teun Tromp <td> Ton Zwalve",
-                "<tr><td> 12.25 <td colspan='4'> grote pauze / lunch",
-                "<tr><td> 14.00 <td> Toby Voogels <td> Jan Brand <td> Marco van Katwijk <td> Jan Rusman",
-                "<tr><td> 15.00 <td colspan='4'> demonstratie Daito ryu / korte pauze",
-                "<tr><td> 15.15 <td> Koos de Graaf <td> Chris de Jongh <td> Rob Breedveld <td> Harry Kat",
-                "<tr><td> 16.15 <td colspan='4'> afsluiting / opruimen van de matten",
-                "</table>",
-                 "<a href='events/2016-01-31_aikidofestijn_leraren.pdf'>Cv's</a> van de leraren"
-                
-		),
-		"2016-01-31_aikidofestijn.pdf"
-);
 
-stage(CLAUDE, feb(2016, 20, 21), HAARLEM, CLAUDE_T,
+stage(CLAUDE, apr(2016, 9, 10), DEN_HAAG, CLAUDE_T,
 		formatText(
 				STAGE_OLV,
 				CLAUDE." 7de dan",
@@ -55,39 +18,68 @@ stage(CLAUDE, feb(2016, 20, 21), HAARLEM, CLAUDE_T,
 				"Prijs:",
 				"20 euro per dag",
 				EMPTY_LINE,
-				"Stijl: Aikikai aikido"
+				STIJL_AIKIKAI
 				),
 		formatText(
 				"Lokatie:",
-				HAARLEM_L
+				DEN_HAAG_L
 				),
-		"");
+		"2016-04-10_claude.pdf");
 
-duoStage(PIERRE." en ".CAREL, mar(2016, 13), WIJK_BIJ_DUURSTEDE,
-		PIERRE_T, 
+
+examens(apr(2016, 24), LELYSTAD,
 		formatText(
-				"10.00 - 13.00",
+				"Van 9.00 tot 12.00",
 				EMPTY_LINE,
+				LOKATIE,
+				LELYSTAD_L,
+				EMPTY_LINE,
+				"De nationale graden commissie gaat de aankomende examens",
+				"werken met de vernieuwde <a href='pdfs/aikikai_aikido_dan-graad_curriculum.pdf'>exameneisen</a>."
+		)
+);
+
+stage(IAS, "30 april en ".may(2016, 1), WAGENINGEN, IAS_T,
+		formatText(
 				STAGE_OLV,
-				PIERRE." 7de dan"." en",
-				CAREL." 7de dan",
+				CAREL,
+				"Hans Belder",
+				"en anderen",
 				EMPTY_LINE,
-				"Lokatie: ",
-				WIJK_BIJ_DUURSTEDE_L,
+				LOKATIE,
+				WAGENINGEN_L,
 				EMPTY_LINE,
-				"Stijl: Aikikai aikido"
-				), 
-		CAREL_T, 
+				STIJL_AIKIKAI
+				
+		),
+        "",
+        "2016-05-01_ias.pdf"
+);
+
+stage(FUKAKUSA, "17 mei tot en met ".may(2016, 20), HEERHUGOWAARD, NO_T, "Overdag", NO_TEXT2, "2016-05-17_20_fukakusa.jpg");
+stage(FUKAKUSA, may(2016, 18), HEERHUGOWAARD, NO_T, "'s Avonds 20.15 - 21.45", NO_TEXT2, "2016-05-18_fukakusa.jpg");
+stage(FUKAKUSA, may(2016, 19), AMSTELVEEN, NO_T, NO_TEXT1, NO_TEXT2, "2016-05-19_fukakusa.pdf");
+
+stage(FUKAKUSA, may(2016, 21, 22), HAARLEM, FUKAKUSA_T,
 		formatText(
-				"Prijs:",
-				"20 euro jbn leden",
-				"25 euro niet jbn leden"
+				STAGE_OLV,
+				FUKAKUSA,
+				EMPTY_LINE,
+				"Zaterdag: 14.00 - 16.30",
+				"Zondag: 10.00 - 12.30",
+				EMPTY_LINE,
+				"Lokatie:",
+				HAARLEM_L,
+				EMPTY_LINE,
+				STIJL_AIKIKAI
+		),
+		formatText(
+				"Prijs JBN leden/niet leden:",
+				"25 euro/30 euro per dag",
+				"45 euro/55 euro beide dagen"
 				),
-		"2016-03-13_7dan_stage.pdf"
-		);
-
-
-
+		"2016-05-21_22_fukakusa.pdf");
+		
 nieuwsitemPdfLink("2015-01-07_English_Questions_Curtis_sensei.pdf", "Interview met Curtis sensei", "curtis_t.jpg");
 
 nieuwsitemPdfLink("2015-01-07_English_Questions_Shaner_sensei.pdf", "Interview met Shaner sensei", "shaner_t.jpg");

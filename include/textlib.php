@@ -15,13 +15,31 @@ function dojos() {
  * @param string $lokatie LOKATIE
  * @param string $txt1
  */
-function examens($datum, $lokatie, $txt1) {
+function examensDeprecated($datum, $lokatie, $txt1) {
 	if (!isDatumPast($datum)) {
 		h2("Danexamens", $datum, $lokatie);
 		if ($txt1 != "" ) {
 			print("$txt1</br>\n");
 		}
 		examensDetails();
+		hr();
+	}
+}
+
+/**
+ * @param string $datum   mon(yyyy, dd)
+ * @param string $lokatie LOKATIE
+ * @param string $txt1
+ */
+function examens($datum, $lokatie, $txt1) {
+	if (!isDatumPast($datum)) {
+		h2("Danexamens", $datum, $lokatie);
+
+		// stageWithThumb($thumb, $txt1, $txt2, $ref);
+		
+		$txt = $txt1."<br>De details zijn te vinden in de <a href='?page=examens'>examens</a> pagina\n";
+		imgTextThumb("hakama_t.jpg", $txt, "");
+
 		hr();
 	}
 }

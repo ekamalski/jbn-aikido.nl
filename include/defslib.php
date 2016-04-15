@@ -1,9 +1,20 @@
 <?php
-// Last update: 2015-11-10
+// Last update: 2016-03-25
 
-define("NO_T", 			""); // no thumb.
+define("NO_THUMB", 		"");
+define("NO_T", 			NO_THUMB);
+define("NO_TEXT1", 		""); 
 define("NO_TEXT2", 		""); 
 define("EMPTY_LINE", 	"");
+
+define("LOKATIE",     		"Lokatie:");
+define("NCA_GEORGANISEERD",	"Georganiseerd door de NCA");
+define("STAGE_OLV",         "Stage o.l.v.");
+
+define("STIJL_AIKIBUDO", 	"Stijl: aiki-budo");
+define("STIJL_AIKIKAI", 	"Stijl: aikikai");
+define("STIJL_KI_AIKIDO", 	"Stijl: ki-aikido");
+
 
 define("AD_VOOGELS",   	"Ad Voogels");
 define("AD_VOOGELS_T",   NO_T);
@@ -36,7 +47,7 @@ define("MICKAEL",       "Mickael Martin");
 define("MICKAEL_T",     "mickael_t.jpg");
 
 define("LOUIS",       	"Louis van Thieghem");
-define("LOUIS_T",     	"");
+define("LOUIS_T",     	NO_T);
 
 define("MIMURO",        "Mimuro 7de dan shihan");
 define("MIMURO_T",      "mimuro_t.jpg");
@@ -57,10 +68,13 @@ define("ALLARDSOOG",    "Allardsoog");
 define("ALLARDSOOG_L",  "Jarig van de Wielenwei 42, 9343 TC Een-West");
 
 define("AMERSFOORT",    "Amersfoort");
-define("AMERSFOORT_L",  "Furglerplein 3, Amersfoort");
+define("AMERSFOORT_L",  "Fuglerplein 3, Amersfoort");
 
 define("AMSTELVEEN",     "Amstelveen");
 define("AMSTELVEEN_L",   "Doctor Schaepmanlaan 2, Amstelveen");
+
+define("DEN_HAAG",       "Den Haag");
+define("DEN_HAAG_L",     "Baambruggestraat 8a, Den Haag ");
 
 define("GENNEP",        "Gennep");
 define("GENNEP_L",      "Picardie 36, Gennep");
@@ -70,6 +84,9 @@ define("HAARLEM_L",     "IJsbaanlaan 4A, Haarlem");
 
 define("HEERENVEEN",    "Heerenveen");
 define("HEERENVEEN_L",  "Abe Lenstra boulevard 23Q, 8448 JA Heerenveen");
+
+define("HEERHUGOWAARD", 	"Heerhugowaard");
+define("HEERHUGOWAARD_L",   "Dudokweg 20, 1703 DB Heerhugowaard");
 
 define("HELMOND",       "Helmond");
 define("HELMOND_L",     "Barrierlaan 41, Helmond");
@@ -104,14 +121,10 @@ define("VEGHEL_L",      "Prins Willem Alexander Sportpark 8, 5461 XL Veghel");
 define("TETERINGEN",    "Teteringen (Breda)");
 define("TETERINGEN_L",  "Kriekenstraat 43, Teteringen (Breda)");
 
+define("WAGENINGEN",   	"Wageningen");
+define("WAGENINGEN_L", 	"Nieuwe Kanaal 11, Wageningen");
 
 define("WIJK_BIJ_DUURSTEDE",   "Wijk bij Duurstede");
 define("WIJK_BIJ_DUURSTEDE_L", "Lekdijk oost 13a, Wijk bij Duurstede");
 
-define("STIJL_AIKIBUDO", 	"Stijl: aiki-budo");
-define("STIJL_AIKIKAI", 	"Stijl: aikikai");
-define("STIJL_KI_AIKIDO", 	"Stijl: ki-aikido");
-
-define("NCA_GEORGANISEERD",	"Georganiseerd door de NCA");
-define("STAGE_OLV",         "Stage o.l.v.")
 ?>
