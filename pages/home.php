@@ -52,13 +52,10 @@ stage(IAS, "30 april en ".may(2016, 1), WAGENINGEN, IAS_T,
 				STIJL_AIKIKAI
 				
 		),
-        "",
+        "Wegwerkzaamheden op A12 afslag 25 Oosterbeek",
         "2016-05-01_ias.pdf"
 );
 
-stage(FUKAKUSA, "17 mei tot en met ".may(2016, 20), HEERHUGOWAARD, NO_T, "Overdag", NO_TEXT2, "2016-05-17_20_fukakusa.jpg");
-stage(FUKAKUSA, may(2016, 18), HEERHUGOWAARD, NO_T, "'s Avonds 20.15 - 21.45", NO_TEXT2, "2016-05-18_fukakusa.jpg");
-stage(FUKAKUSA, may(2016, 19), AMSTELVEEN, NO_T, NO_TEXT1, NO_TEXT2, "2016-05-19_fukakusa.pdf");
 
 stage(FUKAKUSA, may(2016, 21, 22), HAARLEM, FUKAKUSA_T,
 		formatText(
@@ -79,7 +76,36 @@ stage(FUKAKUSA, may(2016, 21, 22), HAARLEM, FUKAKUSA_T,
 				"45 euro/55 euro beide dagen"
 				),
 		"2016-05-21_22_fukakusa.pdf");
-		
+
+stage(FUKAKUSA, "17 mei tot en met ".may(2016, 20), HEERHUGOWAARD, NO_T, "Overdag", NO_TEXT2, "2016-05-17_20_fukakusa.jpg");
+stage(FUKAKUSA, may(2016, 18), HEERHUGOWAARD, NO_T, "'s Avonds 20.15 - 21.45", NO_TEXT2, "2016-05-18_fukakusa.jpg");
+stage(FUKAKUSA, may(2016, 19), AMSTELVEEN, NO_T, NO_TEXT1, NO_TEXT2, "2016-05-19_fukakusa.pdf");
+        
+stage(CURTIS, may(2016, 21, 22), HELMOND, CURTIS_T,
+		formatText(
+				STAGE_OLV,
+				CURTIS,
+				EMPTY_LINE,
+				"Zaterdag:",
+				"10.00 - 12.00 : Ki - Aikido",
+				"14.00 - 16.00 : Ki - Aikido",
+				"16.00 - 17.00 : Dan Grades",
+				EMPTY_LINE,
+				"Zondag:",
+				"10.00 - 12.00 : Misogi, Jo/ Bokken Class",
+				"14.00 - 16.00 : Ki - Aikido Class, Q&amp;A"
+		),
+		formatText(
+				"Lokatie:",
+				HELMOND_L,
+				EMPTY_LINE,
+				STIJL_KI_AIKIDO,
+				"Prijs JBN leden/niet leden:",
+				"13 euro/14 euro per uur",
+				"100 euro/110 euro beide dagen"
+				),
+		"2016-05-21_22_curtis.pdf");
+				
 nieuwsitemPdfLink("2015-01-07_English_Questions_Curtis_sensei.pdf", "Interview met Curtis sensei", "curtis_t.jpg");
 
 nieuwsitemPdfLink("2015-01-07_English_Questions_Shaner_sensei.pdf", "Interview met Shaner sensei", "shaner_t.jpg");

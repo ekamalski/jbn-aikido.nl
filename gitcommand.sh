@@ -1,5 +1,5 @@
 :
-VERSION=5.09-16
+VERSION=2016-04-15
 REMOTE=false
 if [ -d nieuwsbrief ] ; then REMOTE=true ; fi
 
@@ -42,10 +42,11 @@ function main {
     pull
     
     while [ "${ANS}" != "q" ] ; do
-        echo -n "ASK, Git command? (add/commit/status/quit) [status]: " ; read ANS
+        echo -n "ASK, Git command? (add/commit/push/status/quit) [status]: " ; read ANS
         case ${ANS} in
         a*) add ;;
-        c*) commit ; push ;;
+        c*) commit ;;
+        p*) push ;;
         esac
         status
     done
