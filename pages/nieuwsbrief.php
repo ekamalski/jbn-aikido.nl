@@ -25,7 +25,7 @@ function showNieuwbriefArchive() {
     linkNieuwbrief("2016/03", "2016/maart");
     linkNieuwbrief("2016/02", "2016/februari");
     linkNieuwbrief("2016/01", "2016/januari");
-    //    divider();
+    divider();
     
     linkNieuwbrief("2015/12", "2015/december");
     linkNieuwbrief("2015/11", "2015/november");
