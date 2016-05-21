@@ -14,9 +14,9 @@ define("DATE_IN_PAST", 	"");
 /**
  * @return freeText.totEnMet.date as string or DATE_IN_PAST
  */
-function totEnMet($freeText, $dateFunction) {
-	if ($dateFunction != DATE_IN_PAST) {
-		return "$freeText tot en met $dateFunction";
+function totEnMet($freeText, $mmmFunctionYyyyDd) {
+	if ($mmmFunctionYyyyDd != DATE_IN_PAST) {
+		return "$freeText tot en met $mmmFunctionYyyyDd";
 	}
 	return DATE_IN_PAST;
 }
