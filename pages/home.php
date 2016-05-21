@@ -3,30 +3,6 @@
 require_once(DOCROOT."/include/taglib.php");
 require_once(DOCROOT."/include/textlib.php");
 
-
-// nieuwsitem("Nieuwe aikikai aikido dan-graad examen eisen", "2016-04-24_Nieuwe_aikikai_aikido_dan-graad_examen_eisen.html");
-
-
-stage(CLAUDE, apr(2016, 9, 10), DEN_HAAG, CLAUDE_T,
-		formatText(
-				STAGE_OLV,
-				CLAUDE." 7de dan",
-				EMPTY_LINE,
-				"Zaterdag: 15.00 - 18.00",
-				"Zondag: 9.00 - 12.00",
-				EMPTY_LINE,
-				"Prijs:",
-				"20 euro per dag",
-				EMPTY_LINE,
-				STIJL_AIKIKAI
-				),
-		formatText(
-				"Lokatie:",
-				DEN_HAAG_L
-				),
-		"2016-04-10_claude.pdf");
-
-
 examens(apr(2016, 24), LELYSTAD,
 		formatText(
 				"Van 9.00 tot 12.00",
@@ -39,24 +15,6 @@ examens(apr(2016, 24), LELYSTAD,
 		)
 );
 
-stage(IAS, "30 april en ".may(2016, 1), WAGENINGEN, IAS_T,
-		formatText(
-				STAGE_OLV,
-				CAREL,
-				"Hans Belder",
-				"en anderen",
-				EMPTY_LINE,
-				LOKATIE,
-				WAGENINGEN_L,
-				EMPTY_LINE,
-				STIJL_AIKIKAI
-				
-		),
-        "Wegwerkzaamheden op A12 afslag 25 Oosterbeek",
-        "2016-05-01_ias.pdf"
-);
-
-
 stage(FUKAKUSA, may(2016, 21, 22), HAARLEM, FUKAKUSA_T,
 		formatText(
 				STAGE_OLV,
@@ -65,7 +23,7 @@ stage(FUKAKUSA, may(2016, 21, 22), HAARLEM, FUKAKUSA_T,
 				"Zaterdag: 14.00 - 16.30",
 				"Zondag: 10.00 - 12.30",
 				EMPTY_LINE,
-				"Lokatie:",
+				LOKATIE,
 				HAARLEM_L,
 				EMPTY_LINE,
 				STIJL_AIKIKAI
@@ -77,9 +35,6 @@ stage(FUKAKUSA, may(2016, 21, 22), HAARLEM, FUKAKUSA_T,
 				),
 		"2016-05-21_22_fukakusa.pdf");
 
-stage(FUKAKUSA, "17 mei tot en met ".may(2016, 20), HEERHUGOWAARD, NO_T, "Overdag", NO_TEXT2, "2016-05-17_20_fukakusa.jpg");
-stage(FUKAKUSA, may(2016, 18), HEERHUGOWAARD, NO_T, "'s Avonds 20.15 - 21.45", NO_TEXT2, "2016-05-18_fukakusa.jpg");
-stage(FUKAKUSA, may(2016, 19), AMSTELVEEN, NO_T, NO_TEXT1, NO_TEXT2, "2016-05-19_fukakusa.pdf");
         
 stage(CURTIS, may(2016, 21, 22), HELMOND, CURTIS_T,
 		formatText(
@@ -96,7 +51,7 @@ stage(CURTIS, may(2016, 21, 22), HELMOND, CURTIS_T,
 				"14.00 - 16.00 : Ki - Aikido Class, Q&amp;A"
 		),
 		formatText(
-				"Lokatie:",
+				LOKATIE,
 				HELMOND_L,
 				EMPTY_LINE,
 				STIJL_KI_AIKIDO,
@@ -105,10 +60,36 @@ stage(CURTIS, may(2016, 21, 22), HELMOND, CURTIS_T,
 				"100 euro/110 euro beide dagen"
 				),
 		"2016-05-21_22_curtis.pdf");
-				
-nieuwsitemPdfLink("2015-01-07_English_Questions_Curtis_sensei.pdf", "Interview met Curtis sensei", "curtis_t.jpg");
+		
+stage(BENNEDETTI, jun(2016, 25, 26), VEGHEL, BENNEDETTI_T,
+		formatText(
+				STAGE_OLV,
+				BENNEDETTI,
+				EMPTY_LINE,
+				"Zaterdag: 15.00 - 18.00",
+				"Zondag: 10.00 - 13.00",
+				EMPTY_LINE,
+				LOKATIE,
+				VEGHEL_L,
+				EMPTY_LINE,
+				STIJL_AIKIKAI
+		),
+		NO_TEXT2,
+		NO_FLYER);	
 
-nieuwsitemPdfLink("2015-01-07_English_Questions_Shaner_sensei.pdf", "Interview met Shaner sensei", "shaner_t.jpg");
+stage(CLAUDE, totEnMet("6", jul(2016, 10)), STROE, CLAUDE_T, 
+		formatText(
+				"Zomerschool o.l.v.",
+				CLAUDE,
+				EMPTY_LINE,
+				LOKATIE,
+				STROE_L,
+				EMPTY_LINE,
+				STIJL_AIKIKAI
+		), 
+		NO_TEXT2, NO_FLYER);
 
+nieuwsitemLink("2016-02-22_Hyoho_Niten_Ichi-ryu_en_Miyamoto_Musashi.html", "Hyoho Niten Ichi ryu en Miyamoto Musashi");
+nieuwsitemLink("2015-05-20_Zomerschool_ter_gelegenheid_van_50_jaar_Aikikai_Australia.html", "Zomerschool ter gelegenheid van 50 jaar Aikikai Australia");
 ?>
 

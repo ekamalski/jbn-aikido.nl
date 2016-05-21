@@ -16,7 +16,7 @@ function dojos() {
  * @param string $txt1
  */
 function examensDeprecated($datum, $lokatie, $txt1) {
-	if (!isDatumPast($datum)) {
+	if (!isDateInPast($datum)) {
 		h2("Danexamens", $datum, $lokatie);
 		if ($txt1 != "" ) {
 			print("$txt1</br>\n");
@@ -32,7 +32,7 @@ function examensDeprecated($datum, $lokatie, $txt1) {
  * @param string $txt1
  */
 function examens($datum, $lokatie, $txt1) {
-	if (!isDatumPast($datum)) {
+	if (!isDatumInHetVerleden($datum)) {
 		h2("Danexamens", $datum, $lokatie);
 
 		// stageWithThumb($thumb, $txt1, $txt2, $ref);
@@ -99,8 +99,8 @@ function nieuwsitemPdfLink($ref, $item, $thumb="") {
  * @param string $txt2 below thumb, default: empty 
  * @param string $ref  link to events/${REF}, default: no link 
  */
-function stage($leraren, $datum, $lokatie, $thumb=NO_T, $txt1="", $txt2="", $ref="") {
-	if (!isDatumPast($datum)) {
+function stage($leraren, $datum, $lokatie, $thumb, $txt1, $txt2, $ref) {
+	if (!isDatumInHetVerleden($datum)) {
 		h2($leraren, $datum, $lokatie);
 		if ($thumb == NO_T) {
 			stageWithoutThumb($txt1, $ref);
@@ -121,7 +121,7 @@ function stage($leraren, $datum, $lokatie, $thumb=NO_T, $txt1="", $txt2="", $ref
  * @param string $ref  link to events/${REF}, default: no link
  */
 function duoStage($leraren, $datum, $lokatie, $thumb1=NO_T, $txt1="", $thumb2=NO_T, $txt2="", $ref="") {
-	if (!isDatumPast($datum)) {
+	if (!isDatumInHetVerleden($datum)) {
 		h2($leraren, $datum, $lokatie);
 		if ($thumb1 == NO_T) {
 			stageWithoutThumb($txt1, $ref);
@@ -171,22 +171,6 @@ function formatText() {
 /* Private
  */
 
-/**
- * Handle monthName1(yyyy, dd).", ".monthName2(yyy, dd)
- */
-function isDatumPast($datum) {
-	if ($datum == DATE_IN_PAST) { return true; }
-	else if ($datum == DATE_IN_PAST.", ".DATE_IN_PAST) { return true; }
-	return false;
-}
-
-function getDays($day1, $day2, $day3) {
-	$days = $day1;
-    if ($day2 == TOT_EN_MET) { $days = "$day1 tot en met $day3"; }
-    else if ($day2 != 0)     { $days = "$days, $day2"; }
-    else if ($day3 != 0)     { $days = "$days, $day2 en $day3"; }
-	return $days;
-}
 
 function trc($txt){
 	print("TRC, $txt");
@@ -236,13 +220,13 @@ function imgTextThumb($thumb, $txt1="", $ref="") {
  * | ref
  * +--
  */
-function stageWithoutThumb($txt1="", $ref="") {
-	if ($txt1 != "" ) {
+function stageWithoutThumb($txt1=NO_TEXT1, $ref=NO_FLYER) {
+	if ($txt1 != NO_TEXT1 ) {
 		print("$txt1</br>\n");
 	}
 	
 	detailsTeVinden();	
-	if ($ref != "") {		
+	if ($ref != NO_FLYER) {		
 		txtRef($ref, "Flyer");
 	}
 	dekalender();
@@ -256,16 +240,16 @@ function stageWithoutThumb($txt1="", $ref="") {
  * | ref
  * +--
  */
-function stageWithThumb($thumb, $txt1="", $txt2="", $ref="") {
+function stageWithThumb($thumb, $txt1=NO_TEXT1, $txt2=NO_TEXT2, $ref=NO_FLYER) {
 	imgTextThumb($thumb, $txt1, $ref);
 		
-	if ($txt2 != null || "$txt2" != "") {
+	if ($txt2 != null || "$txt2" != NO_FLYER) {
 		print("<br/>$txt2<br/>");
 	}
 	print("<br/>");
 	
 	detailsTeVinden();	
-	if ($ref != "") {		
+	if ($ref != NO_FLYER) {		
 		txtRef($ref, "Flyer");
 	}
 	dekalender();

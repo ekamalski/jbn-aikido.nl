@@ -1,6 +1,10 @@
 <?php
-// Last update: 2016-03-25
+// Last update: 2016-05-01
 
+define("NO_DATE", 	    "Datum nog niet bekend");
+define("NO_FLYER",	    "");
+define("NO_LOCATIE", 	"Locatie nog niet bekend");
+define("NO_L", 			NO_LOCATIE);
 define("NO_THUMB", 		"");
 define("NO_T", 			NO_THUMB);
 define("NO_TEXT1", 		""); 
@@ -19,7 +23,7 @@ define("STIJL_KI_AIKIDO", 	"Stijl: ki-aikido");
 define("AD_VOOGELS",   	"Ad Voogels");
 define("AD_VOOGELS_T",   NO_T);
 
-define("BENNEDETTI",    "Stefan Bennedetti");
+define("BENNEDETTI",    "Stefane Bennedetti");
 define("BENNEDETTI_T",  "bennedetti_t.jpg");
 
 define("CAREL",   	    "Carel Zappeij");
