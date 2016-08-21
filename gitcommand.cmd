@@ -1,17 +1,13 @@
 @echo off
 :GIT_COMMAND
-    @set VERSION=5.05.10
+    @set VERSION=2016-04-29
+    @set GIT_EXE=C:\PortableApps\GitPortable\App\Git\bin\git.exe
     @call :set_remote
     @echo.
     @echo INFO, %~nx0, Version: %VERSION%, Remote: %REMOTE%
     @echo.
-    @echo INFO, Cyan  : Changes pushed to remote
-    @echo INFO, Green : Local changes commited
-    @echo.
     @call :setdt 
-    @call :git_pull
     @call :git_loop
-    @call :git_push
     @goto :eof
 
 :SET_REMOTE    
@@ -20,55 +16,53 @@
     @goto :eof
     
 :GIT_LOOP    
-    @REM call :git_pull
+    @call :git_pull
     @call :git_status
-    @set /p ANS="ASK, Git command? (add/commit/status/quit) [%ANS%]: "
-    @if not "%ANS%" == "q" (
+    @set ANS=s
+    @set /p ANS="ASK, Git command? (${FILE_TO_ADD}/commit/status/quit) [%ANS%]: "
+    @if "%ANS%" == "q" goto :eof
         @echo.
-        @if "%ANS%" == "a" (    
-            @call :git_add
-        )
         @if "%ANS%" == "c" (
             @call :git_commit
             @REM  :git_push
-            
+        ) else if "%ANS%" == "s" (
+            @REM echo DBG, status
+        ) else (
+            @call :git_add %ANS%
         )
-        @set ANS=s
         goto :git_loop
     )
     goto :eof
     
 :GIT_ADD
-    @set /p TO_ADD="ASK, Git add?  []: "
-    @if "%TO_ADD%" == "" goto :eof
-    @git add %TO_ADD%
+    @%GIT_EXE% add %1
     @echo.
     @goto :eof
 
 :GIT_COMMIT
     @echo INFO, Git commit
     @call :setdt
-    @git commit -a -m %DT%
+    @%GIT_EXE% commit -a -m %DT%
     @echo.
     @goto :eof
     
 :GIT_PUSH
     @if not "%REMOTE%" == "true" goto :eof
     @echo INFO, Git push
-    @git push
+    @%GIT_EXE% push
     @echo.
     @goto :eof
 
 :GIT_PULL
     @if not "%REMOTE%" == "true" goto :eof
     @echo INFO, Git pull
-    @git pull
+    @%GIT_EXE% pull
     @echo.
     @goto :eof
     
 :GIT_STATUS
     @echo INFO, Git status
-    @git status
+    @%GIT_EXE% status
     @echo.
     @goto :eof
 
