@@ -17,6 +17,9 @@ pdfs/
 **/*.txt
 **/*.xls
 
+_*.*
+*_.*
+
 index.html
 .buildpath
 .gitignore

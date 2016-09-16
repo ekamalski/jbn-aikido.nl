@@ -131,4 +131,7 @@ define("WAGENINGEN_L", 	"Nieuwe Kanaal 11, Wageningen");
 define("WIJK_BIJ_DUURSTEDE",   "Wijk bij Duurstede");
 define("WIJK_BIJ_DUURSTEDE_L", "Lekdijk oost 13a, Wijk bij Duurstede");
 
+define("ZAANDAM",        "Zaandam");
+define("ZAANDAM_L",      "Panneroodstraat 1, 1503 XH Zaandam");
+
 ?>

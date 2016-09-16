@@ -16,25 +16,28 @@ examens(apr(2016, 24), LELYSTAD,
 		)
 );
 
-homepagefotosstagefukakusa();
 
-stage(BENNEDETTI, jun(2016, 25, 26), VEGHEL, BENNEDETTI_T,
+
+stage(CLAUDE, oct(2016, 1, 2), ZAANDAM, CLAUDE_T,
 		formatText(
 				STAGE_OLV,
-				BENNEDETTI,
+				CLAUDE,
 				EMPTY_LINE,
 				"Zaterdag: 15.00 - 18.00",
-				"Zondag: 10.00 - 13.00",
+				"Zondag: 9.00 - 19.00",
 				EMPTY_LINE,
 				LOKATIE,
-				VEGHEL_L,
+				ZAANDAM_L,
 				EMPTY_LINE,
 				STIJL_AIKIKAI
 		),
 		"Kosten: 20 euro per dag",
-		"2016-06-25_26_benedetti.pdf");	
+		"");	
 
 nieuwsitemLink("2016-02-22_Hyoho_Niten_Ichi-ryu_en_Miyamoto_Musashi.html", "Hyoho Niten Ichi ryu en Miyamoto Musashi");
+
+homepagefotosstagefukakusa();
+hr();
 
 stage(CLAUDE, totEnMet("6", jul(2016, 10)), STROE, CLAUDE_T, 
 		formatText(
