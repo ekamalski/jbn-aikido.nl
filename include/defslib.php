@@ -59,7 +59,7 @@ define("MIMURO_T",      "mimuro_t.jpg");
 define("PIERRE",        "Pierre Geraedts");
 define("PIERRE_T",      "pierre_t.jpg");
 
-define("ROINEL",        "Alain Roinel");
+define("ROINEL",        "Alain Roinel 8ste dan");
 define("ROINEL_T",      "roinel_t.jpg");
 
 define("TIKI",          "Malcolm Tiki Shewan");
@@ -121,6 +121,9 @@ define("STROE_L",       "Tolnegenweg 53, 3776 PV Stroe");
 
 define("VEGHEL",        "Veghel");
 define("VEGHEL_L",      "Prins Willem Alexander Sportpark 8, 5461 XL Veghel");
+
+define("VIANEN",        "Vianen");
+define("VIANEN_L",      "Westelijke Parrallelweg 1, 4133 NH Vianen");
 
 define("TETERINGEN",    "Teteringen (Breda)");
 define("TETERINGEN_L",  "Kriekenstraat 43, Teteringen (Breda)");
