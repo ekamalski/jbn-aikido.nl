@@ -1,5 +1,5 @@
 <?php
-// Last update: 2016-05-01
+// Last update: 2016-11-02
 
 define("NO_DATE", 	    "Datum nog niet bekend");
 define("NO_FLYER",	    "");
@@ -22,6 +22,9 @@ define("STIJL_KI_AIKIDO", 	"Stijl: ki-aikido");
 
 define("AD_VOOGELS",   	"Ad Voogels");
 define("AD_VOOGELS_T",   NO_T);
+
+define("AIKIDOFESTIJN",  "Aikidofestijn");
+define("AIKIDOFESTIJN_T","aikidofestijn_t.jpg");
 
 define("BENNEDETTI",    "Stefane Bennedetti");
 define("BENNEDETTI_T",  "bennedetti_t.jpg");

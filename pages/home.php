@@ -95,6 +95,34 @@ stage(ROINEL, nov(2016, 27), VIANEN, ROINEL_T,
 		"2016-11-26_roinel.pdf"
 		);
 
+stage(AIKIDOFESTIJN, jan(2017, 8), PAPENDAL, AIKIDOFESTIJN_T,
+		formatText(
+                "10.00 - 16.15",
+				"Sportcentrum Papendal",
+				PAPENDAL_L,
+				EMPTY_LINE,
+				"3 stijlen",
+				"aiki-budo, aikikai aikido, ki-aikido",
+				EMPTY_LINE,
+				"16 lessen",
+				"4x1 uur les, 4 trainingen tegelijk op 4 matten,",
+				"4x aikikai aikido, 4x aiki-budo, 3x ki-aikido, 1x judo-kata"
+				),
+		formatText(
+				"16 leraren",
+				"Ad Hoogendam, Ad van Dongen, Carel Zappeij, Carool Janssen,",
+				"Chris de Jongh, Eugène du Long, Harry Kat, Koos de Graaf, Marco",
+				"van Katwijk, Pierre Geraedts, Rob Breedveld, Tessa Huiskamp,",
+				"Teun Tromp, Toby Voogels, Ton Zwalve, Wil Lüschen",
+				EMPTY_LINE,
+				"2 demonstraties",
+				"ju-no-kata en mugai ryu iai hyodo",
+				EMPTY_LINE,
+				"JBN-leden: voorinschrijving 25 euro aan de zaal 30 euro",
+				"niet-leden: voorinschrijving 30 euro aan de zaal 35 euro"
+				),
+		"2017-01-08_aikidofestijn.pdf"
+		);
 nieuwsitemLink("2016-02-22_Hyoho_Niten_Ichi-ryu_en_Miyamoto_Musashi.html", "Hyoho Niten Ichi ryu en Miyamoto Musashi");
 
 homepagefotosstagefukakusa();
