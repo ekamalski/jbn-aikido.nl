@@ -1,5 +1,5 @@
 <?php
-// Last update: 2016-11-02
+// Last update: 2016-11-28
 
 define("NO_DATE", 	    "Datum nog niet bekend");
 define("NO_FLYER",	    "");
@@ -54,7 +54,7 @@ define("MICKAEL",       "Mickael Martin");
 define("MICKAEL_T",     "mickael_t.jpg");
 
 define("LOUIS",       	"Louis van Thieghem");
-define("LOUIS_T",     	NO_T);
+define("LOUIS_T",     	"louis_t.jpg");
 
 define("MIMURO",        "Mimuro 7de dan shihan");
 define("MIMURO_T",      "mimuro_t.jpg");
@@ -106,6 +106,8 @@ define("NIJMEGEN_L",    "Tapirstraat 2, 6532 AL Nijmegen");
 
 define("LELYSTAD",      "Lelystad");
 define("LELYSTAD_L",    "Sportcentrum De Koploper, Badweg 21, 8223 PA Lelystad");
+
+define("LOKATIE_NNB",   "");
 
 define("OOSTERHOUT",    "Oosterhout");
 define("OOSTERHOUT_L",  "Slotjesveld 9, 4902 AA Oosterhout");

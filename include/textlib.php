@@ -145,7 +145,7 @@ function duoStage($leraren, $datum, $lokatie, $thumb1=NO_T, $txt1="", $thumb2=NO
 			
 			detailsTeVinden();
 			if ($ref != "") {
-				txtRef($ref, "Flyer");
+				txtRef($ref, "flyer");
 			}
 			dekalender();
 		}
@@ -227,7 +227,7 @@ function stageWithoutThumb($txt1=NO_TEXT1, $ref=NO_FLYER) {
 	
 	detailsTeVinden();	
 	if ($ref != NO_FLYER) {		
-		txtRef($ref, "Flyer");
+		txtRef($ref, "flyer");
 	}
 	dekalender();
 }
@@ -250,7 +250,7 @@ function stageWithThumb($thumb, $txt1=NO_TEXT1, $txt2=NO_TEXT2, $ref=NO_FLYER) {
 	
 	detailsTeVinden();	
 	if ($ref != NO_FLYER) {		
-		txtRef($ref, "Flyer");
+		txtRef($ref, "flyer");
 	}
 	dekalender();
 }

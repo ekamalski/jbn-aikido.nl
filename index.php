@@ -128,7 +128,7 @@ ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a></li>
       <?php includeContents(); ?>
     </div>
     <div class="col-sm-4"><br>
-<iframe
+        <iframe
 src="https://www.google.com/calendar/embed?hl=nl&amp;
 showTitle=0&amp;
 showNav=1&amp;
