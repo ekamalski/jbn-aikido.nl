@@ -32,7 +32,7 @@ define("BENNEDETTI_T",  "bennedetti_t.jpg");
 define("CAREL",   	    "Carel Zappeij");
 define("CAREL_T",       "carel_t.jpg");
 
-define("CLAUDE",   	    "Claude Pellerin");
+define("CLAUDE",   	    "Claude Pellerin 7de dan");
 define("CLAUDE_T",      "claude_t.jpg");
 
 define("CURTIS",   	    "Chris Curtis");
@@ -53,7 +53,7 @@ define("IAS_T",         "ias_t.jpg");
 define("MICKAEL",       "Mickael Martin");
 define("MICKAEL_T",     "mickael_t.jpg");
 
-define("LOUIS",       	"Louis van Thieghem");
+define("LOUIS",       	"Louis van Thieghem 6de dan shihan");
 define("LOUIS_T",     	"louis_t.jpg");
 
 define("MIMURO",        "Mimuro 7de dan shihan");

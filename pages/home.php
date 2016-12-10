@@ -6,11 +6,14 @@ require_once(DOCROOT."/fotoalbums/include.php");
 
 
 
-stage(AIKIDOFESTIJN, jan(2017, 8), PAPENDAL, AIKIDOFESTIJN_T,
+stage(AIKIDOFESTIJN, jan(2017, 8), PAPENDAL, NO_T,
 		formatText(
                 "10.00 - 16.15",
 				"Sportcentrum Papendal",
 				PAPENDAL_L,
+				EMPTY_LINE,
+				"<iframe width='560' height='315' src='https://www.youtube.com/embed/WaiPqU4p4ls' frameborder='0' allowfullscreen></iframe>",
+				"Video: Gabor Janosi",
 				EMPTY_LINE,
 				"3 stijlen",
 				"aiki-budo, aikikai aikido, ki-aikido",
@@ -20,19 +23,22 @@ stage(AIKIDOFESTIJN, jan(2017, 8), PAPENDAL, AIKIDOFESTIJN_T,
 				"4x aikikai aikido, 4x aiki-budo, 3x ki-aikido, 1x judo-kata"
 				),
 		formatText(
-				"16 leraren",
-				"Ad Hoogendam, Ad van Dongen, Carel Zappeij, Carool Janssen,",
-				"Chris de Jongh, Eugène du Long, Harry Kat, Koos de Graaf, Marco",
-				"van Katwijk, Pierre Geraedts, Rob Breedveld, Tessa Huiskamp,",
-				"Teun Tromp, Toby Voogels, Ton Zwalve, Wil Lüschen",
-				EMPTY_LINE,
-				"2 demonstraties",
-				"ju-no-kata en mugai ryu iai hyodo",
-				EMPTY_LINE,
-				"JBN-leden: <a target='_blank' href='https://survey.enalyzer.com/?pid=p7gid6km'>voorinschrijving</a> 25 euro aan de zaal 30 euro",
-				"niet-leden: <a target='_blank' href='https://survey.enalyzer.com/?pid=p7gid6km'>voorinschrijving</a> 30 euro aan de zaal 35 euro",
-				EMPTY_LINE,
-				"<a target='_blank' href='https://survey.enalyzer.com/?pid=p7gid6km'>Voorinschrijven</a> bespaart je 5 euro en bespoedig je de toegang tot het aikidofestijn."
+				"16 leraren"
+				,"Ad Hoogendam, Ad van Dongen, Carel Zappeij, Carool Janssen,"
+				,"Chris de Jongh, Eugène du Long, Harry Kat, Koos de Graaf, Marco"
+				,"van Katwijk, Pierre Geraedts, Rob Breedveld, Tessa Huiskamp,"
+				,"Teun Tromp, Toby Voogels, Ton Zwalve, Wil Lüschen"
+				,EMPTY_LINE
+				,"2 demonstraties"
+				,"ju-no-kata en mugai ryu iai hyodo"
+				,EMPTY_LINE
+				,"<a href='events/2017-01-08_poster_programma_aikidofestijn.pdf'>Poster programma aikidofestijn</a>"
+				,"<a href='events/2017-01-08_programmaboekje_aikidofestijn.pdf'>Programmaboekje aikidofestijn</a>"
+				,EMPTY_LINE
+				,"JBN-leden: <a target='_blank' href='https://survey.enalyzer.com/?pid=p7gid6km'>voorinschrijving</a> 25 euro aan de zaal 30 euro"
+				,"niet-leden: <a target='_blank' href='https://survey.enalyzer.com/?pid=p7gid6km'>voorinschrijving</a> 30 euro aan de zaal 35 euro"
+				,EMPTY_LINE
+				,"<a target='_blank' href='https://survey.enalyzer.com/?pid=p7gid6km'>Voorinschrijven</a> bespaart je 5 euro en bespoedig je de toegang tot het aikidofestijn."
 				),
 		"2017-01-08_aikidofestijn.pdf"
 		);
@@ -81,12 +87,11 @@ stage(LOUIS, feb(2017, 18, 19), AMSTELVEEN, LOUIS_T,
 				EMPTY_LINE,
 				STIJL_AIKIKAI
 				),
-		NO_TEXT2,
-// 		formatText(
-// 				"Kosten per dag: 25 euro",
-// 				"Gehele stage: 45 euro"
-// 				),
-		NO_FLYER
+ 		formatText(
+ 				"Kosten per dag: 15 euro",
+ 				"Gehele stage: 25 euro"
+ 				),
+		"2016-02-19_stage_louis_van_thieghem.pdf"
 		);
 
 stage(CLAUDE, mar(2017, 11, 12), LOKATIE_NNB, CLAUDE_T,

@@ -103,7 +103,7 @@ function stage($leraren, $datum, $lokatie, $thumb, $txt1, $txt2, $ref) {
 	if (!isDatumInHetVerleden($datum)) {
 		h2($leraren, $datum, $lokatie);
 		if ($thumb == NO_T) {
-			stageWithoutThumb($txt1, $ref);
+			stageWithoutThumb($txt1."<br>".$txt2, $ref);
 		} else {
 			stageWithThumb($thumb, $txt1, $txt2, $ref);
 		}
