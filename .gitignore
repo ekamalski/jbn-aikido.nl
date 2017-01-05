@@ -1,14 +1,30 @@
+# Folders
 .settings/
+css/
 emk/
 events/
 fotoalbums/
 fotos/
-include/db.php
-include/db_remote.php
+img/
+js/
 nieuws/
 nieuwsbrief/
 pdfs/
 
+# Files
+include/db.php
+include/db_remote.php
+
+index.html
+.buildpath
+.gitignore
+.project
+favicon.ico
+generate_album.cmd
+
+Emk.html
+
+# Files pattern
 **/emk.*
 **/*.bak
 **/*.csv
@@ -20,11 +36,3 @@ pdfs/
 _*.*
 *_.*
 
-index.html
-.buildpath
-.gitignore
-.project
-favicon.ico
-generate_album.cmd
-
-Emk.html
