@@ -479,12 +479,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td>Sport Inn<br/>Grobbendonkstraat 20<br/>5628 RE&nbsp;Eindhoven<br/>040-2484422</td>
 <td>&nbsp;</td>
 </tr>
-<tr>
-<td>Zuid Nederland</td>
-<td>Helmond</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikimunenryu.nl'>aikimunenryu.nl</a></td>
-<td>Aikikai</td>
-</tr>
+
 <tr>
 <td>Zuid Nederland</td>
 <td>Helmond</td>
@@ -515,6 +510,14 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://judoclubmade.nl'>judoclubmade.nl</a></td>
 <td>Aikikai</td>
 </tr>
+
+<tr>
+<td>Zuid Nederland</td>
+<td>Mierlo</td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='www.dehechteband.nl'>dehechteband.nl</a></td>
+<td>Aikikai</td>
+</tr>
+
 <tr>
 <td>Zuid Nederland</td>
 <td>Numansdorp</td>
@@ -577,12 +580,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidobeljaars.nl'>aikidobeljaars.nl</a></td>
 <td>Aikikai</td>
 </tr>
-<tr>
-<td>Zuid Nederland</td>
-<td>Tilburg</td>
-<td>Aiki Munen  Ryu<br/>Olmenstraat 43<br/>5038 PN&nbsp;Tilburg<br/>013-5353438</td>
-<td>&nbsp;</td>
-</tr>
+
 <tr>
 <td>Zuid Nederland</td>
 <td>Tilburg</td>

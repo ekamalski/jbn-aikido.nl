@@ -11,11 +11,11 @@ _div { border: 1px solid red; border-collapse: collapse; padding: 2px; }
 
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="stylesheet"    href="css/bootstrap/3.3.7/bootstrap.min.css">
-<link rel="stylesheet"    href='css/jquery.tablesorter.css'>
-
+<link rel="stylesheet"    href='css/jquery.tablesorter/0.0.0/jquery.tablesorter.css'>
+                                
 <script src="js/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/bootstrap/3.3.7/bootstrap.min.js"></script>
-<script src='js/jquery.tablesorter.min.js'></script> 
+<script src='js/jquery.tablesorter/0.0.0/jquery.tablesorter.min.js'></script> 
 
 
 <style>
