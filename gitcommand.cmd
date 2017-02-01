@@ -1,6 +1,7 @@
 @echo off
 :GIT_COMMAND
-    @set VERSION=2016-04-29
+    @title %~dp0
+    @set VERSION=2017-02-01
     @set GIT_EXE=C:\PortableApps\GitPortable\App\Git\bin\git.exe
     @call :set_remote
     @echo.
