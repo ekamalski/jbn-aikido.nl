@@ -10,21 +10,6 @@ function dojos() {
 	include(DOCROOT."/pages/dojos.php");
 }
 
-/**
- * @param string $datum   mon(yyyy, dd)
- * @param string $lokatie LOKATIE
- * @param string $txt1
- */
-function examensDeprecated($datum, $lokatie, $txt1) {
-	if (!isDateInPast($datum)) {
-		h2("Danexamens", $datum, $lokatie);
-		if ($txt1 != "" ) {
-			print("$txt1</br>\n");
-		}
-		examensDetails();
-		hr();
-	}
-}
 
 /**
  * @param string $datum   mon(yyyy, dd)
@@ -38,7 +23,7 @@ function examens($datum, $lokatie, $txt1) {
 		// stageWithThumb($thumb, $txt1, $txt2, $ref);
 		
 		$txt = $txt1."<br>De details zijn te vinden in de <a href='?page=examens'>examens</a> pagina\n";
-		imgTextThumb("hakama_t.jpg", $txt, "");
+		imgTextThumb("examens_t.jpg", $txt, "");
 
 		hr();
 	}

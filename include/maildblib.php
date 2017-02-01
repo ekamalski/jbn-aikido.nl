@@ -12,7 +12,7 @@ function mailDbController($host, $user, $passwd, $database, $table) { // Require
 
 function sendMessageMetBevestiging($from, $to, $toMailAlias, $subject, $msg) {
 	$subject =  "$subject van $from";
-	insertIntoDb(HOST, USER, PASSWD, DATABASE, TABLE, $from, $to, $subject, $msg);
+//	insertIntoDb(HOST, USER, PASSWD, DATABASE, TABLE, $from, $to, $subject, $msg);
 	mailSnd($to,   $subject,                            $msg, $from,          MAIL_SND_TRACE_FMT_LONG);
 	mailSnd($from, "Mailbevestiging van jbn-aikido.nl", $msg, $toMailAlias,   MAIL_SND_TRACE_FMT_SHORT);
 }

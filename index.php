@@ -34,10 +34,15 @@ function _tag($tag, $text) {
 }
 
 function includeFile($h1text, $filename) {
-    // print( _tag("h1", ucfirst(preg_replace("/_/", " ", $h1text)) ));
     require_once($filename);
 }
 
+function includeExtraRows() {
+    $file = DOCROOT."/pages/extra-rows.php";
+    if ( file_exists($file) ) {
+        require_once($file);
+    }
+}
 function includeContents() {
     $Q = "\"";
     $page = rqGet("page");
@@ -63,8 +68,10 @@ function includeContents() {
 <nav class="navbar navbar-inverse" style="border-radius: 0px 0px 0px 0px;">
   <div class="container">
     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
       <a class="navbar-brand" href="?page=home">JBN Aikido</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav">
       <li class="dropdown">
     <a href="?page=kalender" class="dropdown-toggle" data-toggle="dropdown">
@@ -98,6 +105,7 @@ ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a></li>
 <li><a href="?page=organisaties">Organisaties</a></li>
 <li><a href="?page=contact">Contact</a></li>
     </ul>
+    </div>
   </div>
 </nav>
 
@@ -123,7 +131,9 @@ ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a></li>
         <p><a class="btn btn-default" href="?page=ki_aikido">Ki-aikido</a></p>
     </div>
   </div>
+  <?php includeExtraRows(); ?>
   <div class="row">
+    
     <div id="contents" class="col-sm-8">
       <?php includeContents(); ?>
     </div>

@@ -6,11 +6,11 @@ require_once(DOCROOT."/fotoalbums/include.php");
 
 
 
-stage(AIKIDOFESTIJN, jan(2017, 8), PAPENDAL, NO_T,
+stage(AIKIDOFESTIJN, jan(2017, 8), ARNHEM_PAPENDAL, NO_T,
 		formatText(
                 "10.00 - 16.15",
 				"Sportcentrum Papendal",
-				PAPENDAL_L,
+				ARNHEM_PAPENDAL_L,
 				EMPTY_LINE,
 				"<iframe width='560' height='315' src='https://www.youtube.com/embed/WaiPqU4p4ls' frameborder='0' allowfullscreen></iframe>",
 				"Video: Gabor Janosi",
@@ -62,18 +62,6 @@ stage(PIERRE, nov(2016, 12), WIJK_BIJ_DUURSTEDE, PIERRE_T,
 	"2016-11-12_pierre.pdf"
 );	
 
-examens(nov(2015, 13), LELYSTAD,
-		formatText(
-				"Van 9.00 tot 12.00",
-				EMPTY_LINE,
-				LOKATIE,
-				LELYSTAD_L,
-				EMPTY_LINE,
-				"De nationale graden commissie gaat de aankomende examens",
-				"werken met de vernieuwde <a href='pdfs/aikikai_aikido_dan-graad_curriculum.pdf'>exameneisen</a>."
-				)
-		);
-		
 stage(LOUIS, feb(2017, 18, 19), AMSTELVEEN, LOUIS_T,
 		formatText(
 				STAGE_OLV,
@@ -91,19 +79,19 @@ stage(LOUIS, feb(2017, 18, 19), AMSTELVEEN, LOUIS_T,
  				"Kosten per dag: 15 euro",
  				"Gehele stage: 25 euro"
  				),
-		"2016-02-19_stage_louis_van_thieghem.pdf"
+		"2017-02-19_stage_louis_van_thieghem.pdf"
 		);
 
-stage(CLAUDE, mar(2017, 11, 12), LOKATIE_NNB, CLAUDE_T,
+stage(CLAUDE, mar(2017, 11, 12), OOSTERHOUT, CLAUDE_T,
 		formatText(
 				STAGE_OLV,
 				CLAUDE,
 				EMPTY_LINE,
-				"Zaterdag: 14.00 - 14.00",
-				"Zondag:   10.00 - 13.00",
+				"Zaterdag: 15.00 - 18.00",
+				"Zondag:   09.00 - 12.00",
 				EMPTY_LINE,
-//				LOKATIE,
-//				NIEUWEGEIN_L,
+				LOKATIE,
+				OOSTERHOUT_L,
 				EMPTY_LINE,
 				STIJL_AIKIKAI
 				),
@@ -115,7 +103,17 @@ stage(CLAUDE, mar(2017, 11, 12), LOKATIE_NNB, CLAUDE_T,
 		NO_FLYER
 		);
 
-stage(FUKAKUSA, feb(2017, 18, 19), VEGHEL, FUKAKUSA_T,
+examens(apr(2017, 23), AMERSFOORT,
+		formatText(
+				"Van 9.00 tot 12.00",
+				EMPTY_LINE,
+				LOKATIE,
+				AMERSFOORT_L
+				)
+		);
+		
+
+stage(FUKAKUSA, may(2017, 20, 21), EINDHOVEN, FUKAKUSA_T,
 		formatText(
 				STAGE_OLV,
 				FUKAKUSA,
@@ -124,7 +122,7 @@ stage(FUKAKUSA, feb(2017, 18, 19), VEGHEL, FUKAKUSA_T,
 				"Zondag:   10.00 - 13.00",
 				EMPTY_LINE,
 				LOKATIE,
-				VEGHEL_L,
+				EINDHOVEN_L,
 				EMPTY_LINE,
 				STIJL_AIKIKAI
 				),
