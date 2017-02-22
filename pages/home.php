@@ -4,7 +4,13 @@ require_once(DOCROOT."/include/taglib.php");
 require_once(DOCROOT."/include/textlib.php");
 require_once(DOCROOT."/fotoalbums/include.php");
 
-
+function stageX($leraren, $datum, $lokatie, $txt1) {
+	if (!isDatumInHetVerleden($datum)) {
+		h2($leraren, $datum, $lokatie);
+		print("$txt1\n");
+		hr();
+	}
+}
 
 stage(AIKIDOFESTIJN, jan(2017, 8), ARNHEM_PAPENDAL, NO_T,
 		formatText(
@@ -100,8 +106,28 @@ stage(CLAUDE, mar(2017, 11, 12), OOSTERHOUT, CLAUDE_T,
 // 				"Kosten per dag: 25 euro",
 // 				"Gehele stage: 45 euro"
 // 				),
-		NO_FLYER
+		"2017-03-12_claude.pdf"
 		);
+
+stage(IAS, mar(2017, 25, 26), AMSTELVEEN, IAS_T,
+		formatText(
+				"Zaterdag: 13.00 - 17.00",
+				"Zondag:   10.00 - 14.45",
+				EMPTY_LINE,
+				LOKATIE,
+				AMSTELVEEN_L,
+				EMPTY_LINE,
+				"JBN-leden 15 euro per dag 25 euro voor twee dagen",
+				"niet-leden 20 euro per dag 35 euro voor twee dagen"
+				
+				),		
+		formatText(
+				STAGE_OLV." verschillende Nederlandse leraren",
+				"Carel Zappeij 7e dan, Hans Belder 5e dan, Edy Kamalski 5e dan, ",
+				"Christiaan Zandt 4e dan en Yvon Mattaar 4e dan"
+				),		
+		"2017-03-26_ IAS_Amstelveen.pdf"
+				);
 
 examens(apr(2017, 23), AMERSFOORT,
 		formatText(
@@ -111,8 +137,34 @@ examens(apr(2017, 23), AMERSFOORT,
 				AMERSFOORT_L
 				)
 		);
-		
 
+stageX(FUKAKUSA, may(2017, 16, 17), HEERHUGOWAARD,
+		formatText(
+				LOKATIE, HEERHUGOWAARD_L				
+				)
+);
+
+stage(FUKAKUSA, may(2017, 18), AMSTELVEEN, FUKAKUSA_T,
+		formatText(
+				STAGE_OLV,
+				FUKAKUSA,
+				EMPTY_LINE,
+				LOKATIE,
+				AMSTELVEEN_L,
+				EMPTY_LINE,
+				"Donderdag: 19.30 - 21.00",
+				EMPTY_LINE,
+				"Kosten: 15 euro"
+				),
+		NO_TEXT2, // formatText(""),
+		"2017-05-18_Fukakusa_Amstelveen.pdf"
+		);
+
+stageX(FUKAKUSA, may(2017, 19), HEERHUGOWAARD,
+		formatText(
+				LOKATIE, HEERHUGOWAARD_L
+				)
+		);
 stage(FUKAKUSA, may(2017, 20, 21), EINDHOVEN, FUKAKUSA_T,
 		formatText(
 				STAGE_OLV,
@@ -126,12 +178,15 @@ stage(FUKAKUSA, may(2017, 20, 21), EINDHOVEN, FUKAKUSA_T,
 				EMPTY_LINE,
 				STIJL_AIKIKAI
 				),
-		NO_TEXT2,
-		// 		formatText(
-				// 				"Kosten per dag: 25 euro",
-				// 				"Gehele stage: 45 euro"
-				// 				),
-		NO_FLYER
+		
+		formatText(
+				"Kosten per dag: 30 euro",
+				"Gehele stage: 55 euro",
+				"",
+				"Deze stage is in samenwerking tot stand gekomen tussen JBN Aikido en Aikidoschool Ando,",
+				"ter gelegenheid van het 15-jarig jubileum van Ando. "
+				),
+		"2017-05-21_Fukakusa_Eindhoven.pdf"
 		);
 
 		

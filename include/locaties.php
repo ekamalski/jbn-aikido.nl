@@ -1,5 +1,5 @@
 <?php
-// locaties.php, generated file 2017-01-23 15:35:40
+// locaties.php, generated file 2017-02-22 20:33:45
 define("ALKMAAR", "Alkmaar");
 define("ALKMAAR_L", "Vondelstraat 35, Alkmaar");
 define("AMERSFOORT", "Amersfoort");
@@ -23,13 +23,15 @@ define("DISTRICT_ZH_L", "zuid Holland");
 define("DISTRICT_ZN", "zuid Nederland");
 define("DISTRICT_ZN_L", "zuid Nederland");
 define("EINDHOVEN", "Eindhoven");
-define("EINDHOVEN_L", "Eindhoven");
+define("EINDHOVEN_L", "Theo Koomenlaan 3, Eindhoven");
 define("EEN_WEST", "Een-West");
 define("EEN_WEST_L", "Jarig van de Wielenwei 42, Een-West");
 define("GENNEP", "Gennep");
 define("GENNEP_L", "Picardie 36, Gennep");
-define("HAARLEM", "Haarlem");
-define("HAARLEM_L", "IJsbaanlaan 4A, Haarlem");
+define("HAARLEM_BYZANTIUM", "Haarlem");
+define("HAARLEM_BYZANTIUM_L", "Byzantiumstraat 74, Haarlem");
+define("HAARLEM_IJSBAAN", "Haarlem");
+define("HAARLEM_IJSBAAN_L", "IJsbaanlaan 4A, Haarlem");
 define("HELMOND", "Helmond");
 define("HELMOND_L", "Barrierlaan 41, Helmond");
 define("HEERHUGOWAARD", "Heerhugowaard");
@@ -38,12 +40,16 @@ define("HILLEGOM", "Hillegom");
 define("HILLEGOM_L", "Abellalaan 82, Hillegom");
 define("HEERENVEEN", "Heerenveen");
 define("HEERENVEEN_L", "Abe Lenstra boulevard 23Q, Heerenveen");
+define("LEEUWARDEN", "Leeuwarden");
+define("LEEUWARDEN_L", "Emmakade 59, Leeuwarden");
 define("LELYSTAD", "Lelystad");
 define("LELYSTAD_L", "Badweg 21, Lelystad");
 define("NIEUWEGEIN", "Nieuwegein");
 define("NIEUWEGEIN_L", "Blokhoeve 5, Nieuwegein");
 define("NIJMEGEN", "Nijmegen");
 define("NIJMEGEN_L", "Tapirstraat 2, Nijmegen");
+define("NOG_NIET_BEKEND", "");
+define("NOG_NIET_BEKEND_L", "Nog niet bekend");
 define("OOSTERHOUT", "Oosterhout");
 define("OOSTERHOUT_L", "Slotjesveld 9, Oosterhout");
 define("ROERMOND", "Roermond");
