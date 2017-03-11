@@ -45,6 +45,14 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://heiseido.nl'>heiseido.nl</a></td>
 <td>Aikikai</td>
 </tr>
+Landgraaf
+<tr>
+<td>Limburg</td>
+<td>Landgraaf</td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='http://budoschool-ki-nagara.nl'>budoschool-ki-nagara.nl</a></td>
+<td>Aikikai</td>
+</tr>
+
 <tr>
 <td>Limburg</td>
 <td>Maastricht</td>
@@ -305,10 +313,18 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td>Aikido Vereniging Jiriki<br/>Jacobcatsstraat 7<br/>9716 GA&nbsp;Groningen<br/>050-5719594</td>
 <td>&nbsp;</td>
 </tr>
+
+<tr>
+<td>Noord Nederland</td>
+<td>Heerenveen</td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='https://aikidoheerenveen.wordpress.com'>aikidoheerenveen.wordpress.com</a></td>
+<td>Aikikai</td>
+</tr>
+
 <tr>
 <td>Noord Nederland</td>
 <td>Leeuwarden</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href=' http://www.sportcentrumdeleeuw.nl'>sportcentrumdeleeuw.nl</a></td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.sportcentrumdeleeuw.nl'>sportcentrumdeleeuw.nl</a></td>
 <td>Aikikai</td>
 </tr>
 <tr>
