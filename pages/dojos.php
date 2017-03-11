@@ -45,7 +45,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://heiseido.nl'>heiseido.nl</a></td>
 <td>Aikikai</td>
 </tr>
-Landgraaf
+
 <tr>
 <td>Limburg</td>
 <td>Landgraaf</td>
