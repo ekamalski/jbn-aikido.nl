@@ -8,9 +8,9 @@ require_once(DOCROOT."/include/mailformlib.php");
 
 define("SUBJECT", "Aanmelding dojo");
 
-kalender_event();
+dojo_aanmelden();
 
-function kalender_event() {
+function dojo_aanmelden() {
     if (rqIsPostSubmit()) {
         if (areRequiredFieldFilled()) {
             $email = rqPost("email");
@@ -18,7 +18,8 @@ function kalender_event() {
             $msg   = "";
             $msg  .= getMailMsg();
             
-            sendMessageMetBevestiging($email, TO_WEBM, FROM_WEBM, SUBJECT, $msg);
+            $subject = SUBJECT." jbnnummer: ".rqPost("jbnnummer");
+            sendMessageMetBevestiging($email, TO_WEBM, FROM_WEBM, $subject, $msg);
             $status  = "Dojo aanmelding van $email verzonden.";
             $status .= " Als u geen mail-bevestiging ontvangt, dan hebben wij uw even verzoek niet ontvangen.";
             $status .= " Probeer het opnieuw.";
@@ -61,9 +62,9 @@ function mailformBody($ctrl) {
     $ret .= mfInput($ctrl,  "website",   80);
     $ret .= mfSelect($ctrl, "stijl", "Stijl");
     $ret .= mfOption($ctrl, "");
-    $ret .= mfOption($ctrl, "aikibudo");
-    $ret .= mfOption($ctrl, "aikikai aikido");
-    $ret .= mfOption($ctrl, "ki aikido");
+    $ret .= mfOption($ctrl, "Aiki-budo");
+    $ret .= mfOption($ctrl, "Aikikai");
+    $ret .= mfOption($ctrl, "Ki-aikido");
     $ret .= mfSelectEnd($ctrl);
     $ret .= mfEmptyLine($ctrl);
 
@@ -88,15 +89,34 @@ function getMailMsg() {
     $ret  = "Dit zijn de gegevens die u heeft verzonden\n\n";
     $ret .= mailform(MF_TOSTRING);      
     $ret .= mfGetKeyValue("jbnnummer");
-    $ret .= mfGetKeyValue("district");
-    $ret .= mfGetKeyValue("plaats");
-    $ret .= mfGetKeyValue("website");
-    $ret .= mfGetKeyValue("stijl");
-
+    $ret .= "{tr}\n";
+    $ret .= getTdKeyValue("district");
+    $ret .= getTdKeyValue("plaats");
+    $ret .= getTdAKeyValue("website");
+    $ret .= getTdKeyValue("stijl");
+    $ret .= "{/tr}\n";
+    
     $ret .= "[Opmerkingen]\n";
     $ret .= rqPost("opmerkingen")."\n";
     
     return $ret;
+}
+
+function getTdKeyValue($key) {
+	$value = rqPost($key);
+	if ($value != "") {
+		return "{td class='$key'}$value{/td}\n";
+	} else {
+		return "";
+	}
+}
+function getTdAKeyValue($key) {
+	$value = rqPost($key);
+	if ($value != "") {
+		return "{td}{a target='_blank' href='$value'}$value{/a}{/td}\n";
+	} else {
+		return "";
+	}
 }
 ?>
 

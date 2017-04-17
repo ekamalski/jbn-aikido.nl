@@ -1,4 +1,4 @@
-<h2>Koepelorganisaties</h2>
+<h3>Koepelorganisaties</h3>
 <ul>
 <li><a target="_blank" title="Opent nieuw tab of window" href="http://www.sport.nl/">NOC*NSF</a>
 </ul>
@@ -20,7 +20,7 @@
 <li><a target="_blank" title="Opent nieuw tab of window" href="http://www.shinshintoitsuaikido.org">Shinshin Toitsu Aikido Kai</a>
 </ul>
 
-<h2>Zusterorganisatie</h2>
+<h3>Zusterorganisatie</h3>
 <ul>
 <li><a target="_blank" title="Opent nieuw tab of window" href="http://www.aikido.org.au">Aikikai Australia</a>
 <li><a target="_blank" title="Opent nieuw tab of window" href="http://www.ffabaikido.fr">F&eacute;d&eacute;ration Fran&ccedil;aise d'A&iuml;kido et de Budo</a>

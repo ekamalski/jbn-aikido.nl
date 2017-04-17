@@ -15,43 +15,13 @@ function stageX($leraren, $datum, $lokatie, $txt1, $ref=NO_FLYER) {
 		hr();
 	}
 }
+// <iframe width="560" height="315" src="https://www.youtube.com/embed/nglOZsakmcQ" frameborder="0" allowfullscreen></iframe>
 ?>
 <h2>Aftermovie tweede editie van het JBN aikidofestijn. </h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nglOZsakmcQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fifZisV8yik" frameborder="0" allowfullscreen></iframe>
 <br>Op zondag 8 januari 2017 organiseerde de Nationale Commissie Aikido 
 <br>de tweede editie van het JBN aikidofestijn. 
-<br>Video: Gabor Janosi
-<hr>
-<?php
-stage(CLAUDE, mar(2017, 11, 12), OOSTERHOUT, CLAUDE_T,
-		formatText(
-				STAGE_OLV,
-				CLAUDE,
-				EMPTY_LINE,
-				"Zaterdag: 15.00 - 18.00",
-				"Zondag:   09.00 - 12.00",
-				EMPTY_LINE,
-				LOKATIE,
-				OOSTERHOUT_L,
-				EMPTY_LINE,
-				STIJL_AIKIKAI
-				),
-		NO_TEXT2,
-// 		formatText(
-// 				"Kosten per dag: 25 euro",
-// 				"Gehele stage: 45 euro"
-// 				),
-		"2017-03-12_claude.pdf"
-		);
-
-?>
-<h2>Fotos aikidofestijn 2017</h2>
-<div style='white-space: nowrap;'>
-<a target="_blank" href="https://www.dropbox.com/sh/gjefclkb6bjxfww/AADusGhYoqckVBNf7Q4ijh3ga?preview=AikidoFestijn_01_2017_224.jpg"><img src="fotoalbums/2017_aikidofestijn/AikidoFestijn_01_2017_224.jpg" width=300 height=200></a>
-&nbsp;&nbsp;
-<a target="_blank" href="https://www.dropbox.com/sh/gjefclkb6bjxfww/AADusGhYoqckVBNf7Q4ijh3ga?preview=AikidoFestijn_01_2017_676.jpg"><img src="fotoalbums/2017_aikidofestijn/AikidoFestijn_01_2017_676.jpg" width=300 height=200></a>
-<br><br><a target="_blank" class="btn btn-default" href="https://www.dropbox.com/sh/gjefclkb6bjxfww/AADusGhYoqckVBNf7Q4ijh3ga?dl=0">Link naar alle aikidofesteijn 2017 foto's</a>
-</div>
+<br>Gefilmed en gemonteerd door: G&aacute;bor J&aacute;nosi
 <hr>
 <?php
 stage(IAS, mar(2017, 25, 26), AMSTELVEEN, IAS_T,
@@ -74,6 +44,27 @@ stage(IAS, mar(2017, 25, 26), AMSTELVEEN, IAS_T,
 		"2017-03-26_ IAS_Amstelveen.pdf"
 				);
 
+stage(CLAUDE, apr(2017, 8, 9), HEERENVEEN, CLAUDE_T,
+		formatText(
+				STAGE_OLV,
+				CLAUDE,
+				EMPTY_LINE,
+				"Zaterdag: 15.00 - 18.00",
+				"Zondag:   09.00 - 12.00",
+				EMPTY_LINE,
+				LOKATIE,
+				HEERENVEEN_L,
+				EMPTY_LINE,
+				STIJL_AIKIKAI
+				),
+		 		formatText(
+"Weekend&sup1  35 euro ",
+"Dagdeel&sup1  20 euro",
+"Dagdeel (-16 jaar) 5 euro",
+"1) Inclusief 5 euro korting voor JBN-leden"
+				 				),
+		"2017-04-09_Claude_Heerenveen.pdf"
+		);
 examens(apr(2017, 23), AMERSFOORT,
 		formatText(
 				"Van 9.00 tot 12.00",
@@ -82,7 +73,16 @@ examens(apr(2017, 23), AMERSFOORT,
 				AMERSFOORT_L
 				)
 		);
-
+?>
+<h2>Fotos aikidofestijn 2017</h2>
+<div style='white-space: nowrap;'>
+<a target="_blank" href="https://www.dropbox.com/sh/gjefclkb6bjxfww/AADusGhYoqckVBNf7Q4ijh3ga?preview=AikidoFestijn_01_2017_224.jpg"><img src="fotoalbums/2017_aikidofestijn/AikidoFestijn_01_2017_224.jpg" width=300 height=200></a>
+&nbsp;&nbsp;
+<a target="_blank" href="https://www.dropbox.com/sh/gjefclkb6bjxfww/AADusGhYoqckVBNf7Q4ijh3ga?preview=AikidoFestijn_01_2017_676.jpg"><img src="fotoalbums/2017_aikidofestijn/AikidoFestijn_01_2017_676.jpg" width=300 height=200></a>
+<br><br><a target="_blank" class="btn btn-default" href="https://www.dropbox.com/sh/gjefclkb6bjxfww/AADusGhYoqckVBNf7Q4ijh3ga?dl=0">Link naar alle aikidofesteijn 2017 foto's</a>
+</div>
+<hr>
+<?php
 stageX(FUKAKUSA, may(2017, 16), HEERHUGOWAARD,
 		formatText(
 				LOKATIE, HEERHUGOWAARD_L				
