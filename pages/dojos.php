@@ -257,7 +257,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td class='district'>Noord Holland</td>
 <td>Oegstgeest</td>
 <td>Barends Sport<br/>Richard Holpad 22<br/>2343 NZ&nbsp;Oegstgeest<br/>071-5174800</td>
-<td>&nbsp;</td>
+<td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
 <td class='district'>Noord Holland</td>
@@ -297,12 +297,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 </tr>
 <tr>
 <td class='district'>Noord Nederland</td>
-<td>Dronten</td>
-<td>ASVD<br/>De Reiger 46<br/>8251 NG&nbsp;Dronten<br/>0321-314721</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td class='district'>Noord Nederland</td>
 <td>Groningen</td>
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://sjok.nl'>sjok.nl</a></td>
 <td class='stijl'>Aikikai</td>
@@ -330,21 +324,16 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Noord Nederland</td>
 <td>Leeuwarden</td>
-<td class='stijl'>Aikidovereniging Kobukan<br/>Arendsstraat 26<br/>8911 BG&nbsp;Leeuwarden<br/>058-2167991</td>
-<td>&nbsp;</td>
+<td>Aikidovereniging Kobukan<br/>Arendsstraat 26<br/>8911 BG&nbsp;Leeuwarden<br/>058-2167991</td>
+<td class='stijl'>&nbsp;</td>
 </tr>
 <tr>
 <td class='district'>Noord Nederland</td>
 <td>Pingjum</td>
 <td>Sportschool Postema<br/>Kerkstraat 15<br/>8749 GX&nbsp;Pingjum<br/>0517-416772/579163</td>
-<td>&nbsp;</td>
+<td class='stijl'>&nbsp;</td>
 </tr>
-<tr>
-<td class='district'>Noord Nederland</td>
-<td>Veenwouden</td>
-<td>Judo Club Veenwouden<br/>Zwaluwstraat 22<br/>9269 NP&nbsp;Veenwouden<br/>0511-476275</td>
-<td>&nbsp;</td>
-</tr>
+
 <tr>
 <td class='district'>Zuid Holland</td>
 <td>Alblasserdam</td>
@@ -363,11 +352,13 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://sponaar.nl'>sponaar.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
+
+
 <tr>
 <td class='district'>Zuid Holland</td>
-<td>Den Haag</td>
-<td>Yu Wa Sports Hoogendam<br/>Kortestede 2-C<br/>2543 VK&nbsp;'s - Gravenhage<br/>070-3671750</td>
-<td>&nbsp;</td>
+<td>Gorinchem</td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='http://sportschool-breedveld.nl'>sportschool-breedveld.nl</a></td>
+<td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
@@ -387,6 +378,13 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td class='plaats'> Leidschendam</td>
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://www.shi-han.nl'>shi-han.nl</a></td>
 <td class='stijl'> Aiki-budo</td>
+</tr>
+
+<tr>
+<td class='district'>Zuid Holland</td>
+<td class='plaats'>Maassluis e.o (Westland)</td>
+<td><a target='_blank' href='http://www.w-c-m.nl'>www.w-c-m.nl</a></td>
+<td class='stijl'>Aiki-budo</td>
 </tr>
 
 <tr>
@@ -463,6 +461,14 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://www.aikidodojovlaardingen.nl'>aikidodojovlaardingen.nl</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
+
+<tr>
+<td class='district'>Zuid Holland</td>
+<td class='plaats'>Vuren</td>
+<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.budoschoolzanshin.nl'>www.budoschoolzanshin.nl</a></td>
+<td class='stijl'>Aiki-budo</td>
+</tr>
+
 <tr>
 <td class='district'>Zuid Holland</td>
 <td>Zoetermeer</td>
@@ -511,19 +517,14 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td>Sport Inn<br/>Grobbendonkstraat 20<br/>5628 RE&nbsp;Eindhoven<br/>040-2484422</td>
 <td>&nbsp;</td>
 </tr>
-
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td>Helmond</td>
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://www.ki-aikidoschool-torii.nl'>ki-aikidoschool-torii.nl</a></td>
 <td class='stijl'>Ki-aikido</td>
 </tr>
-<tr>
-<td class='district'>Zuid Nederland</td>
-<td>Gorinchem</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://sportschool-breedveld.nl'>sportschool-breedveld.nl</a></td>
-<td class='stijl'>Aiki-budo</td>
-</tr>
+
+
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td>Goes</td>
@@ -542,14 +543,12 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://judoclubmade.nl'>judoclubmade.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
-
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td>Mierlo</td>
 <td><a target='_blank' title='opent nieuw tab of venster' href='www.dehechteband.nl'>dehechteband.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
-
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td>Numansdorp</td>
@@ -580,7 +579,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidoschooloosterhout.nl'>aikidoschooloosterhout.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
-
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td>Spijkenisse</td>
@@ -593,7 +591,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td>Takai-Ryu<br/>Zinkseweg 25<br/>3201 KZ&nbsp;Spijkenisse<br/>0181-618135</td>
 <td>&nbsp;</td>
 </tr>
-
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td>Teteringen</td>
@@ -612,7 +609,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidobeljaars.nl'>aikidobeljaars.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
-
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td>Tilburg</td>
@@ -625,7 +621,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <td class='stijl'>Ki-aikido centrum<br/>Maasdijk 407<br/>4264 AS&nbsp;Veen<br/>0416-692364</td>
 <td class='stijl'>Ki-aikido</td>
 </tr>
-
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td>Veghel</td>

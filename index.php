@@ -102,6 +102,16 @@ ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a></li>
         <li><a href="?page=dojo_aanmelden">Dojo aanmelden</a></li>
     </ul>
 </li>
+
+<li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        Nieuws&nbsp;<b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li><a href="?page=nieuws">Nieuws</a></li>
+        <li><a href="?page=nieuwsbrief">Nieuwsbrief</a></li>
+    </ul>
+</li>
+
 <li><a href="?page=organisaties">Organisaties</a></li>
 <li><a href="?page=contact">Contact</a></li>
     </ul>
