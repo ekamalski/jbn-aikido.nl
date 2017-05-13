@@ -13,6 +13,10 @@ function showNieuwbriefArchive() {
  	print("<h2>Nieuwsbrief archief</h2>\n");
     print("<ul style='list-style: none; padding-left: 0px;'>\n");	
 
+    linkMailchimp("http://us14.campaign-archive2.com/?u=e3d2b31aa8f869e8d903a974c&id=f174e1e084", "2017/mei");
+    linkMailchimp("http://us14.campaign-archive2.com/?u=e3d2b31aa8f869e8d903a974c&id=df7c11dc1c", "2017/februari");
+    divider();
+    
     linkNieuwbrief("2016/12", "2016/december");
     linkNieuwbrief("2016/11", "2016/november");
     linkNieuwbrief("2016/10", "2016/oktober");
@@ -60,5 +64,9 @@ function linkNieuwbrief($link, $text="") {
     	$text = ($text == "") ? $link : $text;
 		print("<li><a target='_blank' href='$ref' title='Opent nieuw tab ofwindow'>$text</a>");
 	}
+}
+
+function linkMailchimp($link, $text) {
+	print("<li><a target='_blank' href='$link' title='Opent nieuw tab ofwindow'>$text</a>");
 }
 ?>
