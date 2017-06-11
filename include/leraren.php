@@ -1,5 +1,5 @@
 <?php
-// leraren.php, generated file 2017-02-22 20:33:45
+// leraren.php, generated file 2017-06-03 12:48:29
 define("AD_VAN_DONGEN", "Ad van Dongen");
 define("AD_VAN_DONGEN_T", "NO_T");
 define("FLOQUET", "Alain Floquet sensei 9e dan");
@@ -25,9 +25,11 @@ define("DISTRICT_STAGE_T", "NO_T");
 define("DIRK_MULLER", "Dirk Muller");
 define("DIRK_MULLER_T", "NO_T");
 define("EXAMEN_VOORBEREIDING", "Danexamentraining");
-define("EXAMEN_VOORBEREIDING_T", "NO_T");
+define("EXAMEN_VOORBEREIDING_T", "aikidofestijn_t.jpg");
 define("EXAMENS", "Examens");
 define("EXAMENS_T", "examens_t.jpg");
+define("FLOQUETF", "Frederique Floquet");
+define("FLOQUETF_T", "NO_T");
 define("FUKAKUSA", "Fukakusa 8ste dan shihan");
 define("FUKAKUSA_T", "fukakusa_t.jpg");
 define("GIJS", "Gijs Schouten");
@@ -54,7 +56,7 @@ define("MAARTEN", "Maarten Huiskamp");
 define("MAARTEN_T", "NO_T");
 define("MICKAEL", "Mickael Martin");
 define("MICKAEL_T", "mickael_t.jpg");
-define("MARCEL", "Marcel Mutsaars");
+define("MARCEL", "Marcel Mutsaarts");
 define("MARCEL_T", "NO_T");
 define("MALCOM", "Malcom Tiki Shewan");
 define("MALCOM_T", "malcom_t.jpg");

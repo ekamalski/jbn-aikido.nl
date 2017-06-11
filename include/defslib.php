@@ -1,5 +1,5 @@
 <?php
-// Last update: 2017-01-18
+// Last update: 2017-05-06
 
 define("NO_DATE", 	    "Datum nog niet bekend");
 define("NO_FLYER",	    "");
@@ -14,6 +14,7 @@ define("EMPTY_LINE", 	"");
 define("LOKATIE",     		"Lokatie:");
 define("NCA_GEORGANISEERD",	"Georganiseerd door de NCA");
 define("STAGE_OLV",         "Stage o.l.v.");
+define("ZOMERSCHOOL_OLV",   "Zomerschool o.l.v.");
 
 define("STIJL_AIKIBUDO", 	"Stijl: aiki-budo");
 define("STIJL_AIKIKAI", 	"Stijl: aikikai");

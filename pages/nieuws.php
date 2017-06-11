@@ -27,11 +27,11 @@ function showNewsList() {
         	if (stristr($newsFile, ".pdf")) {
         		$url  = "http://$serverNamePort/nieuws/$newsFile";
         		$text = formatNewsItemText($newsFile);
-        		print("<a href=\"$url\">$text (PDF)</a>");
+        		print("<a class='btn-link' href=\"$url\">$text (PDF)</a>");
         	} else {
                 $url  = "http://$serverNamePort/?page=nieuws&amp;nieuwsItem=$newsFile";
                 $text = formatNewsItemText($newsFile);
-                print("<a href=\"$url\">$text</a>");
+                print("<a class='btn-link' href=\"$url\">$text</a>");
         	}
             print("</li>\n");
         }
@@ -48,7 +48,7 @@ function showNewsItem($newsFile) {
         
     $serverNamePort=$_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"];
     $url = "http://$serverNamePort/?page=nieuws";
-    print("<p style='clear: both;'><br/><br/><a href=\"$url\">Terug naar nieuws lijst</a></p>");
+    print("<p style='clear: both;'><br/><br/><a class='btn-link' href=\"$url\">Terug naar nieuws lijst</a></p>");
 
 }
 function showMostRecentNewsItem() {

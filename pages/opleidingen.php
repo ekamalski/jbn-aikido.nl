@@ -1,6 +1,11 @@
-<h2>Aikidoleraar niveau 3 (AL3)</h2>
 
-De opleiding AL3 gaat definitief van start op 17 september 2015.
+
+De informatie over opleidingen voor aikido leraar is te vinden op 
+<a class="btn-link" target="_blank" href="http://jbn.nl/opleidingen">jbn.nl/opleidingen</a>.
+
+<?php 
+/*
+<h2>Aikidoleraar niveau 3 (AL3)</h2>
 
 <h3> Goed nieuws </h3> 
 De opleiding wordt verkort naar 12 lesdagen en de cursusprijs is &euro; 835,00 
@@ -50,5 +55,6 @@ De locatie wordt nog bekend gemaakt.
 
 <h3> Proeven van bekwaanheid </h3>
 De data van de Proeven van Bekwaamheid zijn gepland op: 4 en 11 juni 2016
-
+*/
+?>
 

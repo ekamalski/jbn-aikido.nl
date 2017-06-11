@@ -41,7 +41,7 @@ function _mjanl(t, ary) {
         + _mja()
         + _mnl();
         
-    return('<a href="'+_mto()+str2+'">'+(t==""? str2: t)+'&nbsp;<i class="icon-envelope"></i><\/a>');
+    return('<a class="btn-link-js" href="'+_mto()+str2+'">'+(t==""? str2: t)+'&nbsp;<i class="glyphicon glyphicon-envelope"></i><\/a>');
 }
 
 function _mjbnl(t, ary) {
@@ -51,7 +51,7 @@ function _mjbnl(t, ary) {
         + _mjb()
         + _mnl();
         
-    return('<a href="'+_mto()+str2+'">'+(t==""? str2: t)+'&nbsp;<i class="icon-envelope"></i><\/a>');
+    return('<a class="btn-link-js" href="'+_mto()+str2+'">'+(t==""? str2: t)+'&nbsp;<span class="glyphicon glyphicon-envelope"></i><\/a>');
 }
 
 function _mjbnls(t, ary) {
@@ -63,7 +63,7 @@ function _mjbnls(t, ary) {
         +"?subject="
         +t;
         
-    return('<a href="'+_mto()+str2+'">'+(t==""? str2: t)+'&nbsp;<i class="icon-envelope"></i><\/a>');
+    return('<a class="btn-link-js" href="'+_mto()+str2+'">'+(t==""? str2: t)+'&nbsp;<i class="glyphicon glyphicon-envelope"></i><\/a>');
 }
 
 function _mxxnl(t, n, d) {
@@ -73,7 +73,7 @@ function _mxxnl(t, n, d) {
         + _matos(d) 
         + _mnl();
         
-    return('<a href="'+_mto()+str2+'">'+(t==""? str2: t)+'&nbsp;<i class="icon-envelope"></i><\/a>');
+    return('<a class="btn-link-js" href="'+_mto()+str2+'">'+(t==""? str2: t)+'&nbsp;<i class="glyphicon glyphicon-envelope"></i><\/a>');
 }
 
 function _mxxcom(t, n, d) {
@@ -83,7 +83,7 @@ function _mxxcom(t, n, d) {
         + _matos(d) 
         + _mcom();
         
-    return('<a href="'+_mto()+str2+'">'+(t==""? str2: t)+'&nbsp;<i class="icon-envelope"></i><\/a>');
+    return('<a class="btn-link-js" href="'+_mto()+str2+'">'+(t==""? str2: t)+'&nbsp;<i class="glyphicon glyphicon-envelope"></i><\/a>');
 }
 
 function webm(t) { return _mjanl (t, new Array(119, 101, 98, 109, 97, 115, 116, 101, 114)); }

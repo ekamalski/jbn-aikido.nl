@@ -62,11 +62,11 @@ function linkNieuwbrief($link, $text="") {
 	$ref="/nieuwsbrief/$link/index.html";
 	if (file_exists(DOCROOT.$ref)) {
     	$text = ($text == "") ? $link : $text;
-		print("<li><a target='_blank' href='$ref' title='Opent nieuw tab ofwindow'>$text</a>");
+		print("<li><a class='btn-link' target='_blank' href='$ref' title='Opent nieuw tab ofwindow'>$text</a>");
 	}
 }
 
 function linkMailchimp($link, $text) {
-	print("<li><a target='_blank' href='$link' title='Opent nieuw tab ofwindow'>$text</a>");
+	print("<li><a class='btn-link' target='_blank' href='$link' title='Opent nieuw tab ofwindow'>$text</a>");
 }
 ?>

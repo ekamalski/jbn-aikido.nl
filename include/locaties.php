@@ -1,5 +1,5 @@
 <?php
-// locaties.php, generated file 2017-02-22 20:33:45
+// locaties.php, generated file 2017-06-03 12:48:29
 define("ALKMAAR", "Alkmaar");
 define("ALKMAAR_L", "Vondelstraat 35, Alkmaar");
 define("AMERSFOORT", "Amersfoort");
@@ -70,4 +70,6 @@ define("WIJK_BIJ_DUURSTEDE", "Wijk bij Duurstede");
 define("WIJK_BIJ_DUURSTEDE_L", "Lekdijk oost 13a, Wijk bij Duurstede");
 define("ZAANDAM", "Zaandam");
 define("ZAANDAM_L", "Panneroodstraat 1, Zaandam");
+define("ZALTBOMMEL", "Zaltbommel");
+define("ZALTBOMMEL_L", "Wielkamp 1b, Zaltbommel");
 ?>

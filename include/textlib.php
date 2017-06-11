@@ -46,7 +46,7 @@ function nieuwspageLink($ref, $item, $more="") {
 	if ($more != "") {
 		print("$more<br/>\n");
 	}
-	print("Klik op de <a href='?page=$ref'>link</a> om het hele item te lezen\n");
+	print("Klik op de <a class='btn-link' href='?page=$ref'>link</a> om het hele item te lezen\n");
 	hr();
 }
 
@@ -55,7 +55,7 @@ function nieuwspageLink($ref, $item, $more="") {
  */
 function nieuwsitemLink($ref, $item) {
 	print("<h2 style='clear: both;'>Nieuws item: $item</h2>\n");
-	print("Klik op de link <a href='?page=nieuws&nieuwsItem=$ref'>\n$item</a> om het hele nieuws item te lezen\n");
+	print("Klik op de link <a class='btn-link' href='?page=nieuws&nieuwsItem=$ref'>\n$item</a> om het hele nieuws item te lezen\n");
 	hr();
 }
 
@@ -66,10 +66,10 @@ function nieuwsitemPdfLink($ref, $item, $thumb="") {
 	print("<h2 style='clear: both;'>Nieuws item: $item</h2>\n");
 	
 	if ($thumb == "") {
-		$text = "Klik op de link <a href='nieuws/$ref'>\n$item</a> om het hele nieuws item te lezen\n";
+		$text = "Klik op de link <a class='btn-link' href='nieuws/$ref'>\n$item</a> om het hele nieuws item te lezen\n";
 		print($text);
 	} else {
-		$text = "Klik op de link<br/><a href='nieuws/$ref'>\n$item</a><br/>om het hele nieuws item te lezen\n";
+		$text = "Klik op de link<br/><a class='btn-link' href='nieuws/$ref'>\n$item</a><br/>om het hele nieuws item te lezen\n";
 		imgTextThumb($thumb, $text, $ref);
 	}
 	hr();
@@ -166,7 +166,7 @@ function brString($text) {
 }
 
 function dekalender() {
-	print("<a href='?page=kalender'>kalender</a>\n");
+	print("<a class='btn-link' href='?page=kalender'>kalender</a>\n");
 }
 
 function details() {
@@ -241,7 +241,7 @@ function stageWithThumb($thumb, $txt1=NO_TEXT1, $txt2=NO_TEXT2, $ref=NO_FLYER) {
 }
 
 function txtRef($ref, $txt) {
-	print("<a href='events/$ref'>\n$txt</a> en de \n");
+	print("<a class='btn-link' href='events/$ref'>\n$txt</a> en de \n");
 }
 	
 	

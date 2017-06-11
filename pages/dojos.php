@@ -1,6 +1,7 @@
 Voor scholen waarvan het adres van de website onbekend is, 
 wordt het contact adres gepubliceerd. 
-Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='opent nieuw tab of venster' href='?page=dojo_aanmelden'>aanmelden</a>.
+Je kunt ontbrekende gegevens of een ontbrekende dojo 
+<a class="btn-link" class='btn-link' target='_blank' title='opent nieuw tab of venster' href='?page=dojo_aanmelden'>aanmelden</a>.
 <table class='tablesorter'>
 <thead>
 <th>District</th>
@@ -12,74 +13,74 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Limburg</td>
 <td class='plaats'>Echt</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://shiho-hai.nl'>shiho-hai.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://shiho-hai.nl'>shiho-hai.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Limburg</td>
 <td class='plaats'>Geleen</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.budocluboudgeleen.nl'>budocluboudgeleen.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.budocluboudgeleen.nl'>budocluboudgeleen.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Limburg</td>
 <td class='plaats'>Gennep</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidogennep.nl'>aikidogennep.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikidogennep.nl'>aikidogennep.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Limburg</td>
 <td class='plaats'>Heerlen</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://budoschool-ki-nagara.nl'>budoschool-ki-nagara.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://budoschool-ki-nagara.nl'>budoschool-ki-nagara.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Limburg</td>
 <td class='plaats'>Kerkrade</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.aikidoschoolhanssonnemans.nl'>aikidoschoolhanssonnemans.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.aikidoschoolhanssonnemans.nl'>aikidoschoolhanssonnemans.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Limburg</td>
 <td class='plaats'>Kerkrade</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://heiseido.nl'>heiseido.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://heiseido.nl'>heiseido.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Limburg</td>
 <td class='plaats'>Landgraaf</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://budoschool-ki-nagara.nl'>budoschool-ki-nagara.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://budoschool-ki-nagara.nl'>budoschool-ki-nagara.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Limburg</td>
 <td class='plaats'>Maastricht</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikikaz-aikido.nl'>aikikaz-aikido.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikikaz-aikido.nl'>aikikaz-aikido.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <tr>
 <td class='district'>Limburg</td>
 <td class='plaats'>Sittard</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://budoryusports.nl'>budoryusports.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://budoryusports.nl'>budoryusports.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Limburg</td>
 <td class='plaats'>Venlo</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.ki-aikidoschool-torii.nl'>ki-aikidoschool-torii.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.ki-aikidoschool-torii.nl'>ki-aikidoschool-torii.nl</a></td>
 <td class='stijl'>Ki-aikido</td>
 </tr>
 <tr>
 <td class='district'>Midden Nederland</td>
 <td class='plaats'>Arnhem</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidoarnhem.nl'>aikidoarnhem.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikidoarnhem.nl'>aikidoarnhem.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Midden Nederland</td>
 <td class='plaats'>Arnhem</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://members.chello.nl/h.kreijtz'>members.chello.nl/h.kreijtz</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://members.chello.nl/h.kreijtz'>members.chello.nl/h.kreijtz</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
@@ -97,37 +98,37 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Midden Nederland</td>
 <td class='plaats'>Leusden</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://theomeijersport.nl'>theomeijersport.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://theomeijersport.nl'>theomeijersport.nl</a></td>
 <td class='stijl'>Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Midden Nederland</td>
 <td class='plaats'>Nijmegen</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidonijmegen.nl'>aikidonijmegen.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikidonijmegen.nl'>aikidonijmegen.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Midden Nederland</td>
 <td class='plaats'>Nijmegen</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://kiaikidocentrum.nl'>kiaikidocentrum.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://kiaikidocentrum.nl'>kiaikidocentrum.nl</a></td>
 <td class='stijl'>Ki-aikido</td>
 </tr>
 <tr>
 <td class='district'>Midden Nederland</td>
 <td class='plaats'>Utrecht</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://kiaikidocentrum.nl'>kiaikidocentrum.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://kiaikidocentrum.nl'>kiaikidocentrum.nl</a></td>
 <td class='stijl'>Ki-aikido</td>
 </tr>
 <tr>
 <td class='district'>Midden Nederland</td>
 <td class='plaats'>Utrecht</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://kiaikidoutrecht.nl'>kiaikidoutrecht.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://kiaikidoutrecht.nl'>kiaikidoutrecht.nl</a></td>
 <td class='stijl'>Ki-aikido</td>
 </tr>
 <tr>
 <td class='district'>Midden Nederland</td>
 <td class='plaats'>Utrecht</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://shudokan.nl'>shudokan.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://shudokan.nl'>shudokan.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
@@ -139,19 +140,19 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Midden Nederland</td>
 <td class='plaats'>Wageningen</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidowageningen.nl'>aikidowageningen.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikidowageningen.nl'>aikidowageningen.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Midden Nederland</td>
 <td class='plaats'>Zaltbommel</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://jishindo.nl'>jishindo.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://jishindo.nl'>jishindo.nl</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
 <td class='district'>Noord Holland</td>
 <td class='plaats'>Alkmaar</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href=' http://musachi.nl'>musachi.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href=' http://musachi.nl'>musachi.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
@@ -169,13 +170,13 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Noord Holland</td>
 <td class='plaats'>Amstelveen</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidoschoolamstelveen.nl'>aikidoschoolamstelveen.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikidoschoolamstelveen.nl'>aikidoschoolamstelveen.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Noord Holland</td>
 <td class='plaats'>Amsterdam</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://sportschoolgekoning.nl'>sportschoolgekoning.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://sportschoolgekoning.nl'>sportschoolgekoning.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
@@ -193,19 +194,19 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Noord Holland</td>
 <td class='plaats'>Haarlem</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidomunenmuso.nl'>aikidomunenmuso.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikidomunenmuso.nl'>aikidomunenmuso.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Noord Holland</td>
 <td class='plaats'>Haarlem</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikido-rusman.nl'>aikido-rusman.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikido-rusman.nl'>aikido-rusman.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Noord Holland</td>
 <td class='plaats'>Haarlem</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://munenmuso.nl'>munenmuso.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://munenmuso.nl'>munenmuso.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
@@ -223,7 +224,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Noord Holland</td>
 <td class='plaats'>Hoorn</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href="http://aikidoschoolmushotoku.nl">aikidoschoolmushotoku.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href="http://aikidoschoolmushotoku.nl">aikidoschoolmushotoku.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
@@ -265,7 +266,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Noord Holland</td>
 <td class='plaats'>Zaandam</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://hikari.nl'>hikari.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://hikari.nl'>hikari.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
@@ -283,13 +284,13 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Noord Nederland</td>
 <td class='plaats'>Drachten</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikikaiaikido.com'>aikikaiaikido.com</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikikaiaikido.com'>aikikaiaikido.com</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Noord Nederland</td>
 <td class='plaats'>Groningen</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://sjok.nl'>sjok.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://sjok.nl'>sjok.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
@@ -301,99 +302,99 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Noord Nederland</td>
 <td class='plaats'>Heerenveen</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='https://aikidoheerenveen.wordpress.com'>aikidoheerenveen.wordpress.com</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='https://aikidoheerenveen.wordpress.com'>aikidoheerenveen.wordpress.com</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Noord Nederland</td>
 <td class='plaats'>Leeuwarden</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.sportcentrumdeleeuw.nl'>sportcentrumdeleeuw.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.sportcentrumdeleeuw.nl'>sportcentrumdeleeuw.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Alblasserdam</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://sportschooltromp.nl'>sportschooltromp.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://sportschooltromp.nl'>sportschooltromp.nl</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Den-haag</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://lugiajen.nl'>lugiajen.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://lugiajen.nl'>lugiajen.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Den Haag</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://sponaar.nl'>sponaar.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://sponaar.nl'>sponaar.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Gorinchem</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://sportschool-breedveld.nl'>sportschool-breedveld.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://sportschool-breedveld.nl'>sportschool-breedveld.nl</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Gouda</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://ishokan.org'>ishokan.org</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://ishokan.org'>ishokan.org</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Hillegom</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://musubi.nl'>musubi.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://musubi.nl'>musubi.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Klaaswaal</td>
-<td><a target='_blank' href='http://www.randori.nl'>www.randori.nl</a></td>
+<td><a class='btn-link' target='_blank' href='http://www.randori.nl'>www.randori.nl</a></td>
 <td class='stijl'>Ki-aikido</td>
 </tr>
 
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'> Leidschendam</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.shi-han.nl'>shi-han.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.shi-han.nl'>shi-han.nl</a></td>
 <td class='stijl'> Aiki-budo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Maassluis e.o (Westland)</td>
-<td><a target='_blank' href='http://www.w-c-m.nl'>www.w-c-m.nl</a></td>
+<td><a class='btn-link' target='_blank' href='http://www.w-c-m.nl'>www.w-c-m.nl</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Nieuw-Vennep</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://musubi.nl'>musubi.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://musubi.nl'>musubi.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Noordwijkerhout</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://musubi.nl'>musubi.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://musubi.nl'>musubi.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Lisse</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://musubi.nl'>musubi.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://musubi.nl'>musubi.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Papendrecht</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://sportschooltromp.nl'>sportschooltromp.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://sportschooltromp.nl'>sportschooltromp.nl</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'> Rijswijk</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.shinkitai.nl'>shinkitai.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.shinkitai.nl'>shinkitai.nl</a></td>
 <td class='stijl'> Aikikai</td>
 </tr>
 <tr>
@@ -423,31 +424,31 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Sliedrecht</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://sportschooltromp.nl'>sportschooltromp.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://sportschooltromp.nl'>sportschooltromp.nl</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Spijkenisse</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.aaddehoog.nl'>aaddehoog.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.aaddehoog.nl'>aaddehoog.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Vlaardingen</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.aikidodojovlaardingen.nl'>aikidodojovlaardingen.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.aikidodojovlaardingen.nl'>aikidodojovlaardingen.nl</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Vuren</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.budoschoolzanshin.nl'>www.budoschoolzanshin.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.budoschoolzanshin.nl'>www.budoschoolzanshin.nl</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Zoetermeer</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://yotosama.com'>yotosama.com</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://yotosama.com'>yotosama.com</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
@@ -471,13 +472,13 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Den-bosch</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://kiaikidocentrum.nl'>kiaikidocentrum.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://kiaikidocentrum.nl'>kiaikidocentrum.nl</a></td>
 <td class='stijl'>Ki-aikido</td>
 </tr>
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Eindhoven</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidoeindhoven.nl'>aikidoeindhoven.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikidoeindhoven.nl'>aikidoeindhoven.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
@@ -495,7 +496,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Helmond</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://www.ki-aikidoschool-torii.nl'>ki-aikidoschool-torii.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.ki-aikidoschool-torii.nl'>ki-aikidoschool-torii.nl</a></td>
 <td class='stijl'>Ki-aikido</td>
 </tr>
 <tr>
@@ -513,25 +514,25 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Made</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://judoclubmade.nl'>judoclubmade.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://judoclubmade.nl'>judoclubmade.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Mierlo</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='www.dehechteband.nl'>dehechteband.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='www.dehechteband.nl'>dehechteband.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Numansdorp</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://dainitji.nl'>dainitji.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://dainitji.nl'>dainitji.nl</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Oud-Beijerland</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://dainitji.nl'>dainitji.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://dainitji.nl'>dainitji.nl</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
@@ -543,13 +544,13 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Oss</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidoclub-sabaki.nl'>aikidoclub-sabaki.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikidoclub-sabaki.nl'>aikidoclub-sabaki.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Oosterhout</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidoschooloosterhout.nl'>aikidoschooloosterhout.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikidoschooloosterhout.nl'>aikidoschooloosterhout.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
@@ -567,19 +568,19 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Teteringen</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikido-nantokanaru.nl'>aikido-nantokanaru.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikido-nantokanaru.nl'>aikido-nantokanaru.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Tilburg</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikido-nantokanaru.nl'>aikido-nantokanaru.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikido-nantokanaru.nl'>aikido-nantokanaru.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Tilburg</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://aikidobeljaars.nl'>aikidobeljaars.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikidobeljaars.nl'>aikidobeljaars.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
@@ -597,7 +598,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo <a target='_blank' title='o
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Veghel</td>
-<td><a target='_blank' title='opent nieuw tab of venster' href='http://dewakwai.nl'>dewakwai.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://dewakwai.nl'>dewakwai.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
 <tr>
