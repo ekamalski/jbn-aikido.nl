@@ -8,9 +8,7 @@ require_once(DOCROOT."/include/mailformlib.php");
 
 define("SUBJECT", "Aanmelding dojo");
 
-dojo_aanmelden();
-
-function dojo_aanmelden() {
+function meldDojoAan() {
     if (rqIsPostSubmit()) {
         if (areRequiredFieldFilled()) {
             $email = rqPost("email");
@@ -18,7 +16,7 @@ function dojo_aanmelden() {
             $msg   = "";
             $msg  .= getMailMsg();
             
-            $subject = SUBJECT." jbnnummer: ".rqPost("jbnnummer");
+            $subject = SUBJECT." met jbnnummer: ".rqPost("jbnnummer");
             sendMessageMetBevestiging($email, TO_WEBM, FROM_WEBM, $subject, $msg);
             $status  = "Dojo aanmelding van $email verzonden.";
             $status .= " Als u geen mail-bevestiging ontvangt, dan hebben wij uw even verzoek niet ontvangen.";
@@ -30,64 +28,25 @@ function dojo_aanmelden() {
         $status = "";    
     }
     
-    mailform(MF_VIEW);
-    mailformBody(MF_VIEW);
-    mailformEnd(MF_VIEW, "<b>(v) Verplicht veld</b>");
-    
     if ($status != "") {
         print("<script type='text/javascript'> alert(\"$status\"); </script>"); 
     } 
 }
 
-function mailformBody($ctrl) {
-    $ret  = "";
-    $ret .= mfTextOnlyOnForm($ctrl, "Vul het formulier in om een dojo aan te melden<br/><br/>");
-    $ret .= mfInput($ctrl, "email",         80, "<b>Email van aanmelder (v): </b>");
-    $ret .= mfInput($ctrl, "jbnnummer",     80, "<b>JBN school/vereniging nummer (v): </b>");
-    $ret .= mfEmptyLine($ctrl);
-
-    $ret .= mfSelect($ctrl, "district", "District");
-    $ret .= mfOption($ctrl, "");
-    $ret .= mfOption($ctrl, "Limburg");
-    $ret .= mfOption($ctrl, "Midden Nederland");
-    $ret .= mfOption($ctrl, "Noord Holland");
-    $ret .= mfOption($ctrl, "Noord Nederland");
-    $ret .= mfOption($ctrl, "Oost Nederland");
-    $ret .= mfOption($ctrl, "Zuid Holland");
-    $ret .= mfOption($ctrl, "Zuid Nederland");
-    $ret .= mfSelectEnd($ctrl);
-    
-    
-    $ret .= mfInput($ctrl, "plaats",     80);
-    $ret .= mfInput($ctrl,  "website",   80);
-    $ret .= mfSelect($ctrl, "stijl", "Stijl");
-    $ret .= mfOption($ctrl, "");
-    $ret .= mfOption($ctrl, "Aiki-budo");
-    $ret .= mfOption($ctrl, "Aikikai");
-    $ret .= mfOption($ctrl, "Ki-aikido");
-    $ret .= mfSelectEnd($ctrl);
-    $ret .= mfEmptyLine($ctrl);
-
-    
-    $ret .= mfTextarea($ctrl, "opmerkingen", 100, 4);
-    $ret .= mfEmptyLine($ctrl);
-
-    return $ret;
-}
 
 function areRequiredFieldFilled() {
-        if (rqPost("email") == "" ) {
-            return false;
-        } else if (rqPost("jbnnummer") == "" ) {
-            return false;
-        } else {
-            return true;
-        }
+    if (rqPost("email") == "" ) {
+        return false;
+    } else if (rqPost("jbnnummer") == "" ) {
+        return false;
+    } else {
+        return true;
+    }
 }
 
 function getMailMsg() {
-    $ret  = "Dit zijn de gegevens die u heeft verzonden\n\n";
-    $ret .= mailform(MF_TOSTRING);      
+    $ret  = "Dit zijn de gegevens die u ".date("d-m-Y H:i")." heeft verzonden\n\n";
+    $ret .= mfGetIpAddress();      
     $ret .= mfGetKeyValue("jbnnummer");
     $ret .= "{tr}\n";
     $ret .= getTdKeyValue("district");
@@ -110,6 +69,7 @@ function getTdKeyValue($key) {
 		return "";
 	}
 }
+
 function getTdAKeyValue($key) {
 	$value = rqPost($key);
 	if ($value != "") {
@@ -118,5 +78,72 @@ function getTdAKeyValue($key) {
 		return "";
 	}
 }
+$status = meldDojoAan();
 ?>
+<form class="form-horizontal" action=""  method="post">
+    <div class="form-group" data-toggle="tooltip" title="Email is een verplicht veld">
+      <label class="control-label col-sm-3"><abbr title="Verplicht veld">Email van aanmelder</abbr>&nbsp;<sup>*</sup>:</label>
+      <div class="col-sm-9">
+        <input type="email" class="form-control" placeholder="email" name="email">
+      </div>
+    </div>
 
+    <div class="form-group" data-toggle="tooltip" title="Jbnnummer is een verplicht veld">
+      <label class="control-label col-sm-3"><abbr title="Verplicht veld">JBN school/vereniging nummer</abbr>&nbsp;<sup>*</sup>:</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" placeholder="" name="jbnnummer">
+      </div>
+    </div>
+
+    <div class="form-group">
+      	<label class="control-label col-sm-3">District:</label>
+      	<div class="col-sm-5">
+		<select class="form-control" name="district">
+		<option></option>
+		<option>Limburg</option>
+		<option>Midden Nederland</option>
+		<option>Noord Holland</option>
+		<option>Noord Nederland</option>
+		<option>Oost Nederland</option>
+		<option>Zuid Holland</option>
+		<option>Zuid Nederland</option>
+		</select>
+      </div>
+    </div>  
+    
+    <div class="form-group">
+      <label class="control-label col-sm-3">Plaats:</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" name="plaats">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-3">Website:</label>
+      <div class="col-sm-9">
+        <input type="url" class="form-control" placeholder="http://jbn-aikido.nl" name="website">
+      </div>
+    </div>   
+    
+    <div class="form-group">
+      	<label class="control-label col-sm-3">Stijl:</label>
+      	<div class="col-sm-5">
+		<select class="form-control" name="stijl">
+		<option></option>
+		<option>Aiki-budo</option>
+		<option>Aikikai</option>
+		<option>Ki-aikido</option>
+		</select>
+      </div>
+    </div>  
+       
+    <div class="form-group">     	        
+      <div class="col-sm-offset-3 col-sm-5">
+        <button type="submit" class="btn btn-default" name="submit" value="submit"> Verzend </button>
+        <button type="reset"  class="btn btn-default"> Cancel </button>
+      </div>
+      <div class="col-sm-4">
+        <span class="legenda">*</span> verplicht veld
+      </div>
+    </div>
+</form>

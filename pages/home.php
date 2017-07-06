@@ -19,14 +19,9 @@ function fotos($title, $ref1, $thumb1,  $ref2, $thumb2,  $refAll, $textAll) {
 
 	tagSlash("br");
 	tagSlash("br");
-//	tagAttr("a", "target='_blank' style='text-decoration: none;' class='btn btn-default' href='$refAll'", $textAll);
 	tagAttr("a", "target='_blank' class='btn btn-default' href='$refAll'", $textAll);
 	tagEnd("div");
 	tagSlash("hr");
-}
-
-function isLocalhost() {
-	return  (false && $_SERVER["REMOTE_ADDR"] == "127.0.0.1");
 }
 
 function fotoLocalhostOnly() {
@@ -106,22 +101,6 @@ function fotosAikidoFestijn2017() {
 		"https://www.dropbox.com/sh/gjefclkb6bjxfww/AADusGhYoqckVBNf7Q4ijh3ga?dl=0",
 		"Link naar alle aikidofestijn 2017 foto's"
 		);
-}
-
-function __opleidingAl4() {
-	?>
-	<h2>Opleiding aikido leraar</h2>
-	<div style='white-space: nowrap;'>
-	De opleiding aikido leraar niveau 3 en niveau 4 gaat
-	in september 2017 van start.
-	<br>Interesse. Meld je aan voor de opleiding:
-	<ul>
-	<li><a target="_blank" href="https://survey.enalyzer.com/survey?sessionid=802a98b6-09ab-48da-b7f6-8f63cce7f12c">aikido leraar niveau 3</a>
-	<li><a target="_blank" href="https://survey.enalyzer.com/survey?sessionid=df1f14df-58a2-4a00-806a-07aed3e8ed47">aikido leraar niveau 4</a>
-	</ul>	
-	</div>
-	<hr>
-	<?php
 }
 
 fotoLocalhostOnly();

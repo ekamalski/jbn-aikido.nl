@@ -35,6 +35,9 @@
  * Using:     mfXxx($ctrl, ...) functions
  */
 
+function mfGetIpAddress($prefix="IP Address") {
+    return("$prefix: ".$_SERVER["REMOTE_ADDR"]."\n\n");
+}
 /**
  * Optional argument 3: Label
  */

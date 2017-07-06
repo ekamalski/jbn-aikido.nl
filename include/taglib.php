@@ -9,6 +9,13 @@ define("BTN_LARGE",  "100px");
 define("TXT_SIZE",  "100");
 
 /**
+ * @return boolean
+ */
+function isLocalhost() {
+    return  ($_SERVER["REMOTE_ADDR"] == "127.0.0.1");
+}
+
+/**
  * &lt;hr/&gt;
  */
 function hr() {

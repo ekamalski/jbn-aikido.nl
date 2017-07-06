@@ -31,6 +31,20 @@ a.btn-link-js:hover { background-color: black; color: white; text-decoration: no
 table.tablesorter a { color: black; text-decoration: none; } 
 
 .img-x { display: inline; padding: 0 5px 5px 0; } 
+
+sup {
+    color: red;
+    font-family: monospace;
+    font-size: 110%;
+}
+
+span.legenda {
+    color: red;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 140%;
+}
+
 </style>
 <?php
 define("ABSPATH", __DIR__);
@@ -39,10 +53,10 @@ require_once(DOCROOT."/include/rqlib.php");
 
 
 /**
- * @param str $tag 
- * @param str $text 
- * @param opt $attr
- * @return str &lt;tag[ attr]&gt;text&lt;/tag&gt;
+ * @param string $tag 
+ * @param string $text 
+ * @param string $attr optional
+ * @return string &lt;tag[ attr]&gt;text&lt;/tag&gt;
  */
 function _tag($tag, $text, $attr="") {
     $ANGLE_BR_OPEN=chr(0x3C);
@@ -107,20 +121,19 @@ width='100%'
 "));
 }
 
-function opleidingAl4() {
+function opleidingAikidoleraar() {
 	?>
 	<h2>Opleiding aikido leraar</h2>
-	<!-- div style='white-space: nowrap;' -->
-	De opleiding aikido leraar niveau 3 en niveau 4 gaat
-	in september 2017 van start.
-	<br>Interesse. Meld je aan voor de opleiding:
-	<ul>
-	<li><a class="btn-link" target="_blank" href="https://survey.enalyzer.com/survey?sessionid=802a98b6-09ab-48da-b7f6-8f63cce7f12c">aikido leraar niveau 3</a>
-	<li><a class="btn-link" target="_blank" href="https://survey.enalyzer.com/survey?sessionid=df1f14df-58a2-4a00-806a-07aed3e8ed47">aikido leraar niveau 4</a>
-	</ul>	
+	Interesse. 
+	<br>Ga naar: <a class="btn-link" target="_blank" href="http://jbn.nl/opleidingen">jbn.nl/opleidingen</a>
+    voor informatie en aanmelden.
 	<!--  /div> -->
 	<hr>
 	<?php
+//	<ul>
+//	<li><a class="btn-link" target="_blank" href="https://survey.enalyzer.com/survey?sessionid=802a98b6-09ab-48da-b7f6-8f63cce7f12c">aikido leraar niveau 3</a>
+//	<li><a class="btn-link" target="_blank" href="https://survey.enalyzer.com/survey?sessionid=df1f14df-58a2-4a00-806a-07aed3e8ed47">aikido leraar niveau 4</a>
+//	</ul>
 }
 
 /** Layout
@@ -180,7 +193,19 @@ ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a></li>
     </ul>
 </li>
       <li><a href="?page=examens">Examens</a></li>
-      <li><a href="?page=opleidingen">Opleidingen</a></li>
+      
+<li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        Opleidingen&nbsp;<b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li><a target='_blank' href="http://jbn.nl/opleidingen">
+        De informatie over opleidingen voor aikido leraar
+        <br>is te vinden op <span style='text-decoration: underline;'>jbn.nl/opleidingen</span>.
+        <br><br>Menu item opent nieuw window</a></li>
+    </ul>
+</li>
+
+      
 <li class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
         Dojos&nbsp;<b class="caret"></b></a>
@@ -235,7 +260,7 @@ ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a></li>
         <?php includeContents(); ?>
     <!-- col --></div>
     <div class="col-sm-4">
-    	<?php opleidingAl4(); ?>
+    	<?php opleidingAikidoleraar(); ?>
         <?php includeKalender(450, "AGENDA", 0, 0); ?>
     <!-- col --></div>
   <!-- row --></div>
@@ -245,6 +270,13 @@ ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a></li>
   <div class="row">
     <div class="col-sm-12">
         <?php includeKalender(600, "MONTH", 1, 1); ?>
+    <!-- col --></div>
+  <!-- row --></div>
+
+<?php elseif (rqGet("page")=="dojo_aanmelden" ||  rqGet("page")=="kalender_event"): ?>  
+  <div class="row">
+    <div id="contents" class="col-sm-12">
+      <?php includeContents(); ?>
     <!-- col --></div>
   <!-- row --></div>
   
