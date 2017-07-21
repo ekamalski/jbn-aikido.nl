@@ -183,21 +183,5 @@ stage(CLAUDE, totEnMet(12, jul(2017, 16)), STROE, CLAUDE_T,
 				),
 		"2017-07-12_16_zomerschool_stroe.pdf"
 		);
-
-shisei();
-
-aikidoFestijnAfterMovie();
-
-
-fotosAikidoFestijn2017();
-
-fotosFukakusa2016();
-
-fotosAikidoFestijn2016();
-		
-nieuwsitemLink("2016-02-22_Hyoho_Niten_Ichi-ryu_en_Miyamoto_Musashi.html", "Hyoho Niten Ichi ryu en Miyamoto Musashi");
-
-nieuwsitemLink("2015-05-20_Zomerschool_ter_gelegenheid_van_50_jaar_Aikikai_Australia.html", "Zomerschool ter gelegenheid van 50 jaar Aikikai Australia");
-
 ?>
 

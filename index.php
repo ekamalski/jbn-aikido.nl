@@ -18,58 +18,6 @@ div.col-sm-4_ { border: 1px solid navy; border-collapse: collapse; padding: 2px;
 <script src="js/bootstrap/3.3.7/bootstrap.min.js"></script>
 <script src='js/jquery.tablesorter/0.0.0/jquery.tablesorter.min.js'></script> 
 
-<style>
-h2 { font-size: 18px;  }
-a.btn { text-decoration: none; } 
-
-a.btn-link { color: black; text-decoration: underline; } 
-a.btn-link:hover { background-color: black; color: white; text-decoration: none; } 
-
-a.btn-link-js { color: black; text-decoration: none; } 
-a.btn-link-js:hover { background-color: black; color: white; text-decoration: none; } 
-
-table.tablesorter a { color: black; text-decoration: none; } 
-
-.img-x { display: inline; padding: 0 5px 5px 0; } 
-
-sup {
-    color: red;
-    font-family: monospace;
-    font-size: 110%;
-}
-
-span.legenda {
-    color: red;
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 140%;
-}
-
-/* -- NAV override -- */
-nav.navbar-inverse { 
-    border-color: #DB7F33; 
-    logo_background-color: !important #DB7F33;
-    huisstijl_background-color: !important #F47A20;
-    background-color: #F47A20;
-}
-nav.navbar-inverse a.navbar-brand { color: white;  }
-nav.navbar-inverse a.navbar-brand:hover {  color: dimgray;  }
-
-nav.navbar-inverse .navbar-nav > li > a:hover   { color: dimgray; }
-nav.navbar-inverse .navbar-nav > li > a:selected   { color: !important red; }
-
-.navbar-inverse .navbar-nav > li > a {
-    color: white;
-
-}
-
-.navbar-nav > .open > a:focus, 
-.navbar-inverse .navbar-nav > .open > a:hover,
-.navbar-inverse .navbar-nav :seleted {
-    color:  white;
-    background-color: !important #DB7F33;
-}
-</style>
 <?php
 define("ABSPATH", __DIR__);
 define("DOCROOT", __DIR__);
@@ -151,51 +99,37 @@ function opleidingAikidoleraar() {
 	Interesse. 
 	<br>Ga naar: <a class="btn-link" target="_blank" href="http://jbn.nl/opleidingen">jbn.nl/opleidingen</a>
     voor informatie en aanmelden.
-	<!--  /div> -->
 	<hr>
 	<?php
-//	<ul>
-//	<li><a class="btn-link" target="_blank" href="https://survey.enalyzer.com/survey?sessionid=802a98b6-09ab-48da-b7f6-8f63cce7f12c">aikido leraar niveau 3</a>
-//	<li><a class="btn-link" target="_blank" href="https://survey.enalyzer.com/survey?sessionid=df1f14df-58a2-4a00-806a-07aed3e8ed47">aikido leraar niveau 4</a>
-//	</ul>
+}
+?>
+
+<?php function navBgColor()    { print("#F47A20"); } ?>
+<?php function navTxtColor()   { print("white");  } ?>
+<?php function navHoverColor() { print("dimgray");    } ?>
+
+<?php function navStyle() { ?>
+body { border-radius: 0; }
+ 
+nav.navbar-inverse 						{ border-color: <?php navBgColor(); ?>; background-color: <?php navBgColor(); ?>;  }
+
+nav.navbar-inverse a.navbar-brand 		{ color: <?php navTxtColor(); ?>;  }
+nav.navbar-inverse a.navbar-brand:hover { color: <?php navHoverColor(); ?>;  }
+
+nav.navbar-inverse .navbar-nav > li > a 		{ color: <?php navTxtColor(); ?>; background-color: <?php navBgColor(); ?>  !important }
+nav.navbar-inverse .navbar-nav > li > a:hover   { color: <?php navHoverColor(); ?>; }
+
+.navbar-nav > .open > a:focus, 
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav :seleted {
+    color:  <?php navHoverColor(); ?>; 
+    background-color: <?php navBgColor(); ?>;
 }
 
-/** Layout
- *
- *  nav ... /nav -- navigation bar 
- *
- *  div.container
- *    if (home):
- *
- *      div.row
- *        div.col-sm-4 ... /div -- aikikai
- *        div.col-sm-4 ... /div -- aiki-budo
- *        div.col-sm-4 ... /div -- ki-aikido
- *      /div.row
- *
- *      div.row
- *        div.col-sm-8 includeContents() /div 
- *        div.col-sm-4 includeKalender(AGENDA) /div 
- *      /div.row
- *
- *    elseif (kalender):
- *      div.row
- *        div.col-sm-12 includeKalender(MONTH) /div
- *      /div.row
- *
- *    else:
- *      div.row
- *        div.col-sm-8 includeContents() /div
- *      /div.row
- *
- *    endif;
- *  /div.container
- */
-?>
-</head>
-<body>
+.dropdown-menu { border-color: <?php navHoverColor();  ?>; border-radius: 0; }  
+<?php } ?> 
 
-
+<?php function nav() { ?>
 <nav class="navbar navbar-inverse" style="border-radius: 0px 0px 0px 0px;">
     <div class="container">
         <div class="navbar-header">
@@ -257,6 +191,77 @@ ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a>
         <!-- #myNavbar --></div>
     <!-- .container --></div>
 </nav>
+<?php } ?>
+
+
+
+
+<style>
+h2 { font-size: 18px;  }
+a.btn { text-decoration: none; } 
+
+a.btn-link { color: black; text-decoration: underline; } 
+a.btn-link:hover { background-color: black; color: white; text-decoration: none; } 
+
+a.btn-link-js { color: black; text-decoration: none; } 
+a.btn-link-js:hover { background-color: black; color: white; text-decoration: none; } 
+
+table.tablesorter a { color: black; text-decoration: none; } 
+
+.img-x { display: inline; padding: 0 5px 5px 0; } 
+
+sup {
+    color: red;
+    font-family: monospace;
+    font-size: 110%;
+}
+
+span.legenda {
+    color: red;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 140%;
+}
+
+<?php navStyle(); ?>
+</style>
+
+<?php
+/** Layout
+ *
+ *  nav ... /nav -- navigation bar 
+ *
+ *  div.container
+ *    if (home):
+ *
+ *      div.row
+ *        div.col-sm-4 ... /div -- aikikai
+ *        div.col-sm-4 ... /div -- aiki-budo
+ *        div.col-sm-4 ... /div -- ki-aikido
+ *      /div.row
+ *
+ *      div.row
+ *        div.col-sm-8 includeContents() /div 
+ *        div.col-sm-4 includeKalender(AGENDA) /div 
+ *      /div.row
+ *
+ *    elseif (kalender):
+ *      div.row
+ *        div.col-sm-12 includeKalender(MONTH) /div
+ *      /div.row
+ *
+ *    else:
+ *      div.row
+ *        div.col-sm-8 includeContents() /div
+ *      /div.row
+ *
+ *    endif;
+ *  /div.container
+ */
+?>
+</head>
+<body>
+<?php nav(); ?>
 
 <div class="container">
 
