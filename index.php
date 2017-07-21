@@ -45,6 +45,30 @@ span.legenda {
     font-size: 140%;
 }
 
+/* -- NAV override -- */
+nav.navbar-inverse { 
+    border-color: #DB7F33; 
+    logo_background-color: !important #DB7F33;
+    huisstijl_background-color: !important #F47A20;
+    background-color: #F47A20;
+}
+nav.navbar-inverse a.navbar-brand { color: white;  }
+nav.navbar-inverse a.navbar-brand:hover {  color: dimgray;  }
+
+nav.navbar-inverse .navbar-nav > li > a:hover   { color: dimgray; }
+nav.navbar-inverse .navbar-nav > li > a:selected   { color: !important red; }
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+
+}
+
+.navbar-nav > .open > a:focus, 
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav :seleted {
+    color:  white;
+    background-color: !important #DB7F33;
+}
 </style>
 <?php
 define("ABSPATH", __DIR__);
@@ -173,62 +197,65 @@ function opleidingAikidoleraar() {
 
 
 <nav class="navbar navbar-inverse" style="border-radius: 0px 0px 0px 0px;">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-      <a class="navbar-brand" href="?page=home">JBN Aikido</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-    <ul class="nav navbar-nav">
-      <li class="dropdown">
-    <a href="?page=kalender" class="dropdown-toggle" data-toggle="dropdown">
-        Kalender&nbsp;<b class="caret"></b></a>
-    <ul class="dropdown-menu">
-        <li><a href="?page=kalender">Kalender</a></li>
-        <li><a href="https://www.google.com/calendar/embed?title=jbn-aikido.nl kalender&showTitle=0&hl=nl&
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="?page=home">JBN Aikido</a>
+        </div>
+    
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+    
+        <li class="dropdown">
+            <a href="?page=kalender" class="dropdown-toggle" data-toggle="dropdown">
+                Kalender&nbsp;<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                <li><a href="?page=kalender">Kalender</a>
+                <li><a href="https://www.google.com/calendar/embed?title=jbn-aikido.nl kalender&showTitle=0&hl=nl&
 src=aikidou.nl@gmail.com&color=%23125A12&
 src=8m1egbul3qn19ji1dimqstaodo@group.calendar.google.com&color=%23BE6D00&
-ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a></li>
-        <li><a href="?page=kalender_event">Evenement aanmelden</a></li>
-    </ul>
-</li>
-      <li><a href="?page=examens">Examens</a></li>
+ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a>
+                <li><a href="?page=kalender_event">Evenement aanmelden</a>
+                </ul>
+    
+
+        <li><a href="?page=examens">Examens</a>
       
-<li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-        Opleidingen&nbsp;<b class="caret"></b></a>
-    <ul class="dropdown-menu">
-        <li><a target='_blank' href="http://jbn.nl/opleidingen">
-        De informatie over opleidingen voor aikido leraar
-        <br>is te vinden op <span style='text-decoration: underline;'>jbn.nl/opleidingen</span>.
-        <br><br>Menu item opent nieuw window</a></li>
-    </ul>
-</li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Opleidingen&nbsp;<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                <li><a target='_blank' href="http://jbn.nl/opleidingen">
+                    De informatie over opleidingen voor aikido leraar
+                    <br>is te vinden op <span style='text-decoration: underline;'>jbn.nl/opleidingen</span>.
+                    <br><br>Menu item opent nieuw window</a>
+                </ul>
+
 
       
-<li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-        Dojos&nbsp;<b class="caret"></b></a>
-    <ul class="dropdown-menu">
-        <li><a href="?page=dojos">Dojos</a></li>
-        <li><a href="?page=dojo_aanmelden">Dojo aanmelden</a></li>
-    </ul>
-</li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Dojos&nbsp;<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                <li><a href="?page=dojos">Dojos</a>
+                <li><a href="?page=dojo_aanmelden">Dojo aanmelden</a>
+                </ul>
 
-<li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-        Nieuws&nbsp;<b class="caret"></b></a>
-    <ul class="dropdown-menu">
-        <li><a href="?page=nieuws">Nieuws</a></li>
-        <li><a href="?page=nieuwsbrief">Nieuwsbrief</a></li>
-    </ul>
-</li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Archief&nbsp;<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                <li><a href="?page=nieuws">Nieuws</a>
+                <li><a href="?page=nieuwsbrief">Nieuwsbrief</a>
+                </ul>
 
-<li><a href="?page=organisaties">Organisaties</a></li>
-<li><a href="?page=contact">Contact</a></li>
-    </ul>
-    </div>
-  </div>
+
+        <li><a href="?page=organisaties">Organisaties</a>
+        <li><a href="?page=contact">Contact</a>
+
+        </ul>
+        <!-- #myNavbar --></div>
+    <!-- .container --></div>
 </nav>
 
 <div class="container">

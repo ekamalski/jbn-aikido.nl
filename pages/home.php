@@ -103,7 +103,41 @@ function fotosAikidoFestijn2017() {
 		);
 }
 
-fotoLocalhostOnly();
+function shisei() {
+?>
+<h2>Shisei door Chris de Jongh</h2>
+<p>
+De redactie van de aikido-nieuwsbrief heeft me gevraagd of ik de principes die in het examencurriculum zijn opgenomen zou willen bespreken. Dat doe ik natuurlijk met plezier.
+<p>
+Het eerste thema dat ik onder de aandacht wil brengen is het begrip houding (shisei in het Japans). Het woord houding heeft in de Nederlandse taal een gelaagdheid: het kan slaan op zowel de fysieke houding als op de attitude en presentie. Dit is in het Japans niet anders. Shisei wordt vertaald als positie, attitude, houding of pose, afhankelijk van de context waarin het woord wordt gebruikt. Het karakter Sugata of Shi betekent vorm of gedaante en het karakter Ikioi of Sei representeert kracht, levendigheid of energie. Shisei wordt samengesteld uit deze twee karakters en draagt beide betekenissen in zich. Shisei betekent dus niet alleen een juiste fysieke houding, maar ook een levendige en energieke presentie.
+<p> 
+Maar hoe verwerf je deze houding, iets waar we vanaf het begin dat we aikido beoefenen aan werken? Het eerste wat je moet doen is het ordenen van je fysieke houding, de container van je energie. Hiervoor strek je eerst uit alsof je je lichaam vanuit je voeten via je kruin naar de hemel richt, zonder dat dit op een militaire houding lijkt. Je staat actief en goed verticaal uitgelijnd. De schouders zijn ontspannen, er is een lichte druk in de onderbuik en de lage rug is licht afgevlakt, de aandacht en energie is geconcentreerd in de seika tanden. Het hele lichaam is ontspannen en kalm.
+<p> 
+Het volgende citaat komt uit de Gorin No Sho, een tekst geschreven door Miyamoto Musashi in 1643. Het behandelt de houding bij de beoefening van budo.
+<p>
+"The face is calm, neither turned up nor down, nor to any side, the eyes closed lightly, no movements of the ocular globes are shown, the forehead is without any wrinkle, the eyebrows are lightly pulled up, the bridge of the nose is straight, without advancing the chin to much, the neck is also straight, the cervical vertebrae are full of power. Beneath the falling shoulders, the body is perfectly relaxed, the vertebral column is in place, the buttocks are flexed; the knees down to the toes rely strongly to the ground, the hips aren't turned in a spiral, the stomach is firmly round."&nbsp;<span style="color: red;">&sup1;</span>
+<p>
+Er zijn diverse subcomponenten die zorgen dat de houding optimaal is. De blik wordt gericht daar waar de actie is (me-tsuke). De verticale as wordt zodanig georganiseerd dat er een minimale inspanning nodig is om te staan en een taak, zonder voorbereiding, met minimale moeite kan worden uitgevoerd (sei-chu-sen). De adem is afgestemd op de actie (ko-kyu-ho). De mentale instelling is erop gericht niet gehecht te raken (mu-ga-mu-shin). In aikido noemen we deze soepele en uitgebalanceerde houding san-ka-ku-tai.
+<p>
+[1] The book of five rings, translated by William Scott Wilson
+<?php 
+}
+// fotoLocalhostOnly();
+
+shisei();
+
+aikidoFestijnAfterMovie();
+
+
+fotosAikidoFestijn2017();
+
+fotosFukakusa2016();
+
+fotosAikidoFestijn2016();
+
+nieuwsitemLink("2016-02-22_Hyoho_Niten_Ichi-ryu_en_Miyamoto_Musashi.html", "Hyoho Niten Ichi ryu en Miyamoto Musashi");
+
+
 
 stage(STEPHANE, jun(2017, 10, 11), VEGHEL, STEPHANE_T,
 		formatText(
@@ -150,7 +184,7 @@ stage(CLAUDE, totEnMet(12, jul(2017, 16)), STROE, CLAUDE_T,
 		"2017-07-12_16_zomerschool_stroe.pdf"
 		);
 
-
+shisei();
 
 aikidoFestijnAfterMovie();
 
