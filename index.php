@@ -22,7 +22,7 @@ div.col-sm-4_ { border: 1px solid navy; border-collapse: collapse; padding: 2px;
 define("ABSPATH", __DIR__);
 define("DOCROOT", __DIR__);
 require_once(DOCROOT."/include/rqlib.php");
-
+require_once(DOCROOT."/include/taglib.php");
 
 /**
  * @param string $tag 
@@ -41,7 +41,7 @@ function includeFile($h1text, $filename) {
     require_once($filename);
 }
 
-function includeExtraRows() {
+function __includeExtraRows() {
     $file = DOCROOT."/pages/extra-rows.php";
     if ( file_exists($file) ) {
         require_once($file);
@@ -68,7 +68,10 @@ function includeContents() {
 
 
 function includeKalender($height, $mode, $showCalendars, $showTabs) {
-    print(_tag("iframe", "&nbsp;", "
+    if (isLocalhost()) { 
+        print( _tag("p", "&nbsp;kalender: $mode", "style='background-color: yellow; border: solid 1px red;'") ); 
+    } else {
+        print(_tag("iframe", "&nbsp;", "
 src='https://www.google.com/calendar/embed?hl=nl&amp;
 bgcolor=%23ffffff&amp;
 ctz=Europe%2FAmsterdam&amp;
@@ -91,6 +94,7 @@ scrolling='no'
 style=' border-width:0 ' 
 width='100%' 
 "));
+    }
 }
 
 function opleidingAikidoleraar() {
@@ -286,7 +290,7 @@ span.legenda {
         <p><a class="btn btn-default" href="?page=ki_aikido">Ki-aikido</a></p>
     <!-- col --></div>
   <!-- row --></div>
-  <?php includeExtraRows(); ?>
+
   <div class="row">
     <div id="contents" class="col-sm-8">
         <?php includeContents(); ?>

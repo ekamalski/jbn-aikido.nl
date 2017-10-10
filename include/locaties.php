@@ -1,5 +1,5 @@
 <?php
-// locaties.php, generated file 2017-06-03 12:48:29
+// locaties.php, generated file 2017-10-08 12:25:56
 define("ALKMAAR", "Alkmaar");
 define("ALKMAAR_L", "Vondelstraat 35, Alkmaar");
 define("AMERSFOORT", "Amersfoort");
@@ -48,8 +48,8 @@ define("NIEUWEGEIN", "Nieuwegein");
 define("NIEUWEGEIN_L", "Blokhoeve 5, Nieuwegein");
 define("NIJMEGEN", "Nijmegen");
 define("NIJMEGEN_L", "Tapirstraat 2, Nijmegen");
-define("NOG_NIET_BEKEND", "");
-define("NOG_NIET_BEKEND_L", "Nog niet bekend");
+define("LOCATIE_NOG_NIET_BEKEND", "");
+define("LOCATIE_NOG_NIET_BEKEND_L", "Nederland");
 define("OOSTERHOUT", "Oosterhout");
 define("OOSTERHOUT_L", "Slotjesveld 9, Oosterhout");
 define("ROERMOND", "Roermond");

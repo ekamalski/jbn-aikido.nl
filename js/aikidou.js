@@ -86,16 +86,18 @@ function _mxxcom(t, n, d) {
     return('<a class="btn-link-js" href="'+_mto()+str2+'">'+(t==""? str2: t)+'&nbsp;<i class="glyphicon glyphicon-envelope"></i><\/a>');
 }
 
-function webm(t) { return _mjanl (t, new Array(119, 101, 98, 109, 97, 115, 116, 101, 114)); }
-function vnca(t) { return _mjanl (t, new Array(118, 111, 111, 114, 122, 105, 116, 116, 101, 114)); }
-function snca(t) { return _mjanl (t, new Array(115, 101,  99, 114, 101, 116,  97, 114, 105, 115)); }
-function sncg(t) { return _mxxnl (t, new Array(100, 119, 108, 111, 107), new Array(100, 100, 115)); }
-function snco(t) { return _mjanl (t, new Array(111, 112, 108, 101, 105, 100, 105, 110, 103, 101, 110) ); }
-function svdt(t) { return _mxxnl (t, new Array(115, 46, 118, 97, 110, 100, 101, 114, 116, 111, 111, 114, 110), new Array(106, 98, 110)); }
-function ajbn(t) { return _mjbnl (t, new Array(97, 105, 107, 105, 100, 111)); }
-function ajbna(t){ return _mjbnls(t, new Array(97, 105, 107, 105, 100, 111)); }
-function ajbnu(t){ return _mjbnls(t, new Array(97, 105, 107, 105, 100, 111)); }
-function jjbn(t) { return _mjbnl (t, new Array(106, 117, 100, 111,  98, 111, 110, 100)); }
+function webmaa(t)  { return _mxxnl (t, new Array(106,  98, 110,  45,  97, 105, 107, 105, 100, 111,  46,   119, 101, 98, 109, 97, 115, 116, 101, 114), new Array(97, 105, 107, 105, 100, 111,  97, 114, 110, 104, 101, 109)); }
+
+function webm(t)    { return _mjanl (t, new Array(119, 101, 98, 109, 97, 115, 116, 101, 114)); }
+function vnca(t)    { return _mjanl (t, new Array(118, 111, 111, 114, 122, 105, 116, 116, 101, 114)); }
+function snca(t)    { return _mjanl (t, new Array(115, 101,  99, 114, 101, 116,  97, 114, 105, 115)); }
+function sncg(t)    { return _mxxnl (t, new Array(100, 119, 108, 111, 107), new Array(100, 100, 115)); }
+function snco(t)    { return _mjanl (t, new Array(111, 112, 108, 101, 105, 100, 105, 110, 103, 101, 110) ); }
+function svdt(t)    { return _mxxnl (t, new Array(115, 46, 118, 97, 110, 100, 101, 114, 116, 111, 111, 114, 110), new Array(106, 98, 110)); }
+function ajbn(t)    { return _mjbnl (t, new Array(97, 105, 107, 105, 100, 111)); }
+function ajbna(t)   { return _mjbnls(t, new Array(97, 105, 107, 105, 100, 111)); }
+function ajbnu(t)   { return _mjbnls(t, new Array(97, 105, 107, 105, 100, 111)); }
+function jjbn(t)    { return _mjbnl (t, new Array(106, 117, 100, 111,  98, 111, 110, 100)); }
 
 function ff() {
     alert("ff: "+gg());
@@ -109,7 +111,7 @@ function gg() {
 (function() {
     $('#voorzitter').html(      vnca(   $('#voorzitter').text()     ));
     $('#secretaris').html(      snca(   $('#secretaris').text()     ));
-    $('#webmaster').html(       webm(   $('#webmaster').text()      ));
+    $('#webmaster').html(       webmaa( $('#webmaster').text()      ));
     $('#secretaris_ngca').html( sncg(   $('#secretaris_ngca').text()));
     $('#secretaris_ncoa').html( snco(   $('#secretaris_ncoa').text()));
     $('#ajbn').html(            ajbn(   $('#ajbn').text()            ));
