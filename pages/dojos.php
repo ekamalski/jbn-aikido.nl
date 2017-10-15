@@ -347,12 +347,18 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://musubi.nl'>musubi.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>
-
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Klaaswaal</td>
 <td><a class='btn-link' target='_blank' href='http://www.randori.nl'>www.randori.nl</a></td>
 <td class='stijl'>Ki-aikido</td>
+</tr>
+
+<tr>
+<td class='district'>Zuid Holland</td>
+<td class='plaats'>Mijnsheerenland</td>
+<td><a target='_blank' href='http://www.dainitji.nl'>dainitji.nl</a></td>
+<td class='stijl'>Aiki-budo</td>
 </tr>
 
 <tr>
