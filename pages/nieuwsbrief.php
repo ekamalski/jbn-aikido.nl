@@ -13,6 +13,8 @@ function showNieuwbriefArchive() {
  	print("<h2>Nieuwsbrief archief</h2>\n");
     print("<ul style='list-style: none; padding-left: 0px;'>\n");	
 
+	linkMailchimp("http://mailchi.mp/f853a6a57ffe/jbn-nieuwsbrief-april-226285", "2017/oktober-november");	
+
     linkMailchimp("http://mailchi.mp/d566aaba0798/nca-aikido-nieuwsbrief-juli-augustus-2017", "2017/juli-augustus");
     linkMailchimp("http://us14.campaign-archive2.com/?u=e3d2b31aa8f869e8d903a974c&id=f174e1e084", "2017/mei");
     linkMailchimp("http://us14.campaign-archive2.com/?u=e3d2b31aa8f869e8d903a974c&id=df7c11dc1c", "2017/februari");  
