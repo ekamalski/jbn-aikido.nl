@@ -1,3 +1,5 @@
+.gitignore
+
 # Folders
 .settings/
 css/
@@ -17,7 +19,6 @@ include/db_remote.php
 
 index.html
 .buildpath
-.gitignore
 .project
 favicon.ico
 generate_album.cmd
