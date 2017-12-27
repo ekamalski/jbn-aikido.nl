@@ -20,13 +20,33 @@ function examens($datum, $lokatie, $txt1) {
 	if (!isDatumInHetVerleden($datum)) {
 		h2("Danexamens", $datum, $lokatie);
 
-		// stageWithThumb($thumb, $txt1, $txt2, $ref);
-		
 		$txt = $txt1."<br>De details zijn te vinden in de <a href='?page=examens'>examens</a> pagina\n";
 		imgTextThumb("examens_t.jpg", $txt, "");
 
 		hr();
 	}
+}
+
+
+/**
+ * @param string $leraren LERAAR
+ * @param string $datum   mon(yyyy, dd [, dd |, TOT_EN_MET, dd])
+ * @param string $lokatie LOCATIE -- LOCATIE_L = street, city
+ * @param string $thumb LERAAR_T (img to: events/${LERAAR_T}.jpg),  default: NO_T (no thumb)
+ * @param string $txt1 left from thumb, max:11 lines, default: empty
+ * @param string $txt2 below thumb, default: empty
+ * @param string $ref  link to events/${REF}, default: no link
+ */
+function stage($leraren, $datum, $lokatie, $thumb, $txt1, $txt2, $ref) {
+    if (!isDatumInHetVerleden($datum)) {
+        h2($leraren, $datum, $lokatie);
+        if ($thumb == NO_T) {
+            stageWithoutThumb($txt1."<br>".$txt2, $ref);
+        } else {
+            stageWithThumb($thumb, $txt1, $txt2, $ref);
+        }
+        hr();
+    }
 }
 
 /**
@@ -75,26 +95,7 @@ function nieuwsitemPdfLink($ref, $item, $thumb="") {
 	hr();
 }
 
-/** 
- * @param string $leraren LERAAR
- * @param string $datum   mon(yyyy, dd [, dd |, TOT_EN_MET, dd])
- * @param string $lokatie LOCATIE -- LOCATIE_L = street, city
- * @param string $thumb LERAAR_T (img to: events/${LERAAR_T}.jpg),  default: NO_T (no thumb)
- * @param string $txt1 left from thumb, max:11 lines, default: empty
- * @param string $txt2 below thumb, default: empty 
- * @param string $ref  link to events/${REF}, default: no link 
- */
-function stage($leraren, $datum, $lokatie, $thumb, $txt1, $txt2, $ref) {
-	if (!isDatumInHetVerleden($datum)) {
-		h2($leraren, $datum, $lokatie);
-		if ($thumb == NO_T) {
-			stageWithoutThumb($txt1."<br>".$txt2, $ref);
-		} else {
-			stageWithThumb($thumb, $txt1, $txt2, $ref);
-		}
-		hr();
-	}
-}
+
 
 /**
  * @param string $leraren LERAAR
@@ -126,13 +127,8 @@ function duoStage($leraren, $datum, $lokatie, $thumb1=NO_T, $txt1="", $thumb2=NO
 			if ($txt2 != null || "$txt2" != "") {
 				print("<br/>$txt2<br/>");
 			}
-			print("<br/>");
-			
-			detailsTeVinden();
-			if ($ref != "") {
-				txtRef($ref, "flyer");
-			}
-			dekalender();
+			print("<br/>");			
+			stageDetails($ref);
 		}
 		hr();
 	}
@@ -156,6 +152,11 @@ function formatText() {
 /* Private
  */
 
+function error($message) {
+    if (isLocalhost()) {
+        print( _tag("span", "ERROR, $message", "style='background-color: yellow; border: solid 1px red;'") );
+    }
+}
 
 function trc($txt){
 	print("TRC, $txt");
@@ -165,23 +166,31 @@ function brString($text) {
 	return "$text<br/>\n";
 }
 
-function dekalender() {
+// function _dekalender() {
+// 	print("<a class='btn-link' href='?page=kalender'>kalender</a>\n");
+// }
+
+function examensDetails() {
+    detailsTeVinden();
+    print("<a href='?page=examens'>examens</a> pagina\n");
+}
+
+function stageDetails($ref) {
+	detailsTeVinden();
+	if ($ref != "" && file_exists("events/$ref")) {
+	    print("<a class='btn-link' href='events/$ref'>\n$txt</a> en de \n");
+	} else if ($ref != "" && isLocalhost()) {
+	    error("events/$ref does not exist");
+	}
 	print("<a class='btn-link' href='?page=kalender'>kalender</a>\n");
 }
 
-function details() {
-	detailsTeVinden();
-	dekalender();
-}
 
 function detailsTeVinden() {
 	print("De details zijn te vinden in de\n");
 }
 
-function examensDetails() {
-	detailsTeVinden();
-	print("<a href='?page=examens'>examens</a> pagina\n");
-}
+
 
 function h2($leraren, $datum, $lokatie) {
 	print("<h2 style='clear: both;'>$leraren, $datum, $lokatie</h2>\n");
@@ -208,13 +217,8 @@ function imgTextThumb($thumb, $txt1="", $ref="") {
 function stageWithoutThumb($txt1=NO_TEXT1, $ref=NO_FLYER) {
 	if ($txt1 != NO_TEXT1 ) {
 		print("$txt1</br>\n");
-	}
-	
-	detailsTeVinden();	
-	if ($ref != NO_FLYER) {		
-		txtRef($ref, "flyer");
-	}
-	dekalender();
+	}	
+	stageDetails($ref);
 }
 
 /**
@@ -231,18 +235,13 @@ function stageWithThumb($thumb, $txt1=NO_TEXT1, $txt2=NO_TEXT2, $ref=NO_FLYER) {
 	if ($txt2 != null || "$txt2" != NO_FLYER) {
 		print("<br/>$txt2<br/>");
 	}
-	print("<br/>");
-	
-	detailsTeVinden();	
-	if ($ref != NO_FLYER) {		
-		txtRef($ref, "flyer");
-	}
-	dekalender();
+	print("<br/>");	
+	stageDetails($ref);
 }
 
-function txtRef($ref, $txt) {
-	print("<a class='btn-link' href='events/$ref'>\n$txt</a> en de \n");
-}
+// function _txtRef($ref, $txt) {
+// 	print("<a class='btn-link' href='events/$ref'>\n$txt</a> en de \n");
+// }
 	
 	
 ?>

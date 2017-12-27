@@ -33,3 +33,19 @@ Oefen deze houding en de ademhaling in je dagelijks leven: wanneer je werkt, zit
 <p>
 Je vergeet misschien dat je ademhaalt, maar je vergeet zeker niet te ademen. Op dezelfde manier moeten adem en houding zoals we die hebben besproken "eigen" zijn, een tweede natuur. Je moet voortdurend oefenen om dit resultaat te bereiken. In aikido geloven we dat lichaam en geest &euml;&euml;n zijn wanneer we op deze manier ons wezen vervullen met energie. Deze natuurlijke staat is een bron van onvoorstelbare kracht. Deze ademkracht - kokyu ryoku - is niet &oacute;nze kracht, het is de kracht van hemel en aarde.
 <?php } ?>
+
+<?php function chrisKamae() { ?>
+<h2>Kamae door Chris de Jongh</h2>
+<p>
+In budo en aikido hoor je vaak dat de juiste beginhouding, ook wel parate houding genoemd, belangrijk is. Deze beginhouding wordt in budo aangeduid met het Japanse woord kamae.   
+<p>
+Maar het begrip kamae is niet uniek voor budo, ook in de andere kunsten zoals het bloemschikken (ikebana), kalligrafie (shodo) en theeceremonie (chado) is er een beginhouding. Er is een beginhouding voor voetbal, tennis en boksen. Laten we het Japanse woord kamae en de Chinese karakters waarmee het wordt geschreven nader bekijken.
+<p>
+In het woordenboek wordt kamae vertaald met structuur, constructie, houding, stand, vastberadenheid en voorbereid zijn. Het werkwoord kamaeru wordt vertaald met iets bouwen, iets voorbereiden, een houding aannemen of iets plannen. De Chinese ideografie van kamae is opgebouwd uit drie componenten. Afzonderlijk betekenen die componenten bos, bron en tweede, maar samengesteld staan ze voor houding, bouwen of pretenderen.
+<p> 
+In budo betekent kamae: de meest voordelige houding ten opzichte van aite (tegenstander) aannemen. Dit geldt voor de situatie waarin de tegenstander een wapen heeft of in het geval je allebei gewapend of ongewapend bent, eigenlijk is  de kamae in alle situaties van belang. Je kunt kamae eenvoudigweg vertalen met houding, maar het is nuttig om te onthouden dat de juiste kamae vervuld is van energie (ki) en de mogelijkheid biedt om alles waar te nemen en in iedere willekeurige richting te bewegen.
+<p>
+In kendo gebruikt men de kamae van kendo, in judo, de kamae van judo, in tennis de kamae van tennis, in aikido gebruiken we hanmi no kamae. Vanuit een rechtopstaande ontspannen houding, voeten op schouderbreedte, stap je met links naar voren. Dit heet hidari hanmi. Stap je met rechts naar voren, dan kom je in migi hanmi. Wanneer uke en nage dezelfde voet voor zetten, hebben we het over ai hanmi no kamae. Zetten uke en nage beide een andere voet voor dan spreken we van gyaku hanmi no kamae. Als je vanuit de linker of rechter hanmi no kamae je linker- of rechtervoet naar voren plaatst zoals bij het instappen, irimi, dan volgt de achterste voet. Nu kom je in de positie die in aikido hitoemi of sankaku tai wordt genoemd. Met het zwaard gebruiken we als uitgangspositie migi hanmi. Met de jo of zonder wapen is de uitgangshouding hidari hammi.
+<p> 
+Waarom is hitoemi een fundamentele houding in aikido? Omdat hitoemi het mogelijk maakt om je gemakkelijk te verplaatsen in willekeurig welke richting. Niettemin moet je als je vordert het idee van kamae achter je laten, de echte kamae is een houding waarbij je hoe dan ook in staat bent te reageren in wat voor situatie dan ook. O'sensei zei hierover: ‘Kijk niet in de ogen van aite want de ogen van aite absorberen je moed, kijk niet naar het wapen van aite want de aandacht zal worden gevangen door de ogen van aite, kijk niet naar aite want je energie wordt geabsorbeerd door aite. De juiste houding in budo is om aite als geheel op te nemen.’ Anders gezegd: ik sta hier rechtop en ontspannen.
+<?php } ?>

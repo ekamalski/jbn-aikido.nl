@@ -97,22 +97,28 @@ width='100%'
     }
 }
 
-function opleidingAikidoleraar() {
-	?>
+function Nieuwsbrief() { ?>
+    <h2>Nieuwbrief</h2>
+    Ben je ge&iuml;nteresseerd in de aikido nieuwsbrief meld je dan aan door een mail 
+    te sturen met onderwerp <span id="ajbna" style='text-decoration: underline;'>aanmelden</span>.
+    <br/>
+    Wil je je uitschrijven stuur dan een mail met onderwerp <span id="ajbnu" style='text-decoration: underline;'>uitschrijven</span>.
+    <hr>
+<?php }
+
+function opleidingAikidoleraar() { ?>
 	<h2>Opleiding aikido leraar</h2>
 	Interesse. 
 	<br>Ga naar: <a class="btn-link" target="_blank" href="http://jbn.nl/opleidingen">jbn.nl/opleidingen</a>
     voor informatie en aanmelden.
 	<hr>
-	<?php
-}
-?>
+<?php }
 
-<?php function navBgColor()    { print("#F47A20"); } ?>
-<?php function navTxtColor()   { print("white");  } ?>
-<?php function navHoverColor() { print("dimgray");    } ?>
+function navBgColor()    { print("#F47A20"); }
+function navTxtColor()   { print("white");  }
+function navHoverColor() { print("dimgray");    }
 
-<?php function navStyle() { ?>
+function navStyle() { ?>
 body { border-radius: 0; }
  
 nav.navbar-inverse 						{ border-color: <?php navBgColor(); ?>; background-color: <?php navBgColor(); ?>;  }
@@ -131,9 +137,9 @@ nav.navbar-inverse .navbar-nav > li > a:hover   { color: <?php navHoverColor(); 
 }
 
 .dropdown-menu { border-color: <?php navHoverColor();  ?>; border-radius: 0; }  
-<?php } ?> 
+<?php } 
 
-<?php function nav() { ?>
+function nav() { ?>
 <nav class="navbar navbar-inverse" style="border-radius: 0px 0px 0px 0px;">
     <div class="container">
         <div class="navbar-header">
@@ -157,8 +163,13 @@ ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a>
                 </ul>
     
 
-        <li><a href="?page=examens">Examens</a>
-      
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Examens&nbsp;<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                <li><a href="?page=examens">Aanmelding en Eisen</a>
+                <li><a href="?page=examencurriculum">Principes examencurriculum</a>
+                </ul>
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 Opleidingen&nbsp;<b class="caret"></b></a>
@@ -195,11 +206,9 @@ ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a>
         <!-- #myNavbar --></div>
     <!-- .container --></div>
 </nav>
-<?php } ?>
+<?php } 
 
-
-
-
+?>
 <style>
 h2 { font-size: 18px;  }
 a.btn { text-decoration: none; } 
@@ -296,7 +305,8 @@ span.legenda {
         <?php includeContents(); ?>
     <!-- col --></div>
     <div class="col-sm-4">
-    	<?php opleidingAikidoleraar(); ?>
+        <?php nieuwsbrief(); ?>
+        <?php opleidingAikidoleraar(); ?>
         <?php includeKalender(450, "AGENDA", 0, 0); ?>
     <!-- col --></div>
   <!-- row --></div>

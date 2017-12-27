@@ -295,12 +295,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 </tr>
 <tr>
 <td class='district'>Noord Nederland</td>
-<td class='plaats'>Groningen</td>
-<td class='stijl'>Aikido Vereniging Jiriki<br/>Jacobcatsstraat 7<br/>9716 GA&nbsp;Groningen<br/>050-5719594</td>
-<td class='plaats'>&nbsp;</td>
-</tr>
-<tr>
-<td class='district'>Noord Nederland</td>
 <td class='plaats'>Heerenveen</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='https://aikidoheerenveen.wordpress.com'>aikidoheerenveen.wordpress.com</a></td>
 <td class='stijl'>Aikikai</td>

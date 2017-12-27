@@ -24,21 +24,6 @@ function fotos($title, $ref1, $thumb1,  $ref2, $thumb2,  $refAll, $textAll) {
 	tagSlash("hr");
 }
 
-function ___fotoLocalhostOnly() {
-	if (isLocalhost()) {
-		fotos("Localhost only", 
-			"https://www.dropbox.com/sh/1i0n8snoqrfzqxo/AACdlPNgGfo-UPx7bVCic4g2a?preview=AikidoFestijn_01_0471.jpg",
-				"fotoalbums/2017_aikidofestijn/thumbs/AikidoFestijn_01_2017_224.jpg",
-			"https://www.dropbox.com/sh/1i0n8snoqrfzqxo/AACdlPNgGfo-UPx7bVCic4g2a?preview=AikidoFestijn_02_0054.jpg",
-				"fotoalbums/2017_aikidofestijn/thumbs/AikidoFestijn_01_2017_676.jpg",
-				
-			"https://www.dropbox.com/sh/gjefclkb6bjxfww/AADusGhYoqckVBNf7Q4ijh3ga?dl=0",
-				"Link naar alle aikidofestijn 2017 foto's"
-		);
-	}
-}
-
-
 
 /*
  * Lijst van "upcoming" evenementen.
@@ -52,18 +37,24 @@ foreach ($files as $file) {
 /*
  * Include functies for later use 
  */
+require_once("pages/examens/chris.php");
 $files = glob("pages/home/*.php");
 foreach ($files as $file) {
     require_once($file);
 }
 
+
+teunTromp();
 ncoa();
 
-chrisShisei();
-chrisKokyo();
-
+// chrisShisei();
+// chrisKokyo();
+chrisKamae();
+tagSlash("br");
+tagSlash("br");
+tagAttr("a", "class='btn btn-default' href='?page=examencurriculum'", "Link naar de artikelen Shisei en Kokyo");
+    
 aikidofestijnAfterMovie();
-
 
 aikidofestijnFotos2017();
 
