@@ -21,18 +21,9 @@ Nieuwe artikelen worden toegevoegd na verschijning van de nieuwe
 nieuwsbrief.
 </p>
 
-
 <div class="panel-group" id="accordion">
-	<?php accordionPanel("shisei", "Shisei door Chris de Jongh",
-	    chrisShisei()
-	    ); ?>
-
-	<?php accordionPanel("kokyo", "Kokyo door Chris de Jongh",
-	    chrisKokyo()
-	    ); ?>
-	
-	<?php accordionPanel("kamae", "Kamae door Chris de Jongh",
-	    chrisKamae(), "in"
-	    ); ?>
+	<?php accordionPanel("shisei", "Shisei door Chris de Jongh", chrisShisei()); ?>
+	<?php accordionPanel("kokyo",  "Kokyo door Chris de Jongh",  chrisKokyo() ); ?>
+	<?php accordionPanel("kamae",  "Kamae door Chris de Jongh",  chrisKamae(), "in" ); ?>
 </div> 
 
