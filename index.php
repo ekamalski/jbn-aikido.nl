@@ -242,6 +242,7 @@ ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a>
 ?>
 <style>
 h2 { font-size: 18px;  }
+h3 { font-size: 16px;  }
 a.btn { text-decoration: none; } 
 
 a.btn-link { color: black; text-decoration: underline; } 

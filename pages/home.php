@@ -47,8 +47,6 @@ foreach ($files as $file) {
 teunTromp();
 ncoa();
 
-// chrisShisei();
-// chrisKokyo();
 panel("kamae",  "Kamae door Chris de Jongh",  chrisKamae(), "in" );
 tagAttr("a", "class='btn btn-default' href='?page=examencurriculum'", "Link naar de artikelen Shisei en Kokyo door Chris de Jongh");
     
