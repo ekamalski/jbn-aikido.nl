@@ -1,6 +1,6 @@
 <?php require_once("pages/examens/chris.php"); 
 
-function accordionPanel($id, $header, $bodyText, $expand="") { ?>
+function accordion___Panel($id, $header, $bodyText, $expand="") { ?>
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
@@ -22,8 +22,8 @@ nieuwsbrief.
 </p>
 
 <div class="panel-group" id="accordion">
-	<?php accordionPanel("shisei", "Shisei door Chris de Jongh", chrisShisei()); ?>
-	<?php accordionPanel("kokyo",  "Kokyo door Chris de Jongh",  chrisKokyo() ); ?>
-	<?php accordionPanel("kamae",  "Kamae door Chris de Jongh",  chrisKamae(), "in" ); ?>
+	<?php panel("shisei", "Shisei door Chris de Jongh", chrisShisei()); ?>
+	<?php panel("kokyo",  "Kokyo door Chris de Jongh",  chrisKokyo() ); ?>
+	<?php panel("kamae",  "Kamae door Chris de Jongh",  chrisKamae(), "in" ); ?>
 </div> 
 

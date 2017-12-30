@@ -49,10 +49,8 @@ ncoa();
 
 // chrisShisei();
 // chrisKokyo();
-chrisKamae();
-tagSlash("br");
-tagSlash("br");
-tagAttr("a", "class='btn btn-default' href='?page=examencurriculum'", "Link naar de artikelen Shisei en Kokyo");
+panel("kamae",  "Kamae door Chris de Jongh",  chrisKamae(), "in" );
+tagAttr("a", "class='btn btn-default' href='?page=examencurriculum'", "Link naar de artikelen Shisei en Kokyo door Chris de Jongh");
     
 aikidofestijnAfterMovie();
 

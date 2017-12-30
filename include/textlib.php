@@ -197,10 +197,10 @@ function h2($leraren, $datum, $lokatie) {
 }
 
 function imgTextThumb($thumb, $txt1="", $ref="") {
-	if ($ref == "" ) {
-		print("<img style='float: left;' src='events/140x200_t/$thumb'>");
-	} else {
-		print("<a style='float: left;' href='events/$ref'>\n<img src='events/140x200_t/$thumb'></a>\n");
+    if ($ref != "" && file_exists("events/$ref") ) {
+        print("<a style='float: left;' href='events/$ref'>\n<img src='events/140x200_t/$thumb'></a>\n");
+    } else {
+        print("<img style='float: left;' src='events/140x200_t/$thumb'>");
 	}
 	print("<div style='float: left; padding-left: 10px;'>\n$txt1");
 	print("</div>\n");
@@ -239,9 +239,4 @@ function stageWithThumb($thumb, $txt1=NO_TEXT1, $txt2=NO_TEXT2, $ref=NO_FLYER) {
 	stageDetails($ref);
 }
 
-// function _txtRef($ref, $txt) {
-// 	print("<a class='btn-link' href='events/$ref'>\n$txt</a> en de \n");
-// }
-	
-	
 ?>

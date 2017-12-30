@@ -37,6 +37,19 @@ function _tag($tag, $text, $attr="") {
     return("${ANGLE_BR_OPEN}${tagAttr}${ANGLE_BR_CLOSE}${text}${ANGLE_BR_OPEN}/${tag}${ANGLE_BR_CLOSE}\n");
 }
 
+function panel($id, $header, $bodyText, $expand="") { ?>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#<?php echo $id?>"><?php echo $header?></a>
+      </h4>
+    </div>
+    <div id="<?php echo $id?>" class="panel-collapse collapse <?php echo $expand; ?>">
+      <div class="panel-body"><?php echo $bodyText; ?></div>
+    </div>
+  </div>
+<?php }
+
 function includeFile($h1text, $filename) {
     require_once($filename);
 }
