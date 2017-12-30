@@ -4,13 +4,15 @@
 .settings/
 css/
 emk/
-events/
+__events/
 fotoalbums/
 fotos/
 img/
 js/
 nieuws/
 nieuwsbrief/
+pages/events/
+thumbs/
 pdfs/
 videos/
 

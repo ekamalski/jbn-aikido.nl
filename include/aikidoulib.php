@@ -1,5 +1,5 @@
 <?php
-// Last update: 2015-06-26
+// Last update: 2017-12-30
 
 require_once(DOCROOT."/include/datelib.php");
 require_once(DOCROOT."/include/defslib.php");
@@ -114,11 +114,11 @@ function duoStage($leraren, $datum, $lokatie, $thumb1=NO_T, $txt1="", $thumb2=NO
 			
 		} else {
 			if ($ref == "" ) {
-				print("<img style='float: left;'  src='events/140x200_t/$thumb1'>");
-				print("<img style='float: right;' src='events/140x200_t/$thumb2'>");
+				print("<img style='float: left;'  src='thumbs/$thumb1'>");
+				print("<img style='float: right;' src='thumbs/$thumb2'>");
 			} else {
-				print("<a style='float: left;'  href='events/$ref'>\n<img src='events/140x200_t/$thumb1'></a>\n");
-				print("<a style='float: right;' href='events/$ref'>\n<img src='events/140x200_t/$thumb2'></a>\n");
+				print("<a style='float: left;'  href='events/$ref'>\n<img src='thumbs/$thumb1'></a>\n");
+				print("<a style='float: right;' href='events/$ref'>\n<img src='thumbs/$thumb2'></a>\n");
 			}
 			print("<div style='float: left; padding-left: 10px;'>\n$txt1");
 			print("</div>\n");
@@ -198,9 +198,9 @@ function h2($leraren, $datum, $lokatie) {
 
 function imgTextThumb($thumb, $txt1="", $ref="") {
     if ($ref != "" && file_exists("events/$ref") ) {
-        print("<a style='float: left;' href='events/$ref'>\n<img src='events/140x200_t/$thumb'></a>\n");
+        print("<a style='float: left;' href='events/$ref'>\n<img src='thumbs/$thumb'></a>\n");
     } else {
-        print("<img style='float: left;' src='events/140x200_t/$thumb'>");
+        print("<img style='float: left;' src='thumbs/$thumb'>");
 	}
 	print("<div style='float: left; padding-left: 10px;'>\n$txt1");
 	print("</div>\n");

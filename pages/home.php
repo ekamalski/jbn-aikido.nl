@@ -1,7 +1,7 @@
 <?php
 
+require_once(DOCROOT."/include/aikidoulib.php");
 require_once(DOCROOT."/include/taglib.php");
-require_once(DOCROOT."/include/textlib.php");
 require_once(DOCROOT."/fotoalbums/include.php");
 
 
@@ -29,7 +29,7 @@ function fotos($title, $ref1, $thumb1,  $ref2, $thumb2,  $refAll, $textAll) {
  * Lijst van "upcoming" evenementen.
  * Out-ofdate evenmenten worden niet getoont
  */
-$files = glob("events/*.php");
+$files = glob("pages/events/*.php");
 foreach ($files as $file) {
     require_once($file);
 }
