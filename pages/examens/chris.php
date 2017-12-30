@@ -1,5 +1,7 @@
-<?php function chrisShisei() { ?>
-<h2>Shisei door Chris de Jongh</h2>
+<?php 
+
+function chrisShisei() { return 
+<<<SHISEI
 <p>
 De redactie van de aikido-nieuwsbrief heeft me gevraagd of ik de principes die in het examencurriculum zijn opgenomen zou willen bespreken. Dat doe ik natuurlijk met plezier.
 <p>
@@ -14,10 +16,11 @@ Het volgende citaat komt uit de Gorin No Sho, een tekst geschreven door Miyamoto
 Er zijn diverse subcomponenten die zorgen dat de houding optimaal is. De blik wordt gericht daar waar de actie is (me-tsuke). De verticale as wordt zodanig georganiseerd dat er een minimale inspanning nodig is om te staan en een taak, zonder voorbereiding, met minimale moeite kan worden uitgevoerd (sei-chu-sen). De adem is afgestemd op de actie (ko-kyu-ho). De mentale instelling is erop gericht niet gehecht te raken (mu-ga-mu-shin). In aikido noemen we deze soepele en uitgebalanceerde houding san-ka-ku-tai.
 <p>
 [1] The book of five rings, translated by William Scott Wilson
-<?php } ?>
+SHISEI;
+}
 
-<?php function chrisKokyo() { ?>
-<h2>Kokyo door Chris de Jongh</h2>
+function chrisKokyo() { return
+<<<KOKYO
 <p>
 In het vorige artikel heb ik de houding besproken. In dit artikel wil ik aandacht besteden aan de ademhaling. 
 <p>
@@ -32,10 +35,11 @@ Kokyu bestaat niet alleen uit het verversen van de lucht in de longen en het ver
 Oefen deze houding en de ademhaling in je dagelijks leven: wanneer je werkt, zit of loopt en zelfs als je slaapt. Op deze manier wordt het deel van je wezen en kun je er een beroep op doen als de nood aan de man is.
 <p>
 Je vergeet misschien dat je ademhaalt, maar je vergeet zeker niet te ademen. Op dezelfde manier moeten adem en houding zoals we die hebben besproken "eigen" zijn, een tweede natuur. Je moet voortdurend oefenen om dit resultaat te bereiken. In aikido geloven we dat lichaam en geest &euml;&euml;n zijn wanneer we op deze manier ons wezen vervullen met energie. Deze natuurlijke staat is een bron van onvoorstelbare kracht. Deze ademkracht - kokyu ryoku - is niet &oacute;nze kracht, het is de kracht van hemel en aarde.
-<?php } ?>
+KOKYO;
+}
 
-<?php function chrisKamae() { ?>
-<h2>Kamae door Chris de Jongh</h2>
+function chrisKamae() { return 
+<<<KAMAE
 <p>
 In budo en aikido hoor je vaak dat de juiste beginhouding, ook wel parate houding genoemd, belangrijk is. Deze beginhouding wordt in budo aangeduid met het Japanse woord kamae.   
 <p>
@@ -48,4 +52,5 @@ In budo betekent kamae: de meest voordelige houding ten opzichte van aite (tegen
 In kendo gebruikt men de kamae van kendo, in judo, de kamae van judo, in tennis de kamae van tennis, in aikido gebruiken we hanmi no kamae. Vanuit een rechtopstaande ontspannen houding, voeten op schouderbreedte, stap je met links naar voren. Dit heet hidari hanmi. Stap je met rechts naar voren, dan kom je in migi hanmi. Wanneer uke en nage dezelfde voet voor zetten, hebben we het over ai hanmi no kamae. Zetten uke en nage beide een andere voet voor dan spreken we van gyaku hanmi no kamae. Als je vanuit de linker of rechter hanmi no kamae je linker- of rechtervoet naar voren plaatst zoals bij het instappen, irimi, dan volgt de achterste voet. Nu kom je in de positie die in aikido hitoemi of sankaku tai wordt genoemd. Met het zwaard gebruiken we als uitgangspositie migi hanmi. Met de jo of zonder wapen is de uitgangshouding hidari hammi.
 <p> 
 Waarom is hitoemi een fundamentele houding in aikido? Omdat hitoemi het mogelijk maakt om je gemakkelijk te verplaatsen in willekeurig welke richting. Niettemin moet je als je vordert het idee van kamae achter je laten, de echte kamae is een houding waarbij je hoe dan ook in staat bent te reageren in wat voor situatie dan ook. O'sensei zei hierover: ‘Kijk niet in de ogen van aite want de ogen van aite absorberen je moed, kijk niet naar het wapen van aite want de aandacht zal worden gevangen door de ogen van aite, kijk niet naar aite want je energie wordt geabsorbeerd door aite. De juiste houding in budo is om aite als geheel op te nemen.’ Anders gezegd: ik sta hier rechtop en ontspannen.
-<?php } ?>
+KAMAE;
+}
