@@ -116,6 +116,12 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <tr>
 <td class='district'>Midden Nederland</td>
 <td class='plaats'>Utrecht</td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.fudoshinkan.nl'>fudoshinkan.nl</a></td>
+<td class='stijl'>Ki-aikido</td>
+</tr>
+<tr>
+<td class='district'>Midden Nederland</td>
+<td class='plaats'>Utrecht</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://kiaikidocentrum.nl'>kiaikidocentrum.nl</a></td>
 <td class='stijl'>Ki-aikido</td>
 </tr>
@@ -130,12 +136,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <td class='plaats'>Utrecht</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://shudokan.nl'>shudokan.nl</a></td>
 <td class='stijl'>Aikikai</td>
-</tr>
-<tr>
-<td class='district'>Midden Nederland</td>
-<td class='plaats'>Utrecht</td>
-<td>Ki-Aikidoschool Yoshin<br/>Schiermonnikoog 7<br/>3524 AH&nbsp;Utrecht<br/>030-2897207</td>
-<td class='stijl'>Ki-Aikido</td>
 </tr>
 <tr>
 <td class='district'>Midden Nederland</td>
@@ -344,7 +344,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Klaaswaal</td>
-<td><a class='btn-link' target='_blank' href='http://www.randori.nl'>www.randori.nl</a></td>
+<td><a class='btn-link' target='_blank' href='http://www.randori.nl'>randori.nl</a></td>
 <td class='stijl'>Ki-aikido</td>
 </tr>
 
@@ -364,7 +364,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Maassluis e.o (Westland)</td>
-<td><a class='btn-link' target='_blank' href='http://www.w-c-m.nl'>www.w-c-m.nl</a></td>
+<td><a class='btn-link' target='_blank' href='http://www.w-c-m.nl'>w-c-m.nl</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>
@@ -442,7 +442,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Vuren</td>
-<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.budoschoolzanshin.nl'>www.budoschoolzanshin.nl</a></td>
+<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.budoschoolzanshin.nl'>budoschoolzanshin.nl</a></td>
 <td class='stijl'>Aiki-budo</td>
 </tr>
 <tr>

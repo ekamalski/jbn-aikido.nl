@@ -12,6 +12,7 @@ js/
 nieuws/
 nieuwsbrief/
 pdfs/
+videos/
 
 # Files
 include/db.php

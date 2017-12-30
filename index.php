@@ -66,6 +66,24 @@ function includeContents() {
     }
 }
 
+function img($src, $altText="") {
+    $ANGLE_BR_OPEN=chr(0x3C);
+    $ANGLE_BR_CLOSE=chr(0x3E);
+    return("${ANGLE_BR_OPEN}img src='$src' class='img-responsive' alt='$altText'${ANGLE_BR_CLOSE}\n");
+}
+
+function includeImage( $page) {
+    if ($page == "aikikai_aikido") : 
+        print( img('img/aikikai.jpg', 'Aikikai Doshu Moriteru Ueshiba') );
+    elseif ($page == "aikibudo"):
+        print( img('img/aiki-budo.jpg', 'Alain Floquet') );
+    elseif ($page == "ki_aikido"):
+        print( img('img/ki-aikido.jpg', 'Shinichi Tohei') );
+    elseif ($page == "examencurriculum"):
+        print( img('img/chris-de-jongh.jpg', 'Chris de Jongh') );
+    endif; 
+}
+
 
 function includeKalender($height, $mode, $showCalendars, $showTabs) {
     if (isLocalhost()) { 
@@ -254,6 +272,12 @@ span.legenda {
  *      /div.row
  *
  *      div.row
+ *        div.col-sm-4 ... /div -- promotie aikikai
+ *        div.col-sm-4 ... /div -- promotie aiki-budo
+ *        div.col-sm-4 ... /div -- promotie ki-aikido
+ *      /div.row
+ *
+ *      div.row
  *        div.col-sm-8 includeContents() /div 
  *        div.col-sm-4 includeKalender(AGENDA) /div 
  *      /div.row
@@ -300,6 +324,30 @@ span.legenda {
     <!-- col --></div>
   <!-- row --></div>
 
+  
+    <div class="row">
+    <div class="col-sm-4">
+      <video width="100%" height="100%" poster="videos/JBNNCA-aikikai-Moment4.jpg" controls>
+        <source src="videos/1650-JBNNCA-aikikai-amberlisa-1080-50p.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video> 
+    <!-- col --></div>
+    <div class="col-sm-4">
+      <video width="100%" height="100%" poster="videos/JBNNCA-aikibudo-Moment1.jpg" controls>
+        <source src="videos/1650-JBNNCA-aikibudo-marieke-1080-50p.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video> 
+
+    <!-- col --></div>
+    <div class="col-sm-4">
+      <video width="100%" height="100%" poster="videos/JBNNCA-kiaikido-Moment4.jpg" controls>
+        <source src="videos/1650-JBNNCA-kiaikido-thijs-1080-50p.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video> 
+
+    <!-- col --></div>
+  <!-- row --></div>
+  
   <div class="row">
     <div id="contents" class="col-sm-8">
         <?php includeContents(); ?>
@@ -331,6 +379,10 @@ span.legenda {
     <div id="contents" class="col-sm-8">
         <?php includeContents(); ?>
     <!-- col --></div>
+    <div id="image" class="col-sm-4">
+        <?php includeImage( rqGet("page") ); ?>
+    <!-- col --></div>
+        
   <!-- row --></div>
   
 <?php endif; ?>
