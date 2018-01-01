@@ -1,5 +1,5 @@
 <?php
-// leraren.php, generated file 2017-10-10 10:32:26
+// leraren.php, generated file 2018-01-01 19:53:31
 define("AD_VAN_DONGEN", "Ad van Dongen");
 define("AD_VAN_DONGEN_T", "NO_T");
 define("FLOQUET", "Alain Floquet sensei 9e dan");
@@ -25,7 +25,7 @@ define("CAREL_T", "carel_t.jpg");
 define("DISTRICT_STAGE", "Districtstage");
 define("DISTRICT_STAGE_T", "NO_T");
 define("DIRK_MULLER", "Dirk Muller");
-define("DIRK_MULLER_T", "NO_T");
+define("DIRK_MULLER_T", "dirk_t.jpg");
 define("EXAMEN_VOORBEREIDING", "Danexamentraining");
 define("EXAMEN_VOORBEREIDING_T", "examen_voorbereiding_t.jpg");
 define("EXAMENS", "Examens");

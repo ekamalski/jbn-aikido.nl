@@ -1,5 +1,5 @@
 <?php
-// locaties.php, generated file 2017-10-10 10:32:26
+// locaties.php, generated file 2018-01-01 19:53:31
 define("ALKMAAR", "Alkmaar");
 define("ALKMAAR_L", "Vondelstraat 35, Alkmaar");
 define("AMERSFOORT", "Amersfoort");
@@ -54,10 +54,12 @@ define("OOSTERHOUT", "Oosterhout");
 define("OOSTERHOUT_L", "Slotjesveld 9, Oosterhout");
 define("ROERMOND", "Roermond");
 define("ROERMOND_L", "Prins Bernhardstraat 1a, Roermond");
-define("SITTARD", "Sittard");
-define("SITTARD_L", "Valkstraat 2, Sittard");
+define("SITTARD_ROMEINENSTRAAT", "Sittard");
+define("SITTARD_ROMEINENSTRAAT_L", "Romeinenstraat 24, Sittard");
 define("STROE", "Stroe");
 define("STROE_L", "Tolnegenweg 53, Stroe");
+define("SITTARD_VALKSTRAAT", "Sittard");
+define("SITTARD_VALKSTRAAT_L", "Valkstraat 2, Sittard");
 define("TETERINGEN", "Teteringen (Breda)");
 define("TETERINGEN_L", "Kriekenstraat 43, Teteringen (Breda)");
 define("VEGHEL", "Veghel");
