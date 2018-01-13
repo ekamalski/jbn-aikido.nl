@@ -302,6 +302,12 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <tr>
 <td class='district'>Noord Nederland</td>
 <td class='plaats'>Leeuwarden</td>
+<td><a class='btn-link' target='_blank' href='http://www.aikidoleeuwarden.frl'>aikidoleeuwarden.frl</a></td>
+<td class='stijl'>Aikikai</td>
+</tr>
+<tr>
+<td class='district'>Noord Nederland</td>
+<td class='plaats'>Leeuwarden</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.sportcentrumdeleeuw.nl'>sportcentrumdeleeuw.nl</a></td>
 <td class='stijl'>Aikikai</td>
 </tr>

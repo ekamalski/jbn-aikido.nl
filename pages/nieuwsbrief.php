@@ -12,7 +12,8 @@ showNieuwbriefArchive();
 function showNieuwbriefArchive() {
  	print("<h2>Nieuwsbrief archief</h2>\n");
     print("<ul style='list-style: none; padding-left: 0px;'>\n");	
-
+    //?e=39cadf4aaa
+    linkMailchimp("http://mailchi.mp/3cf0fae0c57f/jbn-nieuwsbrief-aikido-december-2017-februari-2018", "2017/december-2018/februari");
 	linkMailchimp("http://mailchi.mp/f853a6a57ffe/jbn-nieuwsbrief-april-226285", "2017/oktober-november");	
 
     linkMailchimp("http://mailchi.mp/d566aaba0798/nca-aikido-nieuwsbrief-juli-augustus-2017", "2017/juli-augustus");
