@@ -177,10 +177,11 @@ function examensDetails() {
 
 function stageDetails($ref) {
 	detailsTeVinden();
-	if ($ref != "" && file_exists("events/$ref")) {
-	    print("<a class='btn-link' href='events/$ref'>\n$txt</a> en de \n");
+	if ($ref != "" && file_exists("pages/events/$ref")) {
+	    print("<a class='btn-link' href='pages/events/$ref'>Flyer</a> en de \n");
 	} else if ($ref != "" && isLocalhost()) {
-	    error("events/$ref does not exist");
+	    error("pages/events/$ref does not exist");
+	    print("<a class='btn-link' href='pages/events/$ref'>ERROR</a> en de \n");
 	}
 	print("<a class='btn-link' href='?page=kalender'>kalender</a>\n");
 }

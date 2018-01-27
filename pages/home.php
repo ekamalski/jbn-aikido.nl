@@ -24,6 +24,15 @@ function fotos($title, $ref1, $thumb1,  $ref2, $thumb2,  $refAll, $textAll) {
 	tagSlash("hr");
 }
 
+/*
+ * Include functies for later use
+ */
+require_once("pages/examens/chris.php");
+$files = glob("pages/home/*.php");
+foreach ($files as $file) {
+    require_once($file);
+}
+
 
 /*
  * Lijst van "upcoming" evenementen.
@@ -34,17 +43,11 @@ foreach ($files as $file) {
     require_once($file);
 }
 
-/*
- * Include functies for later use 
- */
-require_once("pages/examens/chris.php");
-$files = glob("pages/home/*.php");
-foreach ($files as $file) {
-    require_once($file);
-}
+tagSlash("br");
+tonZwalze();
 
 
-teunTromp();
+// teunTromp();
 ncoa();
 
 panel("kamae",  "Kamae door Chris de Jongh",  chrisKamae(), "in" );
