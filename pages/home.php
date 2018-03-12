@@ -26,7 +26,7 @@ function fotos($title, $ref1, $thumb1,  $ref2, $thumb2,  $refAll, $textAll) {
 
 /**
  * Lijst van "upcoming" evenementen.
- * Out-ofdate evenmenten worden niet getoont
+ * Out-of-date evenmenten worden niet getoont
  */
 function showEvents() {
 	$files = glob("pages/events/*.php");
@@ -51,6 +51,8 @@ tagBeginAttr("div", "class='panel-group' id='accordion'");
   panel("kamae",  "Kamae door Chris de Jongh",  chrisKamae() ); 
   panel("maai",   "Ma-ai door Chris de Jongh",  chrisMaai(), "in" ); 
 tagEnd("div");
+
+aikidoelementair();
 
 shihan();
 
