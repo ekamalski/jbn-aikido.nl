@@ -37,6 +37,7 @@ Emk.html
 **/*.java
 **/*.txt
 **/*.xls
+**/*.zip
 
 _*.*
 *_.*

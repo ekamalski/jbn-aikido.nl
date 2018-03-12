@@ -24,6 +24,16 @@ function fotos($title, $ref1, $thumb1,  $ref2, $thumb2,  $refAll, $textAll) {
 	tagSlash("hr");
 }
 
+/**
+ * Lijst van "upcoming" evenementen.
+ * Out-ofdate evenmenten worden niet getoont
+ */
+function showEvents() {
+	$files = glob("pages/events/*.php");
+	foreach ($files as $file) {
+		require_once($file);
+	}	
+}
 /*
  * Include functies for later use
  */
@@ -33,22 +43,14 @@ foreach ($files as $file) {
     require_once($file);
 }
 
-
-/*
- * Lijst van "upcoming" evenementen.
- * Out-ofdate evenmenten worden niet getoont
- */
-$files = glob("pages/events/*.php");
-foreach ($files as $file) {
-    require_once($file);
-}
-
-tagSlash("br");
-tonZwalze();
+showEvents();
+shihan();
 
 
+// tagSlash("br");
+// tonZwalze();
 // teunTromp();
-ncoa();
+// ncoa();
 
 panel("kamae",  "Kamae door Chris de Jongh",  chrisKamae(), "in" );
 tagAttr("a", "class='btn btn-default' href='?page=examencurriculum'", "Link naar de artikelen Shisei en Kokyo door Chris de Jongh");

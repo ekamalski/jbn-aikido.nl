@@ -338,6 +338,7 @@ span.legenda {
     <!-- col --></div>
   <!-- row --></div>
 
+<?php if (!isLocalhost()) :?>
   
     <div class="row">
     <div class="col-sm-4">
@@ -358,10 +359,16 @@ span.legenda {
         <source src="videos/1650-JBNNCA-kiaikido-thijs-1080-50p.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video> 
-
     <!-- col --></div>
   <!-- row --></div>
-  
+<?php else: ?>  
+    <div class="row">
+    <div class="col-sm-12">
+    <p style='background-color: yellow; border: solid 1px red;'>Promotie videos</p>
+    </div>
+    </div>
+<?php endif; ?> 
+
   <div class="row">
     <div id="contents" class="col-sm-8">
         <?php includeContents(); ?>
