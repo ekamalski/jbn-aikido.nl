@@ -44,16 +44,19 @@ foreach ($files as $file) {
 }
 
 showEvents();
+
+tagBeginAttr("div", "class='panel-group' id='accordion'");
+  panel("shisei", "Shisei door Chris de Jongh", chrisShisei()); 
+  panel("kokyo",  "Kokyo door Chris de Jongh",  chrisKokyo() ); 
+  panel("kamae",  "Kamae door Chris de Jongh",  chrisKamae() ); 
+  panel("maai",   "Ma-ai door Chris de Jongh",  chrisMaai(), "in" ); 
+tagEnd("div");
+
 shihan();
 
 
-// tagSlash("br");
-// tonZwalze();
-// teunTromp();
-// ncoa();
-
-panel("kamae",  "Kamae door Chris de Jongh",  chrisKamae(), "in" );
-tagAttr("a", "class='btn btn-default' href='?page=examencurriculum'", "Link naar de artikelen Shisei en Kokyo door Chris de Jongh");
+// panel("maai",  "Ma-ai door Chris de Jongh",  chrisMaai(), "in" );
+// tagAttr("a", "class='btn btn-default' href='?page=examencurriculum'", "Link naar de andere artikelen door Chris de Jongh");
     
 aikidofestijnAfterMovie();
 

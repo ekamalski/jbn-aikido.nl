@@ -24,6 +24,7 @@ nieuwsbrief.
 <div class="panel-group" id="accordion">
 	<?php panel("shisei", "Shisei door Chris de Jongh", chrisShisei()); ?>
 	<?php panel("kokyo",  "Kokyo door Chris de Jongh",  chrisKokyo() ); ?>
-	<?php panel("kamae",  "Kamae door Chris de Jongh",  chrisKamae(), "in" ); ?>
+	<?php panel("kamae",  "Kamae door Chris de Jongh",  chrisKamae() ); ?>
+	<?php panel("maai",   "Ma-ai door Chris de Jongh",  chrisMaai(), "in" ); ?>
 </div> 
 

@@ -54,3 +54,21 @@ In kendo gebruikt men de kamae van kendo, in judo, de kamae van judo, in tennis 
 Waarom is hitoemi een fundamentele houding in aikido? Omdat hitoemi het mogelijk maakt om je gemakkelijk te verplaatsen in willekeurig welke richting. Niettemin moet je als je vordert het idee van kamae achter je laten, de echte kamae is een houding waarbij je hoe dan ook in staat bent te reageren in wat voor situatie dan ook. O'sensei zei hierover: ‘Kijk niet in de ogen van aite want de ogen van aite absorberen je moed, kijk niet naar het wapen van aite want de aandacht zal worden gevangen door de ogen van aite, kijk niet naar aite want je energie wordt geabsorbeerd door aite. De juiste houding in budo is om aite als geheel op te nemen.’ Anders gezegd: ik sta hier rechtop en ontspannen.
 KAMAE;
 }
+
+
+function chrisMaai() { return
+<<<MAAI
+<p>Ma-ai is een belangrijk concept in budo. Voor het begrip ervan is het nuttig om te weten dat de "ma" in ma-ai in de Japanse taal zowel afstand als ruimte betekent. Ma-ai is het woord dat de ruimtelijke relatie tussen jou en je aite (opponent) definieert. De positie van waaruit het gemakkelijk is aan te vallen of jezelf te verdedigen.
+
+<p>Maar ma-ai beschrijft niet alleen de fysieke afstand, maar ook de emotionele ervaring van de ruimte tussen jou en aite. Ben ik bang, dan zal ik de afstand tussen mij en aite snel als te klein ervaren. Voel ik me overmoedig, dan ervaar ik diezelfde ruimte als te groot en wil ik die verkleinen. Het eerste ideogram, "ma", is samengesteld uit twee elementen die "poort" en "zon" symboliseren. Wat het karakter eigenlijk weergeeft is de zon die tussen de kieren van de gesloten poort door te zien is. Anders gezegd: hoe goed de poort ook gesloten is, er is altijd ruimte waarlangs het zonlicht binnen kan dringen. Het is deze kier die de straal zonlicht mogelijk maakt. Zo is de leegte de ruimte tussen jou en aite die de actie mogelijk maakt.
+
+<p>In traditioneel Japanse huizen vind je in de huiskamer aan &eacute;&eacute;n zijde van de kamer een lege ruimte, een soort nis, de tokono-ma. Dit is de plaats waar een schilderij of een vaas wordt geplaatst. De leegte van deze ruimte brengt de (kunst)objecten tot leven. Op dezelfde manier schept de leegte van het glas de mogelijkheid om het te vullen, of maakt de leegte van de kamer het mogelijk om er in te leven en om die in te richten. Het is de leegte van de ruimte die belangrijk is. Terwijl we niets wensen, terwijl we denken dat er niets is, is er toch iets. Je zou kunnen stellen dat in budo, als uiting van de oosterse beschaving, de leegte wordt ervaren als de ruimte die gelegenheid biedt om te scheppen.
+
+<p>De  "ai" van ma-ai is dezelfde als de "ai" in Aikido: het betekent verenigen, &eacute;&eacute;n maken, samenbrengen, harmoniseren. Ma-ai is, zoals je kunt opmaken uit de tekst, de ruimte die wordt gecre&euml;erd door jou en je aite in een constante dans om de optimale positie.
+ 
+<p>Tot nu toe heb ik shisei, kokyu, kamae en ma-ai besproken, belangrijke grondbeginselen om te cultiveren, te herhalen, en je eigen te maken. Deze vier grondbeginselen vind je ook in andere kunstvormen en hebben daar dezelfde fundamentele betekenis: chado, de weg van de theeceremonie, shodo, de weg van de kalligrafie, maar ook in de  schilderkunst, dans en in het dagelijkse leven gelden deze beginselen. Dit zijn woorden die ik heb onthouden, woorden over de ervaren ruimte.
+ 
+<p>In de volgende afleveringen wil ik het hebben over begrippen die niet direct deel uitmaken van het dagelijkse Japanse vocabulaire: irimi, tenkan, taisabaki en kokyu ryoku.
+
+MAAI;
+}
