@@ -43,6 +43,9 @@ foreach ($files as $file) {
     require_once($file);
 }
 
+aikidoelementair();
+shihan();
+
 showEvents();
 
 tagBeginAttr("div", "class='panel-group' id='accordion'");
@@ -52,9 +55,9 @@ tagBeginAttr("div", "class='panel-group' id='accordion'");
   panel("maai",   "Ma-ai door Chris de Jongh",  chrisMaai(), "in" ); 
 tagEnd("div");
 
-aikidoelementair();
 
-shihan();
+
+
 
 
 // panel("maai",  "Ma-ai door Chris de Jongh",  chrisMaai(), "in" );
