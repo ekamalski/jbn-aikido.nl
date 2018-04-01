@@ -43,10 +43,10 @@ foreach ($files as $file) {
     require_once($file);
 }
 
-aikidoelementair();
-shihan();
-
 showEvents();
+
+
+
 
 tagBeginAttr("div", "class='panel-group' id='accordion'");
   panel("shisei", "Shisei door Chris de Jongh", chrisShisei()); 
@@ -55,15 +55,16 @@ tagBeginAttr("div", "class='panel-group' id='accordion'");
   panel("maai",   "Ma-ai door Chris de Jongh",  chrisMaai(), "in" ); 
 tagEnd("div");
 
+aikidoelementair();
+shihan();
 
 
-
-
+aikidofestijnAfterMovie2018();
 
 // panel("maai",  "Ma-ai door Chris de Jongh",  chrisMaai(), "in" );
 // tagAttr("a", "class='btn btn-default' href='?page=examencurriculum'", "Link naar de andere artikelen door Chris de Jongh");
     
-aikidofestijnAfterMovie();
+aikidofestijnAfterMovie2017();
 
 aikidofestijnFotos2017();
 

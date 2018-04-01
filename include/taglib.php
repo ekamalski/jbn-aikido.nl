@@ -12,7 +12,7 @@ define("TXT_SIZE",  "100");
  * @return boolean
  */
 function isLocalhost() {
-    return  ($_SERVER["REMOTE_ADDR"] == "127.0.0.1");
+    return $_SERVER["REMOTE_ADDR"] == "127.0.0.1" || $_SERVER["REMOTE_ADDR"] == "::1";
 }
 
 /**
@@ -86,6 +86,17 @@ function tagAttrSlash($tag, $attr) {
 }
 
 /**
+ * if isLocalhost()  &lt;p style=...&gt;attr&lt;/p&gt;
+ * <br>else &lt;ifame attr&gt;&lt;/ifame&gt;
+ */
+function tagIframe($attr) {
+    if (isLocalhost()) {
+        tagAttr("p", "style='background-color: yellow; border: solid 1px red;'", $attr);
+    } else {
+        tagAttr("iframe", $attr." frameborder='0' allowfullscreen", "");
+    }
+}
+/**
  * &lt;form method=method arction=_ctrl2url(ctrl)&gt;
  */
 function tagForm($method, $ctrl, $action) {
@@ -105,6 +116,7 @@ function tagFormEnd($submitText, $title, $id) {
 	print("<button title='$title' style='width: $width;' type='submit'> $submitText </button>\n");
 	print("</form>\n");
 }
+
 
 /**
  * &lt;form xxx&gt; &lt;button type=submit&gt;buttonText&lt;/button&gt; &lt;/form&gt;

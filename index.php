@@ -99,10 +99,7 @@ function includeImage( $page) {
 
 
 function includeKalender($height, $mode, $showCalendars, $showTabs) {
-    if (isLocalhost()) { 
-        print( _tag("p", "&nbsp;kalender: $mode", "style='background-color: yellow; border: solid 1px red;'") ); 
-    } else {
-        print(_tag("iframe", "&nbsp;", "
+    tagIframe(<<<INCLUDE_KALENDER
 src='https://www.google.com/calendar/embed?hl=nl&amp;
 bgcolor=%23ffffff&amp;
 ctz=Europe%2FAmsterdam&amp;
@@ -124,8 +121,8 @@ height='$height'
 scrolling='no'
 style=' border-width:0 ' 
 width='100%' 
-"));
-    }
+INCLUDE_KALENDER
+);
 }
 
 function Nieuwsbrief() { ?>
@@ -315,7 +312,7 @@ span.legenda {
 <?php nav(); ?>
 
 <div class="container">
-
+<?php if (isLocalhost()) {tag("h1", "local"); } else { tag("h1", "remote ".$_SERVER["REMOTE_ADDR"]); }  ?>
 <?php if (rqGet("page")=="" || rqGet("page")=="home" ): ?>
   <div class="row">
     <div class="col-sm-4">
