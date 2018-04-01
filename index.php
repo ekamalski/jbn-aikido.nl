@@ -312,7 +312,6 @@ span.legenda {
 <?php nav(); ?>
 
 <div class="container">
-<?php if (isLocalhost()) {tag("h1", "local"); } else { tag("h1", "remote ".$_SERVER["REMOTE_ADDR"]); }  ?>
 <?php if (rqGet("page")=="" || rqGet("page")=="home" ): ?>
   <div class="row">
     <div class="col-sm-4">

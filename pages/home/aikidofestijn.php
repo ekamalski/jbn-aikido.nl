@@ -4,15 +4,30 @@
 function aikidofestijnAfterMovie2018() {
 tag("h2", "Aftermovie derde editie (2018) van het JBN aikidofestijn.");
 print(<<<AIKIDO_FESTIJN_AFTERMOVIE_2018
-<hr>
-<a target="_blank" href="videos/2018-aikidofestijn-aftermovie.mp4">Link naar aftermovie</a>
+<a title="Start video" target="_blank" href="https://drive.google.com/file/d/1cwEO5u5PNils6Iy9OI6NDTp8gpVUSSJu/view?usp=sharing">
+<img "class='img-x img-responsive' src='fotoalbums/2018-aikidofestijn/AikidoFestijn_III_start_video.jpg' />
+</a>
+<br>Op zondag 28 januari 2018 organiseerde de Nationale Commissie Aikido 
+<br>de derde editie van het JBN aikidofestijn. 
+<br>Gefilmed en gemonteerd door: G&aacute;bor J&aacute;nosi
 <hr>
 AIKIDO_FESTIJN_AFTERMOVIE_2018
 ); 
-// <video width="100%" height="100%" controls>
-// <source src="videos/2018-aikidofestijn-aftermovie.mp4" type="video/mp4">
-// Your browser does not support the video tag.
-// </video> 
+} 
+
+function aikidofestijnAfterMovie2018Video() {
+    tag("h2", "Aftermovie derde editie (2018) van het JBN aikidofestijn.");
+    print(<<<AIKIDO_FESTIJN_AFTERMOVIE_2018
+<video width="100%" height="100%" poster="fotoalbums/2018-aikidofestijn/AikidoFestijn_III_start_video.jpg" controls>
+<source src="https://drive.google.com/open?id=1cwEO5u5PNils6Iy9OI6NDTp8gpVUSSJu" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+<br>Op zondag 28 januari 2018 organiseerde de Nationale Commissie Aikido
+<br>de derde editie van het JBN aikidofestijn.
+<br>Gefilmed en gemonteerd door: G&aacute;bor J&aacute;nosi
+<hr>
+AIKIDO_FESTIJN_AFTERMOVIE_2018
+        );
 } 
 
 // -------------------- 2017 --------------------

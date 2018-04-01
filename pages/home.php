@@ -60,7 +60,6 @@ shihan();
 
 
 aikidofestijnAfterMovie2018();
-
 // panel("maai",  "Ma-ai door Chris de Jongh",  chrisMaai(), "in" );
 // tagAttr("a", "class='btn btn-default' href='?page=examencurriculum'", "Link naar de andere artikelen door Chris de Jongh");
     
