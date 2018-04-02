@@ -89,7 +89,7 @@ function includeImage( $page) {
     if ($page == "aikikai_aikido") : 
         print( img('img/aikikai.jpg', 'Aikikai Doshu Moriteru Ueshiba') );
     elseif ($page == "aikibudo"):
-        print( img('img/aiki-budo.jpg', 'Alain Floquet') );
+        print( img('img/aikibudo.jpg', 'Alain Floquet') );
     elseif ($page == "ki_aikido"):
         print( img('img/ki-aikido.jpg', 'Shinichi Tohei') );
     elseif ($page == "examencurriculum"):
@@ -278,13 +278,13 @@ span.legenda {
  *
  *      div.row
  *        div.col-sm-4 ... /div -- aikikai
- *        div.col-sm-4 ... /div -- aiki-budo
+ *        div.col-sm-4 ... /div -- aikibudo
  *        div.col-sm-4 ... /div -- ki-aikido
  *      /div.row
  *
  *      div.row
  *        div.col-sm-4 ... /div -- promotie aikikai
- *        div.col-sm-4 ... /div -- promotie aiki-budo
+ *        div.col-sm-4 ... /div -- promotie aikibudo
  *        div.col-sm-4 ... /div -- promotie ki-aikido
  *      /div.row
  *
@@ -321,10 +321,10 @@ span.legenda {
         <p><a class="btn btn-default" href="?page=aikikai_aikido">Aikikai aikido</a></p>
     <!-- col --></div>
     <div class="col-sm-4">
-        <h4>Aiki-budo<br><small>Veelzijdig effectief</small></h4>
-        <p><img src="img/aiki-budo.jpg" class="img-responsive" alt="Alain Floquet"></p>
+        <h4>Aikibudo<br><small>Veelzijdig effectief</small></h4>
+        <p><img src="img/aikibudo.jpg" class="img-responsive" alt="Alain Floquet"></p>
         <p>Ruim 20 dojo’s zijn aangesloten bij de Fédération Internationale d’Aïkibudo in Frankrijk, onder leiding van Alain Floquet.</p>
-        <p><a class="btn btn-default" href="?page=aikibudo">Aiki-budo</a></p>    
+        <p><a class="btn btn-default" href="?page=aikibudo">Aikibudo</a></p>    
     <!-- col --></div>
     <div class="col-sm-4">
         <h4>Ki-aikido<br><small>Eenheid van geest en lichaam</small></h4>

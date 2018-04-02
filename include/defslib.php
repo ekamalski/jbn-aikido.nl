@@ -16,7 +16,7 @@ define("NCA_GEORGANISEERD",	"Georganiseerd door de NCA");
 define("STAGE_OLV",         "Stage o.l.v.");
 define("ZOMERSCHOOL_OLV",   "Zomerschool o.l.v.");
 
-define("STIJL_AIKIBUDO", 	"Stijl: aiki-budo");
+define("STIJL_AIKIBUDO", 	"Stijl: aikibudo");
 define("STIJL_AIKIKAI", 	"Stijl: aikikai");
 define("STIJL_KI_AIKIDO", 	"Stijl: ki-aikido");
 

@@ -4,7 +4,7 @@
 </ul>
 
 
-<h3>Aiki-budo</h3>
+<h3>Aikibudo</h3>
 <ul>
 <li><a class="btn-link" target="_blank" title="Opent nieuw tab of window" href="http://international-aikibudo.com">F&eacute;d&eacute;ration internationale d'A&iuml;kibudo</a>
 </ul>

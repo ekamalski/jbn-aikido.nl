@@ -81,7 +81,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <td class='district'>Midden Nederland</td>
 <td class='plaats'>Arnhem</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://members.chello.nl/h.kreijtz'>members.chello.nl/h.kreijtz</a></td>
-<td class='stijl'>Aiki-budo</td>
+<td class='stijl'>Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Midden Nederland</td>
@@ -147,7 +147,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <td class='district'>Midden Nederland</td>
 <td class='plaats'>Zaltbommel</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://jishindo.nl'>jishindo.nl</a></td>
-<td class='stijl'>Aiki-budo</td>
+<td class='stijl'>Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Noord Holland</td>
@@ -255,7 +255,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <td class='district'>Noord Holland</td>
 <td class='plaats'>Oegstgeest</td>
 <td>Barends Sport<br/>Richard Holpad 22<br/>2343 NZ&nbsp;Oegstgeest<br/>071-5174800</td>
-<td class='stijl'>Aiki-budo</td>
+<td class='stijl'>Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Noord Holland</td>
@@ -315,7 +315,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Alblasserdam</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://sportschooltromp.nl'>sportschooltromp.nl</a></td>
-<td class='stijl'>Aiki-budo</td>
+<td class='stijl'>Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
@@ -333,7 +333,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Gorinchem</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://sportschool-breedveld.nl'>sportschool-breedveld.nl</a></td>
-<td class='stijl'>Aiki-budo</td>
+<td class='stijl'>Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
@@ -358,20 +358,20 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Mijnsheerenland</td>
 <td><a target='_blank' href='http://www.dainitji.nl'>dainitji.nl</a></td>
-<td class='stijl'>Aiki-budo</td>
+<td class='stijl'>Aikibudo</td>
 </tr>
 
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'> Leidschendam</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.shi-han.nl'>shi-han.nl</a></td>
-<td class='stijl'> Aiki-budo</td>
+<td class='stijl'> Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Maassluis e.o (Westland)</td>
 <td><a class='btn-link' target='_blank' href='http://www.w-c-m.nl'>w-c-m.nl</a></td>
-<td class='stijl'>Aiki-budo</td>
+<td class='stijl'>Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
@@ -395,7 +395,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Papendrecht</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://sportschooltromp.nl'>sportschooltromp.nl</a></td>
-<td class='stijl'>Aiki-budo</td>
+<td class='stijl'>Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
@@ -431,7 +431,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Sliedrecht</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://sportschooltromp.nl'>sportschooltromp.nl</a></td>
-<td class='stijl'>Aiki-budo</td>
+<td class='stijl'>Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
@@ -443,13 +443,13 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Vlaardingen</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.aikidodojovlaardingen.nl'>aikidodojovlaardingen.nl</a></td>
-<td class='stijl'>Aiki-budo</td>
+<td class='stijl'>Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
 <td class='plaats'>Vuren</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://www.budoschoolzanshin.nl'>budoschoolzanshin.nl</a></td>
-<td class='stijl'>Aiki-budo</td>
+<td class='stijl'>Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Holland</td>
@@ -533,13 +533,13 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Numansdorp</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://dainitji.nl'>dainitji.nl</a></td>
-<td class='stijl'>Aiki-budo</td>
+<td class='stijl'>Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Oud-Beijerland</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://dainitji.nl'>dainitji.nl</a></td>
-<td class='stijl'>Aiki-budo</td>
+<td class='stijl'>Aikibudo</td>
 </tr>
 <tr>
 <td class='district'>Zuid Nederland</td>
