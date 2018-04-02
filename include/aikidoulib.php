@@ -20,9 +20,13 @@ function examens($datum, $lokatie, $txt1) {
 	if (!isDatumInHetVerleden($datum)) {
 		h2("Danexamens", $datum, $lokatie);
 
-		$txt = $txt1."<br>De details zijn te vinden in de <a href='?page=examens'>examens</a> pagina\n";
-		imgTextThumb("examens_t.jpg", $txt, "");
-
+		imgTextThumb("examens_t.jpg", <<<EXAMENS
+$txt1
+<br><a class='_btn _btn-default' href='?page=examencurriculum'>Examencurriculum</a> artikelen door Chris de Jongh.
+<br>
+<br>Meer informatie is te vinden in de <a href='?page=examens'>examens</a> pagina.
+EXAMENS
+		  , "");
 		hr();
 	}
 }
