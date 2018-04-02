@@ -21,15 +21,21 @@ AIKIDO_FESTIJN_AFTERMOVIE_2018
 ); 
 } 
 
-function aikidofestijnAfterMovie2018Video() {
+function aikidofestijnAfterMovie2018v() {
     tag("h2", "Aftermovie derde editie (2018) van het JBN aikidofestijn.");
     print(<<<AIKIDO_FESTIJN_AFTERMOVIE_2018_V
-<video width="100%" height="100%" poster="fotoalbums/2018-aikidofestijn/AikidoFestijn_III_start_video.jpg" controls>
-<source src="https://drive.google.com/open?id=1cwEO5u5PNils6Iy9OI6NDTp8gpVUSSJu" type="video/mp4">
+<video width="100%" height="100%" poster="videos/2018-aikidofestijn-aftermovie.jpg" controls>
+<source src="videos/2018-aikidofestijn-aftermovie.m4v" type="video/mp4">
 Your browser does not support the video tag.
 </video> 
-<br>Op zondag 28 januari 2018 organiseerde de Nationale Commissie Aikido
-<br>de derde editie van het JBN aikidofestijn.
+<br>Op zondag 28 januari 2018 organiseerde de Nationale Commissie Aikido 
+<br>de derde editie van het JBN aikidofestijn. 
+<br>
+<br>Tijdens het aikidofestijn reikt de NCA voorzitter, Hans Belder, het
+<br>shihan certificaat uit aan Carel Zappeij en Pierre Gereadts.
+<br>
+<br>Zelf ontving Hans uit de handen van Pierre zijn 6de dan diploma van de Hombu dojo.
+<br> 
 <br>Gefilmed en gemonteerd door: G&aacute;bor J&aacute;nosi
 <hr>
 AIKIDO_FESTIJN_AFTERMOVIE_2018_V

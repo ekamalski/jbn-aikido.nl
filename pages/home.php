@@ -45,7 +45,7 @@ foreach ($files as $file) {
 
 showEvents();
 
-aikidofestijnAfterMovie2018();
+aikidofestijnAfterMovie2018v();
 aikidofestijnFotos2018();
 
 /*
