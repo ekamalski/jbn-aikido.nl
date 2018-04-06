@@ -4,7 +4,6 @@
 .settings/
 css/
 emk/
-__events/
 fotoalbums/
 fotos/
 img/
@@ -27,10 +26,7 @@ index.html
 favicon.ico
 generate_album.cmd
 
-Emk.html
-
 # Files pattern
-**/emk.*
 **/*.bak
 **/*.csv
 **/*.jar
@@ -39,6 +35,5 @@ Emk.html
 **/*.xls
 **/*.zip
 
-_*.*
-*_.*
+
 
