@@ -21,7 +21,7 @@ function fotos($title, $ref1, $thumb1,  $ref2, $thumb2,  $refAll, $textAll) {
 	tagSlash("br");
 	tagAttr("a", "target='_blank' class='btn btn-default' href='$refAll'", $textAll);
 	tagEnd("div");
-	tagSlash("hr");
+//	tagSlash("hr");
 }
 
 /**

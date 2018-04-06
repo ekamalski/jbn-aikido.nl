@@ -18,7 +18,8 @@ print(<<<AIKIDO_FESTIJN_AFTERMOVIE_2018
 <br>Gefilmed en gemonteerd door: G&aacute;bor J&aacute;nosi
 <hr>
 AIKIDO_FESTIJN_AFTERMOVIE_2018
-); 
+);
+tagSlash("hr");
 } 
 
 function aikidofestijnAfterMovie2018v() {
@@ -37,9 +38,9 @@ Your browser does not support the video tag.
 <br>Zelf ontving Hans uit de handen van Pierre zijn 6de dan diploma van de Hombu dojo.
 <br> 
 <br>Gefilmed en gemonteerd door: G&aacute;bor J&aacute;nosi
-<hr>
 AIKIDO_FESTIJN_AFTERMOVIE_2018_V
 );
+tagSlash("hr");
 } 
 
 function aikidofestijnFotos2018() {
@@ -54,6 +55,14 @@ function aikidofestijnFotos2018() {
         "$dropboxUrl?dl=0",
         "Link naar alle aikidofestijn 2018 foto's"
         );
+    print(<<<AIKIDO_FESTIJN_FOTOS_2018
+<br>Foto's met hoge resolutie kunnen worden opgevraagd door een mail te sturen 
+<br>naar <span id="voorzitter"></span> met vermelding van het nummer van de foto.
+<br>
+<br>Foto's zijn gemaakt door: Dennis Goedbloed.
+AIKIDO_FESTIJN_FOTOS_2018
+);
+tagSlash("hr");
 }
 // -------------------- 2017 --------------------
 
@@ -65,9 +74,9 @@ print(<<<AIKIDO_FESTIJN_AFTERMOVIE_2017
 <br>Op zondag 8 januari 2017 organiseerde de Nationale Commissie Aikido 
 <br>de tweede editie van het JBN aikidofestijn. 
 <br>Gefilmed en gemonteerd door: G&aacute;bor J&aacute;nosi
-<hr>
 AIKIDO_FESTIJN_AFTERMOVIE_2017
-); 
+);
+tagSlash("hr");
 } 
 
 function aikidofestijnFotos2017() {
@@ -82,6 +91,7 @@ function aikidofestijnFotos2017() {
 		"$dropboxUrl?dl=0",
 		"Link naar alle aikidofestijn 2017 foto's"
 		);
+	tagSlash("hr");
 }
 
 
@@ -99,5 +109,6 @@ function aikidofestijnFotos2016() {
 		"$dropboxUrl?dl=0",
 		"Link naar alle aikidofestijn 2016 foto's"			
 	);
+	tagSlash("hr");
 }
 ?>
