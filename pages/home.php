@@ -44,6 +44,9 @@ foreach ($files as $file) {
 }
 
 showEvents();
+fotosExamens201804();
+aikidoelementair();
+
 
 aikidofestijnAfterMovie2018v();
 aikidofestijnFotos2018();
@@ -57,7 +60,7 @@ tagBeginAttr("div", "class='panel-group' id='accordion'");
 tagEnd("div");
 */
 
-aikidoelementair();
+// aikidoelementair();
 // shihan();
 
 
