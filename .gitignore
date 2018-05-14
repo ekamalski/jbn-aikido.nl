@@ -6,6 +6,7 @@ css/
 emk/
 fotoalbums/
 fotos/
+generated/
 img/
 js/
 nieuws/
@@ -27,13 +28,8 @@ favicon.ico
 generate_album.cmd
 
 # Files pattern
-**/*.bak
 **/*.csv
 **/*.jar
-**/*.java
-**/*.txt
-**/*.xls
-**/*.zip
 
 
 
