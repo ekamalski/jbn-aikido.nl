@@ -9,7 +9,7 @@
 <li><a class="btn-link" target="_blank" title="Opent nieuw tab of window" href="http://international-aikibudo.com">F&eacute;d&eacute;ration internationale d'A&iuml;kibudo</a>
 </ul>
 
-<h3>Aikikai</h3>
+<h3>Aikido</h3>
 <ul>
 <li><a class="btn-link" target="_blank" title="Opent nieuw tab of window " href="http://www.aikido-europe.com">F&eacute;d&eacute;ration europ&eacute;enne d'a&iuml;kido</a>
 <li><a class="btn-link" target="_blank" title="Opent nieuw tab of window" href="http://www.aikikai.or.jp">Zaidan Hojin Aikikai</a>

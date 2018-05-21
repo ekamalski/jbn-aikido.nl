@@ -11,7 +11,7 @@ werk- en spelvormen.
 <h2>Toelatingseisen</h2>
 <ul>
 <li> Minimale leeftijd 18 jaar
-<li> Minimaal 2e dan aikido (aikikai, ki-aikido, aikibudo)
+<li> Minimaal 2e dan aikido (aikibudo, aikido, ki-aikido)
 <li> In bezit van het JBN diploma Aikidoleraar niveau 3 of vergelijkbare licentie 
 voor het geven aikidoles op niveau 3
 </ul>

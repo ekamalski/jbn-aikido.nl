@@ -12,7 +12,7 @@ De opleiding wordt verkort naar 12 lesdagen en de cursusprijs is &euro; 835,00
 inclusief de kosten voor de Proeven van Bekwaamheid (PVB).
 <p>
 De opleiding voor aikidoleraar niveau 3 is uitdrukkelijk bedoeld voor aikidoka 
-van onze drie disciplines: Aikibudo, Ki-Aikido en Aikikai en 
+van onze drie disciplines: aikibudo, aikido en ki-aikido  en 
 richt zich op het afstemmen van het eigen sporttechnisch beleid op dat van de 
 vereniging/sportschool, het zelfstandig maken van een jaarplan en lesplannen, 
 het verzorgen en evalueren van lessen en trainingen aan jeugd en volwassenen 

@@ -131,7 +131,7 @@ $status = meldDojoAan();
 		<select class="form-control" name="stijl">
 		<option></option>
 		<option>Aikibudo</option>
-		<option>Aikikai</option>
+		<option>Aikido</option>
 		<option>Ki-aikido</option>
 		</select>
       </div>

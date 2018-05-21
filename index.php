@@ -86,8 +86,8 @@ function img($src, $altText="") {
 }
 
 function includeImage( $page) {
-    if ($page == "aikikai_aikido") : 
-        print( img('img/aikikai.jpg', 'Aikikai Doshu Moriteru Ueshiba') );
+    if ($page == "aikido") : 
+        print( img('img/aikido.jpg', 'Aikido Doshu Moriteru Ueshiba') );
     elseif ($page == "aikibudo"):
         print( img('img/aikibudo.jpg', 'Alain Floquet') );
     elseif ($page == "ki_aikido"):
@@ -277,13 +277,13 @@ span.legenda {
  *    if (home):
  *
  *      div.row
- *        div.col-sm-4 ... /div -- aikikai
+ *        div.col-sm-4 ... /div -- aikido
  *        div.col-sm-4 ... /div -- aikibudo
  *        div.col-sm-4 ... /div -- ki-aikido
  *      /div.row
  *
  *      div.row
- *        div.col-sm-4 ... /div -- promotie aikikai
+ *        div.col-sm-4 ... /div -- promotie aikido
  *        div.col-sm-4 ... /div -- promotie aikibudo
  *        div.col-sm-4 ... /div -- promotie ki-aikido
  *      /div.row
@@ -315,10 +315,10 @@ span.legenda {
 <?php if (rqGet("page")=="" || rqGet("page")=="home" ): ?>
   <div class="row">
     <div class="col-sm-4">
-        <h4>Aikikai<br><small>Traditie van de grondlegger</small></h4>
-        <p><img src="img/aikikai.jpg" class="img-responsive" alt="Aikikai Doshu Moriteru Ueshiba"></p>
+        <h4>Aikido<br><small>Traditie van de grondlegger</small></h4>
+        <p><img src="img/aikido.jpg" class="img-responsive" alt="Aikikai Doshu Moriteru Ueshiba"></p>
         <p>Ruim 40 dojo’s zijn aangesloten bij de Aikikai in Japan, onder leiding van Moriteru Ueshiba, kleinzoon van grondlegger Morihei Ueshiba.</p>
-        <p><a class="btn btn-default" href="?page=aikikai_aikido">Aikikai aikido</a></p>
+        <p><a class="btn btn-default" href="?page=aikido">Aikido</a></p>
     <!-- col --></div>
     <div class="col-sm-4">
         <h4>Aikibudo<br><small>Veelzijdig effectief</small></h4>

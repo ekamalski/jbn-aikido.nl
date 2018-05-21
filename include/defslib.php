@@ -1,5 +1,5 @@
 <?php
-// Last update: 2017-05-06
+// Last update: 2018-05-21
 
 define("NO_DATE", 	    "Datum nog niet bekend");
 define("NO_FLYER",	    "");
@@ -17,7 +17,8 @@ define("STAGE_OLV",         "Stage o.l.v.");
 define("ZOMERSCHOOL_OLV",   "Zomerschool o.l.v.");
 
 define("STIJL_AIKIBUDO", 	"Stijl: aikibudo");
-define("STIJL_AIKIKAI", 	"Stijl: aikikai");
+define("STIJL_AIKIKAI", 	"Stijl: aikido");
+define("STIJL_AIKIDO", 	    "Stijl: aikido");
 define("STIJL_KI_AIKIDO", 	"Stijl: ki-aikido");
 
 require_once("leraren.php");

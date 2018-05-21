@@ -73,7 +73,7 @@ function mailformBody($ctrl) {
     $ret .= mfSelect($ctrl, "stijl", "<b>Stijl (v)</b>");
     $ret .= mfOption($ctrl, "");
     $ret .= mfOption($ctrl, "aikibudo");
-    $ret .= mfOption($ctrl, "aikikai aikido");
+    $ret .= mfOption($ctrl, "aikido");
     $ret .= mfOption($ctrl, "ki aikido");
     $ret .= mfSelectEnd($ctrl);
     $ret .= mfEmptyLine($ctrl);
