@@ -72,7 +72,7 @@ aikidofestijnAfterMovie2017();
 
 aikidofestijnFotos2017();
 
-fukakusaFotos2016();
+// fukakusaFotos2016();
 
 aikidofestijnFotos2016();
 

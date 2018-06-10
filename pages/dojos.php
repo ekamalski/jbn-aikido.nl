@@ -610,7 +610,7 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 <tr>
 <td class='district'>Zuid Nederland</td>
 <td class='plaats'>Waalwijk</td>
-<td>Stichting Ki-aikido Waalwijk<br/>Max Regerpark 55<br/>5144 TP&nbsp;Waalwijk<br/>0416-652822</td>
+<td><a target='_blank' href='http://www.kiaikidowaalwijk.nl'>kiaikidowaalwijk.nl</a></td>
 <td class='stijl'>Ki-aikido</td>
 </tr>
 </tbody>

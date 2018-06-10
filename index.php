@@ -20,7 +20,7 @@ div.col-sm-4_ { border: 1px solid navy; border-collapse: collapse; padding: 2px;
 
 <?php
 define("ABSPATH", __DIR__);
-define("DOCROOT", __DIR__);
+define("DOCROOT", $_SERVER["DOCUMENT_ROOT"]);
 require_once(DOCROOT."/include/rqlib.php");
 require_once(DOCROOT."/include/taglib.php");
 
@@ -137,7 +137,7 @@ function Nieuwsbrief() { ?>
 function opleidingAikidoleraar() { ?>
 	<h2>Opleiding aikido leraar</h2>
 	Interesse. 
-	<br>Ga naar: <a class="btn-link" target="_blank" href="http://jbn.nl/opleidingen">jbn.nl/opleidingen</a>
+	<br>Ga naar: <a class="btn-link" target="_blank" href="https://jbn.nl/kenniscentrum/opleidingen">jbn.nl/kenniscentrum/opleidingen</a>
     voor informatie en aanmelden.
 	<hr>
 <?php }
@@ -202,9 +202,9 @@ ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 Opleidingen&nbsp;<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                <li><a target='_blank' href="http://jbn.nl/opleidingen">
+                <li><a target='_blank' href="https://jbn.nl/kenniscentrum/opleidingen">
                     De informatie over opleidingen voor aikido leraar
-                    <br>is te vinden op <span style='text-decoration: underline;'>jbn.nl/opleidingen</span>.
+                    <br>is te vinden op <span style='text-decoration: underline;'>jbn.nl/kenniscentrum/opleidingen</span>.
                     <br><br>Menu item opent nieuw window</a>
                 </ul>
 
@@ -334,8 +334,15 @@ span.legenda {
     <!-- col --></div>
   <!-- row --></div>
 
-<?php if (!isLocalhost()) :?>
-  
+<?php if (isLocalhost()) :?>
+     <div class="row">
+    <div class="col-sm-12">
+    <p style='background-color: yellow; border: solid 1px red;'>Promotie videos</p>
+    </div>
+    </div>
+        
+<?php else: ?>  
+     
     <div class="row">
     <div class="col-sm-4">
       <video width="100%" height="100%" poster="videos/JBNNCA-aikikai-Moment4.jpg" controls>
@@ -357,12 +364,7 @@ span.legenda {
       </video> 
     <!-- col --></div>
   <!-- row --></div>
-<?php else: ?>  
-    <div class="row">
-    <div class="col-sm-12">
-    <p style='background-color: yellow; border: solid 1px red;'>Promotie videos</p>
-    </div>
-    </div>
+
 <?php endif; ?> 
 
   <div class="row">
