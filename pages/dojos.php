@@ -459,12 +459,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 </tr>
 <tr>
 <td class='district'>Zuid Nederland</td>
-<td class='plaats'>Bavel</td>
-<td>Bredase Aikido Cheng Hsin School<br/>Oude Bredaseweg 4<br/>4854 BR&nbsp;Bavel<br/>0161-431126</td>
-<td class='stijl'>&nbsp;</td>
-</tr>
-<tr>
-<td class='district'>Zuid Nederland</td>
 <td class='plaats'>Best</td>
 <td class='stijl'>Aikidoschool Best<br/>Grasklokje 5<br/>5684 HD&nbsp;Best<br/>0499-373368</td>
 <td class='plaats'>&nbsp;</td>
