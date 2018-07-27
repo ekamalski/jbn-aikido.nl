@@ -1,5 +1,5 @@
 <?php
-// locaties.php, generated file 2018-06-10 13:56:27
+// locaties.php, generated file 2018-07-27 09:43:37
 define("ALKMAAR",                     "Alkmaar");
 define("ALKMAAR_L",                   "Vondelstraat 35, Alkmaar");
 define("AMERSFOORT",                  "Amersfoort");

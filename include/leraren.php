@@ -1,5 +1,5 @@
 <?php
-// leraren.php, generated file 2018-06-10 13:56:27
+// leraren.php, generated file 2018-07-27 09:43:37
 define("AIKIBUDO_STAGE",              "Aikibudo stage");
 define("AIKIBUDO_STAGE_T",            "aikido_t.jpg");
 define("AD_VAN_DONGEN",               "Ad van Dongen");
@@ -14,7 +14,7 @@ define("AD_VOGELS",                   "Ad Voogels");
 define("AD_VOGELS_T",                 "aikido_t.jpg");
 define("BENT",                        "Bent Bervoets");
 define("BENT_T",                      "aikido_t.jpg");
-define("CURTIS",                      "Chris Curtis 7de dan");
+define("CURTIS",                      "Chris Curtis 8de dan");
 define("CURTIS_T",                    "curtis_t.jpg");
 define("CHRIS",                       "Chris de Jongh 6de dan");
 define("CHRIS_T",                     "chris_t.jpg");
