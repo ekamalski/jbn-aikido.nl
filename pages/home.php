@@ -44,6 +44,7 @@ foreach ($files as $file) {
 }
 
 showEvents();
+fotosZomerschool2018();
 fotosExamens201804();
 aikidoelementair();
 
