@@ -1,5 +1,5 @@
 <?php
-// locaties.php, generated file 2018-07-27 09:43:37
+// locaties.php, generated file 2018-08-27 19:19:23
 define("ALKMAAR",                     "Alkmaar");
 define("ALKMAAR_L",                   "Vondelstraat 35, Alkmaar");
 define("AMERSFOORT",                  "Amersfoort");
@@ -31,7 +31,7 @@ define("EINDHOVEN_L",                 "Theo Koomenlaan 3, Eindhoven");
 define("GENNEP",                      "Gennep");
 define("GENNEP_L",                    "Picardie 36, Gennep");
 define("GORINCHEM",                   "Gorinchem");
-define("GORINCHEM_L",                 "Gorinchem");
+define("GORINCHEM_L",                 "Keizerstraat 25, Gorinchem");
 define("HAARLEM_BYZANTIUM",           "Haarlem");
 define("HAARLEM_BYZANTIUM_L",         "Byzantiumstraat 74, Haarlem");
 define("HAARLEM_IJSBAAN",             "Haarlem");

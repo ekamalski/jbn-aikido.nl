@@ -1,5 +1,5 @@
 <?php
-// leraren.php, generated file 2018-07-27 09:43:37
+// leraren.php, generated file 2018-08-27 19:19:22
 define("AIKIBUDO_STAGE",              "Aikibudo stage");
 define("AIKIBUDO_STAGE_T",            "aikido_t.jpg");
 define("AD_VAN_DONGEN",               "Ad van Dongen");
