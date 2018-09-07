@@ -1,5 +1,5 @@
 <?php
-// leraren.php, generated file 2018-08-27 19:19:22
+// leraren.php, generated file 2018-09-07 13:05:12
 define("AIKIBUDO_STAGE",              "Aikibudo stage");
 define("AIKIBUDO_STAGE_T",            "aikido_t.jpg");
 define("AD_VAN_DONGEN",               "Ad van Dongen");
@@ -24,11 +24,17 @@ define("CLAUDE",                      "Claude Pellerin 7de dan shihan");
 define("CLAUDE_T",                    "claude_t.jpg");
 define("CAREL",                       "Carel Zappeij 7de dan shihan");
 define("CAREL_T",                     "carel_t.jpg");
+define("DANIEL_DUBREUIL",             "Daniel Dubreuil 7de dan");
+define("DANIEL_DUBREUIL_T",           "aikido_t.jpg");
+define("DENNIS",                      "Dennis Goedbloed");
+define("DENNIS_T",                    "aikido_t.jpg");
+define("DIMME",                       "Dimme van der Hout");
+define("DIMME_T",                     "aikido_t.jpg");
 define("DISTRICT_STAGE",              "Districtstage");
 define("DISTRICT_STAGE_T",            "aikido_t.jpg");
 define("DIRK_MULLER",                 "Dirk Muller");
 define("DIRK_MULLER_T",               "aikido_t.jpg");
-define("DONOVAN",                     "Donovan Waite");
+define("DONOVAN",                     "Donovan Waite 7de dan shihan");
 define("DONOVAN_T",                   "donovan_t.jpg");
 define("EXAMENS",                     "Examens");
 define("EXAMENS_T",                   "examens_t.jpg");
@@ -38,6 +44,8 @@ define("FREDERIQUE_FLOQUET",          "Frederique Floquet");
 define("FREDERIQUE_FLOQUET_T",        "aikido_t.jpg");
 define("FUKAKUSA",                    "Fukakusa 8ste dan shihan");
 define("FUKAKUSA_T",                  "fukakusa_t.jpg");
+define("GABOR",                       "G&aacute;bor J&aacute;nosi");
+define("GABOR_T",                     "aikido_t.jpg");
 define("GIJS",                        "Gijs Schouten");
 define("GIJS_T",                      "aikido_t.jpg");
 define("HARRY_KAT",                   "Harry Kat 6de dan");
@@ -68,6 +76,8 @@ define("MALCOM",                      "Malcom Tiki Shewan");
 define("MALCOM_T",                    "malcom_t.jpg");
 define("PIERRE",                      "Pierre Geraedts 7de dan shihan");
 define("PIERRE_T",                    "pierre_t.jpg");
+define("RONALD",                      "Ronald Jansen");
+define("RONALD_T",                    "aikido_t.jpg");
 define("STEPHANE",                    "Stephane Benedetti");
 define("STEPHANE_T",                  "stephane_t.jpg");
 define("TESSA",                       "Tessa Huiskamp");

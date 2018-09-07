@@ -1,5 +1,5 @@
 <?php
-// locaties.php, generated file 2018-08-27 19:19:23
+// locaties.php, generated file 2018-09-07 13:05:12
 define("ALKMAAR",                     "Alkmaar");
 define("ALKMAAR_L",                   "Vondelstraat 35, Alkmaar");
 define("AMERSFOORT",                  "Amersfoort");
@@ -50,6 +50,8 @@ define("LEEUWARDEN",                  "Leeuwarden");
 define("LEEUWARDEN_L",                "Emmakade 59, Leeuwarden");
 define("LELYSTAD",                    "Lelystad");
 define("LELYSTAD_L",                  "Badweg 21, Lelystad");
+define("LEUSDEN",                     "Leusden");
+define("LEUSDEN_L",                   "Asschatterweg 26, Leusden");
 define("MAASSLUIS",                   "Maassluis");
 define("MAASSLUIS_L",                 "Maasweg 8a,10a, Maassluis");
 define("NIEUWEGEIN",                  "Nieuwegein");
@@ -60,8 +62,8 @@ define("OOSTERHOUT",                  "Oosterhout");
 define("OOSTERHOUT_L",                "Slotjesveld 9, Oosterhout");
 define("ROERMOND",                    "Roermond");
 define("ROERMOND_L",                  "Prins Bernhardstraat 1a, Roermond");
-define("SITTARD_ROMEINEN",            "Sittard");
-define("SITTARD_ROMEINEN_L",          "Romeinenstraat 24, Sittard");
+define("SITTARD_ROMEINENSTRAAT",      "Sittard");
+define("SITTARD_ROMEINENSTRAAT_L",    "Romeinenstraat 24, Sittard");
 define("SITTARD_VALKSTRAAT",          "Sittard");
 define("SITTARD_VALKSTRAAT_L",        "Valkstraat 2, Sittard");
 define("STROE",                       "Stroe");
