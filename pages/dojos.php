@@ -133,12 +133,6 @@ Je kunt ontbrekende gegevens of een ontbrekende dojo
 </tr>
 <tr>
 <td class='district'>Midden Nederland</td>
-<td class='plaats'>Utrecht</td>
-<td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://shudokan.nl'>shudokan.nl</a></td>
-<td class='stijl'>Aikido</td>
-</tr>
-<tr>
-<td class='district'>Midden Nederland</td>
 <td class='plaats'>Wageningen</td>
 <td><a class='btn-link' target='_blank' title='opent nieuw tab of venster' href='http://aikidowageningen.nl'>aikidowageningen.nl</a></td>
 <td class='stijl'>Aikido</td>
