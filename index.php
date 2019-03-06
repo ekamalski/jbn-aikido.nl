@@ -176,6 +176,7 @@ function nav() { ?>
         </div>
     
         <div class="collapse navbar-collapse" id="myNavbar">
+<?php /*        
         <ul class="nav navbar-nav">
     
         <li class="dropdown">
@@ -231,6 +232,7 @@ ctz=Europe%2FAmsterdam" target="_blank">Kalender (full screen)</a>
         <li><a href="?page=contact">Contact</a>
 
         </ul>
+--- */ ?>
         <!-- #myNavbar --></div>
     <!-- .container --></div>
 </nav>
@@ -313,6 +315,21 @@ span.legenda {
 
 <div class="container">
 <?php if (rqGet("page")=="" || rqGet("page")=="home" ): ?>
+  <div class="row">
+    <div class="col-sm-12">
+        <?php includeKalender(600, "MONTH", 1, 1); ?>
+    <!-- col --></div>
+    <div class="col-sm-12">
+    Legenda: Groene evenmenten zijn definitief, oranje evenementen zijn gepland.
+    <!-- col --></div>
+    <div class="col-sm-12">&nbsp;<!-- col --></div>
+    <div class="col-sm-12">
+    Dit is de oude JBN – Aikido site. De nieuwe site is te vinden op <a target="_blank" href="https://www.jbn.nl/aikido">www.jbn.nl/aikido</a>.
+    <!-- col --></div>
+    
+  <!-- row --></div>
+
+<?php elseif (rqGet("page")=="out-of-date" ):?>
   <div class="row">
     <div class="col-sm-4">
         <h4>Aikido<br><small>Traditie van de grondlegger</small></h4>
