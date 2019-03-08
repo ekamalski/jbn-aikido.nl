@@ -317,16 +317,14 @@ span.legenda {
 <?php if (rqGet("page")=="" || rqGet("page")=="home" ): ?>
   <div class="row">
     <div class="col-sm-12">
+    Dit is de oude JBN – Aikido site. De nieuwe site is te vinden op <a target="_blank" href="https://www.jbn.nl/aikido">www.jbn.nl/aikido</a>.
+    <!-- col --></div>
+    <div class="col-sm-12">
         <?php includeKalender(600, "MONTH", 1, 1); ?>
     <!-- col --></div>
     <div class="col-sm-12">
     Legenda: Groene evenmenten zijn definitief, oranje evenementen zijn gepland.
     <!-- col --></div>
-    <div class="col-sm-12">&nbsp;<!-- col --></div>
-    <div class="col-sm-12">
-    Dit is de oude JBN – Aikido site. De nieuwe site is te vinden op <a target="_blank" href="https://www.jbn.nl/aikido">www.jbn.nl/aikido</a>.
-    <!-- col --></div>
-    
   <!-- row --></div>
 
 <?php elseif (rqGet("page")=="out-of-date" ):?>
